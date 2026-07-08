@@ -35,8 +35,11 @@ DATASET_FILES = {
     "Electricity": ("electricity", "electricity.csv"),
     "ECL": ("electricity", "electricity.csv"),
     "Traffic": ("traffic", "traffic.csv"),
+    "ExchangeRate": ("exchange_rate", "exchange_rate.csv"),
+    "Exchange": ("exchange_rate", "exchange_rate.csv"),
+    "Covid": ("covid", "covid.csv"),
+    "COVID": ("covid", "covid.csv"),
 }
-
 
 def dataset_path(data_root: Path, dataset: str) -> Path:
     if dataset not in DATASET_FILES:

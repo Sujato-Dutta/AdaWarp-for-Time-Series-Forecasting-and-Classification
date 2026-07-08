@@ -28,6 +28,10 @@ DATASETS = {
     "Weather": {"data": "custom", "root": "dataset/weather", "path": "weather.csv", "freq": "h", "dim": 21},
     "Electricity": {"data": "custom", "root": "dataset/electricity", "path": "electricity.csv", "freq": "h", "dim": 321},
     "Traffic": {"data": "custom", "root": "dataset/traffic", "path": "traffic.csv", "freq": "h", "dim": 862},
+    "ExchangeRate": {"data": "custom", "root": "dataset/exchange_rate", "path": "exchange_rate.csv", "freq": "d", "dim": None},
+    "Exchange": {"data": "custom", "root": "dataset/exchange_rate", "path": "exchange_rate.csv", "freq": "d", "dim": None},
+    "Covid": {"data": "custom", "root": "dataset/covid", "path": "covid.csv", "freq": "d", "dim": None},
+    "COVID": {"data": "custom", "root": "dataset/covid", "path": "covid.csv", "freq": "d", "dim": None},
 }
 
 AVAILABLE_TSLIB_MODELS = {
@@ -57,6 +61,23 @@ def write_csv(path: Path, rows: Sequence[dict[str, object]], fields: Sequence[st
         writer.writerows(rows)
 
 
+
+def infer_dataset_dim(ts_root: Path, meta: dict[str, object]) -> int:
+    if meta.get("dim") is not None:
+        return int(meta["dim"])
+    csv_path = ts_root / str(meta["root"]) / str(meta["path"])
+    if not csv_path.exists():
+        raise FileNotFoundError(f"Missing LTSF dataset CSV: {csv_path}")
+    try:
+        import pandas as pd
+    except Exception as exc:  # pragma: no cover - TACC dependency
+        raise RuntimeError("pandas is required to infer custom dataset dimensions.") from exc
+    frame = pd.read_csv(csv_path)
+    numeric = frame.select_dtypes(include=["number"])
+    numeric = numeric.loc[:, numeric.apply(lambda col: np.isfinite(col.to_numpy(dtype=float)).all())]
+    if numeric.shape[1] <= 0:
+        raise ValueError(f"No finite numeric feature columns found in {csv_path}")
+    return int(numeric.shape[1])
 def existing_result_dirs(ts_root: Path) -> set[Path]:
     results = ts_root / "results"
     if not results.exists():
@@ -99,7 +120,8 @@ def command_for(
     d_layers: int,
     patience: int,
 ) -> tuple[list[str], str]:
-    meta = DATASETS[dataset]
+    meta = dict(DATASETS[dataset])
+    meta["dim"] = infer_dataset_dim(ts_root, meta)
     model_id = f"{dataset}_{seq_len}_{horizon}_seed{seed}"
     cmd = [
         sys.executable,
