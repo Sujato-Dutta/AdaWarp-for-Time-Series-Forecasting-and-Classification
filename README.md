@@ -1,289 +1,247 @@
-﻿# AdaWarp - Adaptive Warped Field models for Short and Long Horizon Time-series Forecasting.
+# MVPF: Multiscale Variate-Patch Fields for Long-Horizon Forecasting
 
-This repository contains the AdaWarp method code. It lives beside the original motion code repository. The family has two models:
+This repository contains the final **MVPF** implementation, its validation-checkpointed long-horizon evaluation workflow, and the evidence scripts used to audit the reported results. The earlier AdaWarp-SGP short-series implementation and the original Motion Code baselines are retained for reproducibility, but MVPF is the primary long-horizon model.
 
-| Name | Best regime | Main code |
-| --- | --- | --- |
-| **AdaWarp-SGP** | short irregular classification and prefix-to-suffix forecasting | `awp_motion_code.py` |
-| **AdaWarp-MVPF** | long-term multivariate forecasting | `adawarp_mvpf_plus.py` |
+> **Public model name:** MVPF  
+> Some Python classes and files retain historical names such as **AdaWarpMVPFPlusForecaster** or **mvpf_plus**. These are implementation identifiers only. Results and external documentation should refer to the final model as **MVPF**.
 
-Both models follow the same abstraction: learn adaptive prototype fields from observed trajectories, align the observed prefix, and use the aligned field to score classes or continue the signal. The two implementations differ because short irregular UCR-style trajectories and long regular-grid multivariate forecasting tasks require different inductive biases.
+## Final MVPF Reference
 
-Some files retain historical implementation suffixes such as `plus`. These are code-level labels only.
+Use the following files for the final model:
 
-## AdaWarp-SGP
+| Purpose | Authoritative file |
+| --- | --- |
+| Multiscale variate-patch backbone | **adawarp_mvpf.py** |
+| Final model class and adaptive linear field bank | **adawarp_mvpf_plus.py** |
+| Final pruned configuration, training, validation checkpointing, and interventions | **mvpf-tests/instrumented_pruned_mvpf.py** |
+| Vista batch entry point for all 24 tasks | **mvpf-tests/mvpf_pruned_instrumented_vista.sbatch** |
+| Full standard-test-window re-evaluation | **mvpf-tests/evaluate_standard_test_windows.py** |
+| Statistical and artifact audit suite | **mvpf-tests/run_all.py** |
+| Fully matched VPNet rerun | **mvpf-tests/matched_vpnet_ltsf.py** |
+| Matched VPNet Vista job | **mvpf-tests/matched_vpnet_vista.sbatch** |
 
-AdaWarp-SGP is the short-protocol model. It is used for classification retention and short prefix-to-suffix forecasting.
+The reusable Python class is:
 
-Main implementation:
+~~~python
+from adawarp_mvpf_plus import AdaWarpMVPFPlusForecaster
+~~~
 
-```text
-awp_motion_code.py
-```
+The final experiment configuration is defined by **model_config()** in **mvpf-tests/instrumented_pruned_mvpf.py**. It uses:
 
-Key supporting files:
+~~~text
+patch lengths                 8, 16, 32
+field width                   128
+local field blocks            2
+dropout                       0.05
+adaptive local radii          enabled
+field-component gate          enabled
+adaptive linear field bank    enabled
+prototype memory              disabled
+frequency gate                disabled
+adaptive patch shifts         disabled
+backbone trend decomposition  disabled
+forecast loss                 MSE
+reconstruction weight         0.03
+checkpoint selection          lowest validation MSE
+~~~
 
-```text
-awp_datasets.py                     # short-protocol dataset loading
-awp_forecasting_utils.py            # prefix-to-suffix continuation heads and metrics
-benchmark_awp_motion_code.py        # AdaWarp-SGP classification/forecasting runner
-benchmark_adawarp_protocol_baselines.py  # short-protocol baselines and ablations
-aggregate_awp_results.py            # classification aggregation helpers
-aggregate_awp_forecasts.py          # forecasting aggregation helpers
-```
+Do not use the defaults of the historical generic runner as a substitute for this final configuration. In particular, **benchmark_adawarp_mvpf_plus_ltsf.py** remains useful as a generic runner, but **mvpf-tests/instrumented_pruned_mvpf.py** is the authoritative final experiment entry point.
 
-Method summary:
+## Model Overview
 
-- sparse Gaussian-process class prototypes;
-- sample-adaptive residual codes;
-- bounded temporal warping and affine alignment;
-- uncertainty-aware class scoring;
-- prefix-validated continuation heads for short forecasting.
+MVPF takes a regular-grid multivariate prefix **X** with shape **[batch, lookback, variables]** and:
 
-## AdaWarp-MVPF
+1. normalizes every sample and variable using observed-prefix statistics;
+2. embeds non-overlapping temporal patches at scales 8, 16, and 32;
+3. constructs local variate-patch fields with input-conditioned radius mixing;
+4. decodes a nonlinear continuation from direct and multiscale field components;
+5. builds a complementary linear continuation from centered-linear, decomposition-linear, analytic-slope, and persistence experts;
+6. combines components and routes through sample-conditioned simplex gates;
+7. denormalizes the resulting horizon forecast.
 
-AdaWarp-MVPF is the final long-horizon forecasting model. It should be reported as **AdaWarp-MVPF** in papers, figures, and tables.
+Training minimizes forecast MSE plus an L1 reconstruction regularizer over the multiscale field. Every epoch is evaluated on validation windows, and test evaluation reloads the validation-best checkpoint.
 
-Main implementation:
+## Benchmark Protocol
 
-```text
-adawarp_mvpf_plus.py
-benchmark_adawarp_mvpf_plus_ltsf.py
-```
+The final comparison contains 24 dataset-horizon tasks:
 
-The `plus` suffix is only the implementation filename. It denotes the final validation-checkpointed MVPF runner in this repository.
+~~~text
+Datasets: ETTh1, ETTh2, ETTm2, Weather, Electricity, Traffic
+Horizons: 96, 192, 336, 720
+Lookback: 96
+Seed: 42
+~~~
 
-Key supporting files:
+The matched baseline set contains DLinear, PatchTST, TimesNet, iTransformer, TimeMixer, FEDformer, and VPNet. All eight methods use the same six datasets, four horizons, lookback, seed, chronological split boundaries, validation-based checkpoint selection, and complete standard test windows. Model-specific architectures and optimization settings are preserved.
 
-```text
-benchmark_adawarp_mvpf_plus_ltsf.py      # final AdaWarp-MVPF LTSF runner
-benchmark_adawarp_mvpf_ablation.py       # MVPF ablation runner
-aggregate_adawarp_mvpf_plus_ablations.py # final MVPF ablation aggregation
-benchmark_custom_neural_ltsf.py          # custom neural LTSF baselines
-benchmark_tslibrary_neural_forecasting.py # TSLibrary LTSF bridge
-adawarp_neural_baselines.py              # repo-native neural baseline wrappers
-```
+Datasets are expected under:
 
-Retained diagnostic files:
+~~~text
+TSLibrary/dataset/ETT-small/
+TSLibrary/dataset/weather/
+TSLibrary/dataset/electricity/
+TSLibrary/dataset/traffic/
+~~~
 
-```text
-adawarp_mvpf.py
-benchmark_adawarp_mvpf_ltsf.py
-aggregate_adawarp_mvpf_ablations.py
-```
+## The mvpf-tests Folder
 
-These are kept for reproducibility of earlier diagnostics. The final long-horizon model is implemented by `adawarp_mvpf_plus.py`.
+**mvpf-tests/** is the self-contained final evidence and audit workspace. It does not modify the historical model files.
 
-## Original Motion Code Baseline
+Important entry points:
 
-The original Motion Code code remains available for matched baseline reruns:
+~~~text
+mvpf-tests/instrumented_pruned_mvpf.py       # final training and checkpoint interventions
+mvpf-tests/evaluate_standard_test_windows.py # full standard-window test metrics
+mvpf-tests/collect_metrics.py                # audited 8-method task table
+mvpf-tests/statistical_analysis.py           # ranks, Friedman, Wilcoxon-Holm, effects
+mvpf-tests/artifact_audit.py                 # checkpoint/raw-artifact availability
+mvpf-tests/svg_figures.py                    # reproducible evidence figures
+mvpf-tests/paper_summary.py                  # concise evidence summary
+mvpf-tests/run_all.py                        # zero-training analysis pipeline
+~~~
 
-```text
-motion_code.py
-motion_code_utils.py
-sparse_gp.py
-benchmark_motion_code_classification.py
-benchmark_motion_code_forecasting.py
-```
+Final evidence is stored under:
 
-Use these for baseline reproduction only. New AdaWarp experiments should use the AdaWarp runners above.
+~~~text
+mvpf-tests/results/metrics/task_metrics_24.csv
+mvpf-tests/results/statistics/
+mvpf-tests/results/ablations/
+mvpf-tests/results/figures/
+mvpf-tests/results/audit/
+mvpf-tests/results/pruned_instrumented_820583/
+~~~
 
-## Configs
+The final standard-window MVPF metrics are:
 
-```text
-configs/motioncode_protocol/default.json       # short prefix-to-suffix protocol
-configs/classification_retention/default.json  # classification protocol
-configs/ltsf_main5/default.json                # ETTh1/ETTh2/Weather/Electricity/Traffic LTSF protocol
-configs/ablations/default.json                 # short-protocol ablation plan
-configs/baselines/default.json                 # baseline registry
-```
-
-## TACC Scripts
-
-Environment and checks:
-
-```text
-scripts/tacc/setup_env.sh
-scripts/tacc/check_motion_code_env.sh
-```
-
-AdaWarp-SGP:
-
-```text
-scripts/tacc/run_motioncode_protocol.sh
-scripts/tacc/run_classification_retention.sh
-scripts/tacc/run_ablation_suite.sh
-scripts/tacc/aggregate_all.sh
-```
-
-Long-term baselines:
-
-```text
-scripts/tacc/run_ltsf_single_model.sh
-scripts/tacc/submit_ltsf_by_model.sh
-scripts/tacc/aggregate_ltsf_by_model.py
-```
-
-Final AdaWarp-MVPF:
-
-```text
-scripts/tacc/run_adawarp_mvpf_plus_ltsf.sh
-scripts/tacc/submit_adawarp_mvpf_plus_by_dataset.sh
-scripts/tacc/run_adawarp_mvpf_plus_ablation.sh
-scripts/tacc/submit_adawarp_mvpf_plus_ablations.sh
-```
-
-Slurm templates:
-
-```text
-slurm/adawarp_mvpf_plus_ltsf_vista.sbatch
-slurm/adawarp_mvpf_plus_ablation_vista.sbatch
-slurm/ltsf_single_model_vista.sbatch
-```
-
-## Data Layout
-
-Datasets are not tracked by Git. Expected layout:
-
-```text
-data/                         # short-protocol datasets
-TSLibrary/dataset/             # TSLibrary datasets
-TSLibrary/dataset/ETT-small/    # ETTh1, ETTh2, ETTm1, ETTm2 when used
-TSLibrary/dataset/weather/      # weather.csv
-TSLibrary/dataset/LR_Datasets/  # long-range CSV copies used by some runners
-```
-
-Large generated artifacts are ignored:
-
-```text
-results/
-out/
-logs/
-paper/
-TSLibrary/results/
-TSLibrary/checkpoints/
-```
+~~~text
+mvpf-tests/results/pruned_instrumented_820583/metrics/standard_test_metrics.csv
+~~~
 
 ## Local Setup
 
-For local CPU checks on Windows:
+For CPU analysis on Windows:
 
-```bat
+~~~bat
 python -m venv .venv-awp
 .venv-awp\Scripts\activate
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 python -m pip install -r requirements-tacc-extra.txt
-```
+~~~
 
-Local CPU is useful for imports, aggregation, and small smoke tests. Full long-term neural runs are intended for TACC or another GPU cluster.
+Run the zero-training evidence suite:
 
-## TACC Setup
+~~~bat
+python mvpf-tests\run_all.py
+~~~
 
-Do not blindly replace cluster-provided CUDA, Torch, NumPy, or JAX packages. On Vista, the development environment used this pattern:
+This regenerates statistical tables, audits, figures, and the evidence summary from the final task table. To rebuild the task table from the larger source result directories first, run **python mvpf-tests/collect_metrics.py** explicitly.
 
-```bash
+## TACC Vista Setup
+
+The final runs used TACC Vista with NVIDIA GH200 120 GB GPUs. A compatible environment is:
+
+~~~bash
 cd $WORK/motion_code-master
 module load gcc/14.2.0 cuda/12.6 python3/3.11.8
 python3 -m venv --system-site-packages .venv-adawarp
 source .venv-adawarp/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -r requirements-tacc-extra.txt
-```
+~~~
 
-Check CUDA from an allocated GPU job, not only from a login node:
+CUDA should be checked inside an allocated GPU job:
 
-```bash
+~~~bash
 python - <<'PY'
 import torch
-print('torch', torch.__version__)
-print('cuda build', torch.version.cuda)
-print('cuda available', torch.cuda.is_available())
+print("torch", torch.__version__)
+print("cuda build", torch.version.cuda)
+print("cuda available", torch.cuda.is_available())
 if torch.cuda.is_available():
-    print(torch.cuda.get_device_name(0))
+    print("gpu", torch.cuda.get_device_name(0))
 PY
-```
+~~~
 
-## Running AdaWarp-SGP
+## Running the Final 24 MVPF Tasks
 
-Short prefix-to-suffix forecasting:
+From the repository root on a Vista login node:
 
-```bash
-export ADAWARP_OUTPUT_ROOT=$WORK/motion_code-master/results/<run_name>
-export ADAWARP_DEVICE=cuda
-export ADAWARP_EPOCHS=50
-export ADAWARP_STEPS_PER_EPOCH=4
-export ADAWARP_SEEDS="42 43 44 45 46"
-export ADAWARP_PREFIX_FRACTIONS="0.8 0.6"
-bash scripts/tacc/run_motioncode_protocol.sh
-bash scripts/tacc/aggregate_all.sh
-```
+~~~bash
+source .venv-adawarp/bin/activate
+mkdir -p logs
 
-Classification:
+export ADAWARP_REPO_ROOT=$WORK/motion_code-master
+export ADAWARP_OUTPUT_ROOT=$WORK/motion_code-master/mvpf-tests/results/pruned_instrumented_<run_id>
 
-```bash
-export ADAWARP_OUTPUT_ROOT=$WORK/motion_code-master/results/<run_name>
-export ADAWARP_DEVICE=cuda
-export ADAWARP_SEEDS="42"
-bash scripts/tacc/run_classification_retention.sh
-bash scripts/tacc/aggregate_all.sh
-```
+sbatch mvpf-tests/mvpf_pruned_instrumented_vista.sbatch
+~~~
 
-Matched original Motion Code reruns require JAX. If JAX is unavailable or unstable, document the omission and rerun once the environment is fixed.
+The job trains the six datasets at all four horizons, selects checkpoints using validation MSE, and writes checkpoints, per-window intervention metrics, and task summaries under the selected output root.
 
-## Running AdaWarp-MVPF
+Re-evaluate those checkpoints on every standard test window:
 
-Long-term forecasting uses ETTh1, ETTh2, Weather, Electricity, and Traffic with horizons 96, 192, 336, and 720.
+~~~bash
+python mvpf-tests/evaluate_standard_test_windows.py \
+  --checkpoint-root mvpf-tests/results/pruned_instrumented_<run_id>/checkpoints \
+  --output mvpf-tests/results/pruned_instrumented_<run_id>/metrics/standard_test_metrics.csv \
+  --data-root TSLibrary/dataset \
+  --device cuda \
+  --force
+~~~
 
-Run final AdaWarp-MVPF by dataset:
+## Historical and Supporting Code
 
-```bash
-export ADAWARP_OUTPUT_ROOT=$WORK/motion_code-master/results/<run_name>
-export ADAWARP_DEVICE=cuda
-bash scripts/tacc/submit_adawarp_mvpf_plus_by_dataset.sh
-```
+These files are retained for traceability but are not the final MVPF experiment entry point:
 
-Run matched neural LTSF baselines:
+~~~text
+benchmark_adawarp_mvpf_plus_ltsf.py
+benchmark_adawarp_mvpf_ltsf.py
+benchmark_adawarp_mvpf_ablation.py
+aggregate_adawarp_mvpf_plus_ablations.py
+aggregate_adawarp_mvpf_ablations.py
+~~~
 
-```bash
-export ADAWARP_LTSF_MODELS="DLinear PatchTST TimesNet iTransformer TimeMixer FEDformer VPNet"
-bash scripts/tacc/submit_ltsf_by_model.sh
-```
+Neural baseline runners remain available at:
 
-Aggregate LTSF results:
+~~~text
+benchmark_tslibrary_neural_forecasting.py
+benchmark_custom_neural_ltsf.py
+adawarp_neural_baselines.py
+scripts/tacc/run_ltsf_single_model.sh
+scripts/tacc/submit_ltsf_by_model.sh
+~~~
 
-```bash
-bash scripts/tacc/aggregate_all.sh
-python scripts/tacc/aggregate_ltsf_by_model.py --root results/ltsf_5
-```
+## Retained Short-Series Code
 
-## AdaWarp-MVPF Ablations
+The repository also retains AdaWarp-SGP and the original Motion Code implementation:
 
-Run the final AdaWarp-MVPF ablations:
+~~~text
+awp_motion_code.py                 # AdaWarp-SGP model
+benchmark_awp_motion_code.py       # short classification/forecasting runner
+awp_forecasting_utils.py           # prefix-validated forecasting utilities
+motion_code.py                     # original Motion Code baseline
+sparse_gp.py                       # sparse GP support
+~~~
 
-```bash
-bash scripts/tacc/submit_adawarp_mvpf_plus_ablations.sh
-python aggregate_adawarp_mvpf_plus_ablations.py \
-  --root results/vista_ltsf_adawarp_mvpf_final_ablations \
-  --full-root results/ltsf_5/MVPF_Cpt
-```
+These modules are independent of the final MVPF long-horizon workflow.
 
-Ablations should be tied to the final AdaWarp-MVPF implementation when used in the paper.
+## Reproducibility Checklist
 
-## Independent Reproducibility Checklist
-
-1. Confirm the Git commit hash.
-2. Confirm the TACC working directory or local workspace.
-3. Confirm loaded modules and Python environment.
-4. Confirm that required datasets exist in the expected layout.
-5. Confirm that short-protocol preprocessing uses only training data and each evaluated trajectory prefix.
-6. Confirm that suffix values are not used in any fitted object for prefix-to-suffix forecasting.
-7. Confirm that AdaWarp-MVPF checkpoint selection uses validation data only.
-8. Confirm that result tables are generated from matched CSV/JSON outputs under `results/`.
+1. Record the Git commit hash.
+2. Confirm the six datasets and their standard train/validation/test splits.
+3. Use lookback 96, horizons 96/192/336/720, and seed 42.
+4. Use the final configuration from **mvpf-tests/instrumented_pruned_mvpf.py**.
+5. Fit dataset normalization on the training split only.
+6. Select the checkpoint using validation MSE only.
+7. Evaluate the selected checkpoint on every standard test window.
+8. Confirm that all seven baselines, including VPNet, use validation-best checkpoints and complete standard test windows.
+9. Run **mvpf-tests/run_all.py** and inspect the generated audit files.
 
 ## License
+
 MIT
 
-## Author
-Sujato Dutta | AI Engineer | Researcher
+## Authors
 
+Sujato Dutta and Chandrajit Bajaj

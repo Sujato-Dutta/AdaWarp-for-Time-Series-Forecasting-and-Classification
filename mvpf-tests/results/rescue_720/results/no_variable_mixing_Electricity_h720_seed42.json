@@ -1,0 +1,16 @@
+{
+  "best_epoch": 8,
+  "best_validation_mse": 0.21453837721188532,
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/mvpf-tests/results/rescue_720/tasks/no_variable_mixing_Electricity_h720_seed42/checkpoints/Electricity_h720_seed42.pt",
+  "dataset": "Electricity",
+  "elapsed_seconds": 79.84731076098979,
+  "experiment": "no_variable_mixing",
+  "horizon": 720,
+  "mae": 0.32336965085064245,
+  "model": "MVPF",
+  "mse": 0.24638905399946603,
+  "num_test_windows": 4543,
+  "permutation_seed": null,
+  "seed": 42,
+  "task_root": "/work/11617/sujato_ts/vista/motion_code-master/mvpf-tests/results/rescue_720/tasks/no_variable_mixing_Electricity_h720_seed42"
+}

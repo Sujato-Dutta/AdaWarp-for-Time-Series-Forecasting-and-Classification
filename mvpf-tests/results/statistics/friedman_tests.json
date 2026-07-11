@@ -1,0 +1,18 @@
+{
+  "mae": {
+    "blocks": 24,
+    "degrees_of_freedom": 7.0,
+    "p_value": 5.1970761571122516e-17,
+    "statistic": 91.83333333333337,
+    "tie_correction": 1.0,
+    "treatments": 8
+  },
+  "mse": {
+    "blocks": 24,
+    "degrees_of_freedom": 7.0,
+    "p_value": 1.1691816011379153e-10,
+    "statistic": 60.55555555555543,
+    "tie_correction": 1.0,
+    "treatments": 8
+  }
+}

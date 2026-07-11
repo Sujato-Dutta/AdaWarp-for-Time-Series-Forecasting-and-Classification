@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="570" viewBox="0 0 1280 570">
+<title>MVPF relative improvement over PatchTST</title>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<style>text{font-family:Arial,Helvetica,sans-serif} .title{font-size:24px;font-weight:700;fill:#17202A}.panel{font-size:17px;font-weight:700;fill:#17202A}.label{font-size:13px;fill:#344054}.small{font-size:11px;fill:#667085}.value{font-size:12px;font-weight:600}.axis{stroke:#98A2B3;stroke-width:1}.grid{stroke:#EAECF0;stroke-width:1}</style>
+<text x="640" y="35" class="title" text-anchor="middle">MVPF relative improvement over PatchTST</text>
+<text x="640" y="58" class="small" text-anchor="middle">Positive values (green) favor MVPF; negative values (red) favor PatchTST</text>
+<text x="358" y="91" class="panel" text-anchor="middle">MSE</text>
+<text x="202.0" y="112" class="label" text-anchor="middle">96</text>
+<text x="306.0" y="112" class="label" text-anchor="middle">192</text>
+<text x="410.0" y="112" class="label" text-anchor="middle">336</text>
+<text x="514.0" y="112" class="label" text-anchor="middle">720</text>
+<text x="136" y="160" class="label" text-anchor="end">ETTh1</text>
+<rect x="150" y="125" width="100" height="54" rx="4" fill="#E1ACA8" stroke="#FFFFFF" stroke-width="1"/>
+<text x="200.0" y="158" class="value" text-anchor="middle" fill="#17202A">-5.8%</text>
+<rect x="254" y="125" width="100" height="54" rx="4" fill="#E9C7C4" stroke="#FFFFFF" stroke-width="1"/>
+<text x="304.0" y="158" class="value" text-anchor="middle" fill="#17202A">-3.8%</text>
+<rect x="358" y="125" width="100" height="54" rx="4" fill="#E1ADA9" stroke="#FFFFFF" stroke-width="1"/>
+<text x="408.0" y="158" class="value" text-anchor="middle" fill="#17202A">-5.7%</text>
+<rect x="462" y="125" width="100" height="54" rx="4" fill="#EAC8C5" stroke="#FFFFFF" stroke-width="1"/>
+<text x="512.0" y="158" class="value" text-anchor="middle" fill="#17202A">-3.7%</text>
+<text x="136" y="218" class="label" text-anchor="end">ETTh2</text>
+<rect x="150" y="183" width="100" height="54" rx="4" fill="#F0DAD8" stroke="#FFFFFF" stroke-width="1"/>
+<text x="200.0" y="216" class="value" text-anchor="middle" fill="#17202A">-2.4%</text>
+<rect x="254" y="183" width="100" height="54" rx="4" fill="#EDD3D0" stroke="#FFFFFF" stroke-width="1"/>
+<text x="304.0" y="216" class="value" text-anchor="middle" fill="#17202A">-2.9%</text>
+<rect x="358" y="183" width="100" height="54" rx="4" fill="#E4B6B2" stroke="#FFFFFF" stroke-width="1"/>
+<text x="408.0" y="216" class="value" text-anchor="middle" fill="#17202A">-5.1%</text>
+<rect x="462" y="183" width="100" height="54" rx="4" fill="#F3E6E4" stroke="#FFFFFF" stroke-width="1"/>
+<text x="512.0" y="216" class="value" text-anchor="middle" fill="#17202A">-1.5%</text>
+<text x="136" y="276" class="label" text-anchor="end">ETTm2</text>
+<rect x="150" y="241" width="100" height="54" rx="4" fill="#E9F0ED" stroke="#FFFFFF" stroke-width="1"/>
+<text x="200.0" y="274" class="value" text-anchor="middle" fill="#17202A">+1.2%</text>
+<rect x="254" y="241" width="100" height="54" rx="4" fill="#F4F7F5" stroke="#FFFFFF" stroke-width="1"/>
+<text x="304.0" y="274" class="value" text-anchor="middle" fill="#17202A">+0.4%</text>
+<rect x="358" y="241" width="100" height="54" rx="4" fill="#F6EDEC" stroke="#FFFFFF" stroke-width="1"/>
+<text x="408.0" y="274" class="value" text-anchor="middle" fill="#17202A">-0.9%</text>
+<rect x="462" y="241" width="100" height="54" rx="4" fill="#E9C7C3" stroke="#FFFFFF" stroke-width="1"/>
+<text x="512.0" y="274" class="value" text-anchor="middle" fill="#17202A">-3.8%</text>
+<text x="136" y="334" class="label" text-anchor="end">Weather</text>
+<rect x="150" y="299" width="100" height="54" rx="4" fill="#D4E4DF" stroke="#FFFFFF" stroke-width="1"/>
+<text x="200.0" y="332" class="value" text-anchor="middle" fill="#17202A">+2.6%</text>
+<rect x="254" y="299" width="100" height="54" rx="4" fill="#C0D9D1" stroke="#FFFFFF" stroke-width="1"/>
+<text x="304.0" y="332" class="value" text-anchor="middle" fill="#17202A">+4.0%</text>
+<rect x="358" y="299" width="100" height="54" rx="4" fill="#E5EEEA" stroke="#FFFFFF" stroke-width="1"/>
+<text x="408.0" y="332" class="value" text-anchor="middle" fill="#17202A">+1.5%</text>
+<rect x="462" y="299" width="100" height="54" rx="4" fill="#E5EEEA" stroke="#FFFFFF" stroke-width="1"/>
+<text x="512.0" y="332" class="value" text-anchor="middle" fill="#17202A">+1.5%</text>
+<text x="136" y="392" class="label" text-anchor="end">Electricity</text>
+<rect x="150" y="357" width="100" height="54" rx="4" fill="#117759" stroke="#FFFFFF" stroke-width="1"/>
+<text x="200.0" y="390" class="value" text-anchor="middle" fill="#FFFFFF">+15.9%</text>
+<rect x="254" y="357" width="100" height="54" rx="4" fill="#4B9780" stroke="#FFFFFF" stroke-width="1"/>
+<text x="304.0" y="390" class="value" text-anchor="middle" fill="#FFFFFF">+12.0%</text>
+<rect x="358" y="357" width="100" height="54" rx="4" fill="#71AD9B" stroke="#FFFFFF" stroke-width="1"/>
+<text x="408.0" y="390" class="value" text-anchor="middle" fill="#FFFFFF">+9.3%</text>
+<rect x="462" y="357" width="100" height="54" rx="4" fill="#6BAA97" stroke="#FFFFFF" stroke-width="1"/>
+<text x="512.0" y="390" class="value" text-anchor="middle" fill="#FFFFFF">+9.8%</text>
+<text x="136" y="450" class="label" text-anchor="end">Traffic</text>
+<rect x="150" y="415" width="100" height="54" rx="4" fill="#0F7657" stroke="#FFFFFF" stroke-width="1"/>
+<text x="200.0" y="448" class="value" text-anchor="middle" fill="#FFFFFF">+16.1%</text>
+<rect x="254" y="415" width="100" height="54" rx="4" fill="#46957D" stroke="#FFFFFF" stroke-width="1"/>
+<text x="304.0" y="448" class="value" text-anchor="middle" fill="#FFFFFF">+12.3%</text>
+<rect x="358" y="415" width="100" height="54" rx="4" fill="#3C8F76" stroke="#FFFFFF" stroke-width="1"/>
+<text x="408.0" y="448" class="value" text-anchor="middle" fill="#FFFFFF">+13.0%</text>
+<rect x="462" y="415" width="100" height="54" rx="4" fill="#45947C" stroke="#FFFFFF" stroke-width="1"/>
+<text x="512.0" y="448" class="value" text-anchor="middle" fill="#FFFFFF">+12.4%</text>
+<text x="978" y="91" class="panel" text-anchor="middle">MAE</text>
+<text x="822.0" y="112" class="label" text-anchor="middle">96</text>
+<text x="926.0" y="112" class="label" text-anchor="middle">192</text>
+<text x="1030.0" y="112" class="label" text-anchor="middle">336</text>
+<text x="1134.0" y="112" class="label" text-anchor="middle">720</text>
+<text x="756" y="160" class="label" text-anchor="end">ETTh1</text>
+<rect x="770" y="125" width="100" height="54" rx="4" fill="#E9C7C4" stroke="#FFFFFF" stroke-width="1"/>
+<text x="820.0" y="158" class="value" text-anchor="middle" fill="#17202A">-3.8%</text>
+<rect x="874" y="125" width="100" height="54" rx="4" fill="#F1DFDD" stroke="#FFFFFF" stroke-width="1"/>
+<text x="924.0" y="158" class="value" text-anchor="middle" fill="#17202A">-2.0%</text>
+<rect x="978" y="125" width="100" height="54" rx="4" fill="#EDD2CF" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1028.0" y="158" class="value" text-anchor="middle" fill="#17202A">-3.0%</text>
+<rect x="1082" y="125" width="100" height="54" rx="4" fill="#F8F4F3" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1132.0" y="158" class="value" text-anchor="middle" fill="#17202A">-0.4%</text>
+<text x="756" y="218" class="label" text-anchor="end">ETTh2</text>
+<rect x="770" y="183" width="100" height="54" rx="4" fill="#F6EEEC" stroke="#FFFFFF" stroke-width="1"/>
+<text x="820.0" y="216" class="value" text-anchor="middle" fill="#17202A">-0.9%</text>
+<rect x="874" y="183" width="100" height="54" rx="4" fill="#F7F1F0" stroke="#FFFFFF" stroke-width="1"/>
+<text x="924.0" y="216" class="value" text-anchor="middle" fill="#17202A">-0.7%</text>
+<rect x="978" y="183" width="100" height="54" rx="4" fill="#F1DEDC" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1028.0" y="216" class="value" text-anchor="middle" fill="#17202A">-2.1%</text>
+<rect x="1082" y="183" width="100" height="54" rx="4" fill="#FAFAF9" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1132.0" y="216" class="value" text-anchor="middle" fill="#17202A">-0.0%</text>
+<text x="756" y="276" class="label" text-anchor="end">ETTm2</text>
+<rect x="770" y="241" width="100" height="54" rx="4" fill="#F1F5F3" stroke="#FFFFFF" stroke-width="1"/>
+<text x="820.0" y="274" class="value" text-anchor="middle" fill="#17202A">+0.6%</text>
+<rect x="874" y="241" width="100" height="54" rx="4" fill="#E8F0ED" stroke="#FFFFFF" stroke-width="1"/>
+<text x="924.0" y="274" class="value" text-anchor="middle" fill="#17202A">+1.2%</text>
+<rect x="978" y="241" width="100" height="54" rx="4" fill="#F6EDEB" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1028.0" y="274" class="value" text-anchor="middle" fill="#17202A">-1.0%</text>
+<rect x="1082" y="241" width="100" height="54" rx="4" fill="#F2E2E0" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1132.0" y="274" class="value" text-anchor="middle" fill="#17202A">-1.8%</text>
+<text x="756" y="334" class="label" text-anchor="end">Weather</text>
+<rect x="770" y="299" width="100" height="54" rx="4" fill="#F9F8F7" stroke="#FFFFFF" stroke-width="1"/>
+<text x="820.0" y="332" class="value" text-anchor="middle" fill="#17202A">-0.1%</text>
+<rect x="874" y="299" width="100" height="54" rx="4" fill="#F2F6F4" stroke="#FFFFFF" stroke-width="1"/>
+<text x="924.0" y="332" class="value" text-anchor="middle" fill="#17202A">+0.5%</text>
+<rect x="978" y="299" width="100" height="54" rx="4" fill="#F5ECEB" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1028.0" y="332" class="value" text-anchor="middle" fill="#17202A">-1.0%</text>
+<rect x="1082" y="299" width="100" height="54" rx="4" fill="#F9F6F5" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1132.0" y="332" class="value" text-anchor="middle" fill="#17202A">-0.3%</text>
+<text x="756" y="392" class="label" text-anchor="end">Electricity</text>
+<rect x="770" y="357" width="100" height="54" rx="4" fill="#69A995" stroke="#FFFFFF" stroke-width="1"/>
+<text x="820.0" y="390" class="value" text-anchor="middle" fill="#FFFFFF">+9.9%</text>
+<rect x="874" y="357" width="100" height="54" rx="4" fill="#82B7A6" stroke="#FFFFFF" stroke-width="1"/>
+<text x="924.0" y="390" class="value" text-anchor="middle" fill="#17202A">+8.2%</text>
+<rect x="978" y="357" width="100" height="54" rx="4" fill="#9DC6B9" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1028.0" y="390" class="value" text-anchor="middle" fill="#17202A">+6.4%</text>
+<rect x="1082" y="357" width="100" height="54" rx="4" fill="#9DC6B9" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1132.0" y="390" class="value" text-anchor="middle" fill="#17202A">+6.4%</text>
+<text x="756" y="450" class="label" text-anchor="end">Traffic</text>
+<rect x="770" y="415" width="100" height="54" rx="4" fill="#3F9178" stroke="#FFFFFF" stroke-width="1"/>
+<text x="820.0" y="448" class="value" text-anchor="middle" fill="#FFFFFF">+12.8%</text>
+<rect x="874" y="415" width="100" height="54" rx="4" fill="#5EA28D" stroke="#FFFFFF" stroke-width="1"/>
+<text x="924.0" y="448" class="value" text-anchor="middle" fill="#FFFFFF">+10.7%</text>
+<rect x="978" y="415" width="100" height="54" rx="4" fill="#549D87" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1028.0" y="448" class="value" text-anchor="middle" fill="#FFFFFF">+11.3%</text>
+<rect x="1082" y="415" width="100" height="54" rx="4" fill="#5FA38E" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1132.0" y="448" class="value" text-anchor="middle" fill="#FFFFFF">+10.6%</text>
+<rect x="505" y="505" width="14" height="16" rx="0" fill="#B42318" stroke="none" stroke-width="1"/>
+<rect x="518" y="505" width="14" height="16" rx="0" fill="#BB392F" stroke="none" stroke-width="1"/>
+<rect x="531" y="505" width="14" height="16" rx="0" fill="#C24E45" stroke="none" stroke-width="1"/>
+<rect x="544" y="505" width="14" height="16" rx="0" fill="#C9645C" stroke="none" stroke-width="1"/>
+<rect x="557" y="505" width="14" height="16" rx="0" fill="#D07972" stroke="none" stroke-width="1"/>
+<rect x="570" y="505" width="14" height="16" rx="0" fill="#D78E88" stroke="none" stroke-width="1"/>
+<rect x="583" y="505" width="14" height="16" rx="0" fill="#DEA49F" stroke="none" stroke-width="1"/>
+<rect x="596" y="505" width="14" height="16" rx="0" fill="#E5BAB5" stroke="none" stroke-width="1"/>
+<rect x="609" y="505" width="14" height="16" rx="0" fill="#ECCFCC" stroke="none" stroke-width="1"/>
+<rect x="622" y="505" width="14" height="16" rx="0" fill="#F3E4E2" stroke="none" stroke-width="1"/>
+<rect x="635" y="505" width="14" height="16" rx="0" fill="#FAFAF9" stroke="none" stroke-width="1"/>
+<rect x="648" y="505" width="14" height="16" rx="0" fill="#E2EDE9" stroke="none" stroke-width="1"/>
+<rect x="661" y="505" width="14" height="16" rx="0" fill="#CBE0D9" stroke="none" stroke-width="1"/>
+<rect x="674" y="505" width="14" height="16" rx="0" fill="#B4D2C8" stroke="none" stroke-width="1"/>
+<rect x="687" y="505" width="14" height="16" rx="0" fill="#9CC5B8" stroke="none" stroke-width="1"/>
+<rect x="700" y="505" width="14" height="16" rx="0" fill="#84B8A8" stroke="none" stroke-width="1"/>
+<rect x="713" y="505" width="14" height="16" rx="0" fill="#6DAB98" stroke="none" stroke-width="1"/>
+<rect x="726" y="505" width="14" height="16" rx="0" fill="#569E88" stroke="none" stroke-width="1"/>
+<rect x="739" y="505" width="14" height="16" rx="0" fill="#3E9077" stroke="none" stroke-width="1"/>
+<rect x="752" y="505" width="14" height="16" rx="0" fill="#278367" stroke="none" stroke-width="1"/>
+<rect x="765" y="505" width="14" height="16" rx="0" fill="#0F7657" stroke="none" stroke-width="1"/>
+<text x="505" y="539" class="small" text-anchor="middle">-16.1%</text>
+<text x="635" y="539" class="small" text-anchor="middle">0</text>
+<text x="765" y="539" class="small" text-anchor="middle">+16.1%</text>
+</svg>

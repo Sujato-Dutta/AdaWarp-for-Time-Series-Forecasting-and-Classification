@@ -1,0 +1,16 @@
+{
+  "best_epoch": 10,
+  "best_validation_mse": 0.4514883424425039,
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/mvpf-tests/results/rescue_720/tasks/mvpf_Traffic_h720_seed43/checkpoints/Traffic_h720_seed43.pt",
+  "dataset": "Traffic",
+  "elapsed_seconds": 242.37491667922586,
+  "experiment": "mvpf",
+  "horizon": 720,
+  "mae": 0.3267744454609516,
+  "model": "MVPF",
+  "mse": 0.5020600188462547,
+  "num_test_windows": 2791,
+  "permutation_seed": null,
+  "seed": 43,
+  "task_root": "/work/11617/sujato_ts/vista/motion_code-master/mvpf-tests/results/rescue_720/tasks/mvpf_Traffic_h720_seed43"
+}

@@ -90,6 +90,7 @@ AdaWarp_Guide.md
 agent.md
 TACC Setup.md
 paper/
+mvpf-paper/
 adawarp_adv/results/
 adawarp_adv/logs/
 adawarp_adv/checkpoints/

@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="620" viewBox="0 0 1280 620">
+<title>Average ranks across 24 LTSF tasks</title>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<style>text{font-family:Arial,Helvetica,sans-serif} .title{font-size:24px;font-weight:700;fill:#17202A}.panel{font-size:17px;font-weight:700;fill:#17202A}.label{font-size:13px;fill:#344054}.small{font-size:11px;fill:#667085}.value{font-size:12px;font-weight:600}.axis{stroke:#98A2B3;stroke-width:1}.grid{stroke:#EAECF0;stroke-width:1}</style>
+<text x="640" y="36" class="title" text-anchor="middle">Average rank across 24 dataset-horizon tasks</text>
+<text x="640" y="58" class="small" text-anchor="middle">Lower rank is better; Nemenyi CD at alpha=0.05 shown for context</text>
+<text x="355.0" y="88" class="panel" text-anchor="middle">MSE</text>
+<line x1="115.0" y1="112" x2="115.0" y2="542" stroke="#EAECF0" stroke-width="1"/>
+<text x="115.0" y="100" class="small" text-anchor="middle">1</text>
+<line x1="183.57142857142856" y1="112" x2="183.57142857142856" y2="542" stroke="#EAECF0" stroke-width="1"/>
+<text x="183.57142857142856" y="100" class="small" text-anchor="middle">2</text>
+<line x1="252.14285714285714" y1="112" x2="252.14285714285714" y2="542" stroke="#EAECF0" stroke-width="1"/>
+<text x="252.14285714285714" y="100" class="small" text-anchor="middle">3</text>
+<line x1="320.7142857142857" y1="112" x2="320.7142857142857" y2="542" stroke="#EAECF0" stroke-width="1"/>
+<text x="320.7142857142857" y="100" class="small" text-anchor="middle">4</text>
+<line x1="389.2857142857143" y1="112" x2="389.2857142857143" y2="542" stroke="#EAECF0" stroke-width="1"/>
+<text x="389.2857142857143" y="100" class="small" text-anchor="middle">5</text>
+<line x1="457.85714285714283" y1="112" x2="457.85714285714283" y2="542" stroke="#EAECF0" stroke-width="1"/>
+<text x="457.85714285714283" y="100" class="small" text-anchor="middle">6</text>
+<line x1="526.4285714285714" y1="112" x2="526.4285714285714" y2="542" stroke="#EAECF0" stroke-width="1"/>
+<text x="526.4285714285714" y="100" class="small" text-anchor="middle">7</text>
+<line x1="595.0" y1="112" x2="595.0" y2="542" stroke="#EAECF0" stroke-width="1"/>
+<text x="595.0" y="100" class="small" text-anchor="middle">8</text>
+<line x1="115" y1="152" x2="215.0" y2="152" stroke="#D0D5DD" stroke-width="2"/>
+<circle cx="215.0" cy="152" r="7" fill="#0F7657" stroke="#FFFFFF" stroke-width="1"/>
+<text x="227.0" y="156" class="label" text-anchor="start" fill="#0F7657">MVPF (2.46)</text>
+<line x1="115" y1="198" x2="223.57142857142858" y2="198" stroke="#D0D5DD" stroke-width="2"/>
+<circle cx="223.57142857142858" cy="198" r="5" fill="#475467" stroke="#FFFFFF" stroke-width="1"/>
+<text x="235.57142857142858" y="202" class="label" text-anchor="start" fill="#475467">PatchTST (2.58)</text>
+<line x1="115" y1="244" x2="340.7142857142858" y2="244" stroke="#D0D5DD" stroke-width="2"/>
+<circle cx="340.7142857142858" cy="244" r="5" fill="#475467" stroke="#FFFFFF" stroke-width="1"/>
+<text x="352.7142857142858" y="248" class="label" text-anchor="start" fill="#475467">VPNet (4.29)</text>
+<line x1="115" y1="290" x2="343.57142857142856" y2="290" stroke="#D0D5DD" stroke-width="2"/>
+<circle cx="343.57142857142856" cy="290" r="5" fill="#475467" stroke="#FFFFFF" stroke-width="1"/>
+<text x="355.57142857142856" y="294" class="label" text-anchor="start" fill="#475467">iTransformer (4.33)</text>
+<line x1="115" y1="336" x2="343.57142857142856" y2="336" stroke="#D0D5DD" stroke-width="2"/>
+<circle cx="343.57142857142856" cy="336" r="5" fill="#475467" stroke="#FFFFFF" stroke-width="1"/>
+<text x="355.57142857142856" y="340" class="label" text-anchor="start" fill="#475467">TimeMixer (4.33)</text>
+<line x1="115" y1="382" x2="420.7142857142857" y2="382" stroke="#D0D5DD" stroke-width="2"/>
+<circle cx="420.7142857142857" cy="382" r="5" fill="#475467" stroke="#FFFFFF" stroke-width="1"/>
+<text x="432.7142857142857" y="386" class="label" text-anchor="start" fill="#475467">TimesNet (5.46)</text>
+<line x1="115" y1="428" x2="472.14285714285717" y2="428" stroke="#D0D5DD" stroke-width="2"/>
+<circle cx="472.14285714285717" cy="428" r="5" fill="#475467" stroke="#FFFFFF" stroke-width="1"/>
+<text x="484.14285714285717" y="432" class="label" text-anchor="start" fill="#475467">FEDformer (6.21)</text>
+<line x1="115" y1="474" x2="480.7142857142857" y2="474" stroke="#D0D5DD" stroke-width="2"/>
+<circle cx="480.7142857142857" cy="474" r="5" fill="#475467" stroke="#FFFFFF" stroke-width="1"/>
+<text x="492.7142857142857" y="478" class="label" text-anchor="start" fill="#475467">DLinear (6.33)</text>
+<line x1="115" y1="532" x2="261.9650734018121" y2="532" stroke="#344054" stroke-width="3"/>
+<line x1="115" y1="526" x2="115" y2="538" stroke="#344054" stroke-width="2"/>
+<line x1="261.9650734018121" y1="526" x2="261.9650734018121" y2="538" stroke="#344054" stroke-width="2"/>
+<text x="188.48253670090605" y="554" class="small" text-anchor="middle">CD = 2.14</text>
+<text x="975.0" y="88" class="panel" text-anchor="middle">MAE</text>
+<line x1="735.0" y1="112" x2="735.0" y2="542" stroke="#EAECF0" stroke-width="1"/>
+<text x="735.0" y="100" class="small" text-anchor="middle">1</text>
+<line x1="803.5714285714286" y1="112" x2="803.5714285714286" y2="542" stroke="#EAECF0" stroke-width="1"/>
+<text x="803.5714285714286" y="100" class="small" text-anchor="middle">2</text>
+<line x1="872.1428571428571" y1="112" x2="872.1428571428571" y2="542" stroke="#EAECF0" stroke-width="1"/>
+<text x="872.1428571428571" y="100" class="small" text-anchor="middle">3</text>
+<line x1="940.7142857142858" y1="112" x2="940.7142857142858" y2="542" stroke="#EAECF0" stroke-width="1"/>
+<text x="940.7142857142858" y="100" class="small" text-anchor="middle">4</text>
+<line x1="1009.2857142857142" y1="112" x2="1009.2857142857142" y2="542" stroke="#EAECF0" stroke-width="1"/>
+<text x="1009.2857142857142" y="100" class="small" text-anchor="middle">5</text>
+<line x1="1077.857142857143" y1="112" x2="1077.857142857143" y2="542" stroke="#EAECF0" stroke-width="1"/>
+<text x="1077.857142857143" y="100" class="small" text-anchor="middle">6</text>
+<line x1="1146.4285714285716" y1="112" x2="1146.4285714285716" y2="542" stroke="#EAECF0" stroke-width="1"/>
+<text x="1146.4285714285716" y="100" class="small" text-anchor="middle">7</text>
+<line x1="1215.0" y1="112" x2="1215.0" y2="542" stroke="#EAECF0" stroke-width="1"/>
+<text x="1215.0" y="100" class="small" text-anchor="middle">8</text>
+<line x1="735" y1="152" x2="826.4285714285714" y2="152" stroke="#D0D5DD" stroke-width="2"/>
+<circle cx="826.4285714285714" cy="152" r="7" fill="#0F7657" stroke="#FFFFFF" stroke-width="1"/>
+<text x="838.4285714285714" y="156" class="label" text-anchor="start" fill="#0F7657">MVPF (2.33)</text>
+<line x1="735" y1="198" x2="826.4285714285714" y2="198" stroke="#D0D5DD" stroke-width="2"/>
+<circle cx="826.4285714285714" cy="198" r="5" fill="#475467" stroke="#FFFFFF" stroke-width="1"/>
+<text x="838.4285714285714" y="202" class="label" text-anchor="start" fill="#475467">PatchTST (2.33)</text>
+<line x1="735" y1="244" x2="926.4285714285714" y2="244" stroke="#D0D5DD" stroke-width="2"/>
+<circle cx="926.4285714285714" cy="244" r="5" fill="#475467" stroke="#FFFFFF" stroke-width="1"/>
+<text x="938.4285714285714" y="248" class="label" text-anchor="start" fill="#475467">TimeMixer (3.79)</text>
+<line x1="735" y1="290" x2="957.8571428571429" y2="290" stroke="#D0D5DD" stroke-width="2"/>
+<circle cx="957.8571428571429" cy="290" r="5" fill="#475467" stroke="#FFFFFF" stroke-width="1"/>
+<text x="969.8571428571429" y="294" class="label" text-anchor="start" fill="#475467">VPNet (4.25)</text>
+<line x1="735" y1="336" x2="960.7142857142858" y2="336" stroke="#D0D5DD" stroke-width="2"/>
+<circle cx="960.7142857142858" cy="336" r="5" fill="#475467" stroke="#FFFFFF" stroke-width="1"/>
+<text x="972.7142857142858" y="340" class="label" text-anchor="start" fill="#475467">iTransformer (4.29)</text>
+<line x1="735" y1="382" x2="1006.4285714285713" y2="382" stroke="#D0D5DD" stroke-width="2"/>
+<circle cx="1006.4285714285713" cy="382" r="5" fill="#475467" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1018.4285714285713" y="386" class="label" text-anchor="start" fill="#475467">TimesNet (4.96)</text>
+<line x1="735" y1="428" x2="1137.857142857143" y2="428" stroke="#D0D5DD" stroke-width="2"/>
+<circle cx="1137.857142857143" cy="428" r="5" fill="#475467" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1149.857142857143" y="432" class="label" text-anchor="start" fill="#475467">DLinear (6.88)</text>
+<line x1="735" y1="474" x2="1157.857142857143" y2="474" stroke="#D0D5DD" stroke-width="2"/>
+<circle cx="1157.857142857143" cy="474" r="5" fill="#475467" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1169.857142857143" y="478" class="label" text-anchor="start" fill="#475467">FEDformer (7.17)</text>
+<line x1="735" y1="532" x2="881.9650734018121" y2="532" stroke="#344054" stroke-width="3"/>
+<line x1="735" y1="526" x2="735" y2="538" stroke="#344054" stroke-width="2"/>
+<line x1="881.9650734018121" y1="526" x2="881.9650734018121" y2="538" stroke="#344054" stroke-width="2"/>
+<text x="808.482536700906" y="554" class="small" text-anchor="middle">CD = 2.14</text>
+</svg>

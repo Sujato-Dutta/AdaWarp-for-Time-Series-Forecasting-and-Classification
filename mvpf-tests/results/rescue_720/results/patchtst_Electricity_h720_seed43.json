@@ -1,0 +1,14 @@
+{
+  "dataset": "Electricity",
+  "elapsed_seconds": 231.17215895093977,
+  "experiment": "patchtst",
+  "horizon": 720,
+  "mae": 0.33630645275115967,
+  "model": "PatchTST",
+  "mse": 0.2559453845024109,
+  "pred_file": "/work/11617/sujato_ts/vista/motion_code-master/TSLibrary/results/long_term_forecast_Electricity_96_720_seed43_PatchTST_custom_ftM_sl96_ll48_pl720_dm128_nh8_el2_dl1_df256_expand2_dc4_fc3_ebtimeF_dtTrue_AdaWarp_ltsf_seed43_0/pred.npy",
+  "result_dir": "/work/11617/sujato_ts/vista/motion_code-master/TSLibrary/results/long_term_forecast_Electricity_96_720_seed43_PatchTST_custom_ftM_sl96_ll48_pl720_dm128_nh8_el2_dl1_df256_expand2_dc4_fc3_ebtimeF_dtTrue_AdaWarp_ltsf_seed43_0",
+  "seed": 43,
+  "task_root": "/work/11617/sujato_ts/vista/motion_code-master/mvpf-tests/results/rescue_720/tasks/patchtst_Electricity_h720_seed43",
+  "true_file": "/work/11617/sujato_ts/vista/motion_code-master/TSLibrary/results/long_term_forecast_Electricity_96_720_seed43_PatchTST_custom_ftM_sl96_ll48_pl720_dm128_nh8_el2_dl1_df256_expand2_dc4_fc3_ebtimeF_dtTrue_AdaWarp_ltsf_seed43_0/true.npy"
+}

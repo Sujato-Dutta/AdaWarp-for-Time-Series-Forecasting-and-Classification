@@ -1,0 +1,33 @@
+{
+  "actual_rows": 192,
+  "datasets": [
+    "ETTh1",
+    "ETTh2",
+    "ETTm2",
+    "Weather",
+    "Electricity",
+    "Traffic"
+  ],
+  "duplicates": [],
+  "expected_rows": 192,
+  "extra": [],
+  "horizons": [
+    96,
+    192,
+    336,
+    720
+  ],
+  "methods": [
+    "MVPF",
+    "DLinear",
+    "PatchTST",
+    "TimesNet",
+    "iTransformer",
+    "TimeMixer",
+    "FEDformer",
+    "VPNet"
+  ],
+  "missing": [],
+  "status": "complete",
+  "wrong_protocol_rows": []
+}

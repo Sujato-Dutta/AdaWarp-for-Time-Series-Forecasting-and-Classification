@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1430" height="760" viewBox="0 0 1430 760">
+<title>Diagnostic MVPF ablations</title>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<style>text{font-family:Arial,Helvetica,sans-serif} .title{font-size:24px;font-weight:700;fill:#17202A}.panel{font-size:17px;font-weight:700;fill:#17202A}.label{font-size:13px;fill:#344054}.small{font-size:11px;fill:#667085}.value{font-size:12px;font-weight:600}.axis{stroke:#98A2B3;stroke-width:1}.grid{stroke:#EAECF0;stroke-width:1}</style>
+<text x="715" y="34" class="title" text-anchor="middle">Diagnostic MVPF ablations</text>
+<text x="715" y="56" class="small" text-anchor="middle">Positive values mean the ablation is worse than full MVPF</text>
+<text x="276" y="77" class="panel" text-anchor="middle">No adaptive shifts - MSE</text>
+<text x="159.0" y="107" class="small" text-anchor="middle">96</text>
+<text x="237.0" y="107" class="small" text-anchor="middle">192</text>
+<text x="315.0" y="107" class="small" text-anchor="middle">336</text>
+<text x="393.0" y="107" class="small" text-anchor="middle">720</text>
+<text x="110" y="153" class="small" text-anchor="end">ETTh1</text>
+<rect x="120" y="125" width="75" height="43" rx="3" fill="#FAFAF9" stroke="#FFFFFF" stroke-width="1"/>
+<text x="157.5" y="152" class="small" text-anchor="middle" fill="#17202A">+0.0</text>
+<rect x="198" y="125" width="75" height="43" rx="3" fill="#F9FAF8" stroke="#FFFFFF" stroke-width="1"/>
+<text x="235.5" y="152" class="small" text-anchor="middle" fill="#17202A">+0.0</text>
+<rect x="276" y="125" width="75" height="43" rx="3" fill="#F9F8F6" stroke="#FFFFFF" stroke-width="1"/>
+<text x="313.5" y="152" class="small" text-anchor="middle" fill="#17202A">-0.1</text>
+<rect x="354" y="125" width="75" height="43" rx="3" fill="#FAFAF9" stroke="#FFFFFF" stroke-width="1"/>
+<text x="391.5" y="152" class="small" text-anchor="middle" fill="#17202A">+0.0</text>
+<text x="110" y="199" class="small" text-anchor="end">ETTh2</text>
+<rect x="120" y="171" width="75" height="43" rx="3" fill="#F9FAF8" stroke="#FFFFFF" stroke-width="1"/>
+<text x="157.5" y="198" class="small" text-anchor="middle" fill="#17202A">+0.0</text>
+<rect x="198" y="171" width="75" height="43" rx="3" fill="#F2F5F3" stroke="#FFFFFF" stroke-width="1"/>
+<text x="235.5" y="198" class="small" text-anchor="middle" fill="#17202A">+0.2</text>
+<rect x="276" y="171" width="75" height="43" rx="3" fill="#F7F0EE" stroke="#FFFFFF" stroke-width="1"/>
+<text x="313.5" y="198" class="small" text-anchor="middle" fill="#17202A">-0.2</text>
+<rect x="354" y="171" width="75" height="43" rx="3" fill="#DC9D98" stroke="#FFFFFF" stroke-width="1"/>
+<text x="391.5" y="198" class="small" text-anchor="middle" fill="#17202A">-2.1</text>
+<text x="110" y="245" class="small" text-anchor="end">Weather</text>
+<rect x="120" y="217" width="75" height="43" rx="3" fill="#FAFAF9" stroke="#FFFFFF" stroke-width="1"/>
+<text x="157.5" y="244" class="small" text-anchor="middle" fill="#17202A">+0.0</text>
+<rect x="198" y="217" width="75" height="43" rx="3" fill="#FAFAF9" stroke="#FFFFFF" stroke-width="1"/>
+<text x="235.5" y="244" class="small" text-anchor="middle" fill="#17202A">+0.0</text>
+<rect x="276" y="217" width="75" height="43" rx="3" fill="#FAFAF9" stroke="#FFFFFF" stroke-width="1"/>
+<text x="313.5" y="244" class="small" text-anchor="middle" fill="#17202A">+0.0</text>
+<rect x="354" y="217" width="75" height="43" rx="3" fill="#FAFAF9" stroke="#FFFFFF" stroke-width="1"/>
+<text x="391.5" y="244" class="small" text-anchor="middle" fill="#17202A">+0.0</text>
+<text x="110" y="291" class="small" text-anchor="end">Electricity</text>
+<rect x="120" y="263" width="75" height="43" rx="3" fill="#FAFAF9" stroke="#FFFFFF" stroke-width="1"/>
+<text x="157.5" y="290" class="small" text-anchor="middle" fill="#17202A">+0.0</text>
+<rect x="198" y="263" width="75" height="43" rx="3" fill="#FAFAF9" stroke="#FFFFFF" stroke-width="1"/>
+<text x="235.5" y="290" class="small" text-anchor="middle" fill="#17202A">+0.0</text>
+<rect x="276" y="263" width="75" height="43" rx="3" fill="#FAFAF9" stroke="#FFFFFF" stroke-width="1"/>
+<text x="313.5" y="290" class="small" text-anchor="middle" fill="#17202A">+0.0</text>
+<rect x="354" y="263" width="75" height="43" rx="3" fill="#FAFAF9" stroke="#FFFFFF" stroke-width="1"/>
+<text x="391.5" y="290" class="small" text-anchor="middle" fill="#17202A">+0.0</text>
+<text x="110" y="337" class="small" text-anchor="end">Traffic</text>
+<rect x="120" y="309" width="75" height="43" rx="3" fill="#FAFAF9" stroke="#FFFFFF" stroke-width="1"/>
+<text x="157.5" y="336" class="small" text-anchor="middle" fill="#17202A">+0.0</text>
+<rect x="198" y="309" width="75" height="43" rx="3" fill="#FAFAF9" stroke="#FFFFFF" stroke-width="1"/>
+<text x="235.5" y="336" class="small" text-anchor="middle" fill="#17202A">+0.0</text>
+<rect x="276" y="309" width="75" height="43" rx="3" fill="#FAFAF9" stroke="#FFFFFF" stroke-width="1"/>
+<text x="313.5" y="336" class="small" text-anchor="middle" fill="#17202A">+0.0</text>
+<rect x="354" y="309" width="75" height="43" rx="3" fill="#FAFAF9" stroke="#FFFFFF" stroke-width="1"/>
+<text x="391.5" y="336" class="small" text-anchor="middle" fill="#17202A">+0.0</text>
+<text x="976" y="77" class="panel" text-anchor="middle">No adaptive shifts - MAE</text>
+<text x="859.0" y="107" class="small" text-anchor="middle">96</text>
+<text x="937.0" y="107" class="small" text-anchor="middle">192</text>
+<text x="1015.0" y="107" class="small" text-anchor="middle">336</text>
+<text x="1093.0" y="107" class="small" text-anchor="middle">720</text>
+<text x="810" y="153" class="small" text-anchor="end">ETTh1</text>
+<rect x="820" y="125" width="75" height="43" rx="3" fill="#FAFAF9" stroke="#FFFFFF" stroke-width="1"/>
+<text x="857.5" y="152" class="small" text-anchor="middle" fill="#17202A">+0.0</text>
+<rect x="898" y="125" width="75" height="43" rx="3" fill="#FAFAF9" stroke="#FFFFFF" stroke-width="1"/>
+<text x="935.5" y="152" class="small" text-anchor="middle" fill="#17202A">-0.0</text>
+<rect x="976" y="125" width="75" height="43" rx="3" fill="#FAF9F7" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1013.5" y="152" class="small" text-anchor="middle" fill="#17202A">-0.0</text>
+<rect x="1054" y="125" width="75" height="43" rx="3" fill="#FAFAF9" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1091.5" y="152" class="small" text-anchor="middle" fill="#17202A">+0.0</text>
+<text x="810" y="199" class="small" text-anchor="end">ETTh2</text>
+<rect x="820" y="171" width="75" height="43" rx="3" fill="#FAFAF9" stroke="#FFFFFF" stroke-width="1"/>
+<text x="857.5" y="198" class="small" text-anchor="middle" fill="#17202A">+0.0</text>
+<rect x="898" y="171" width="75" height="43" rx="3" fill="#F2F5F3" stroke="#FFFFFF" stroke-width="1"/>
+<text x="935.5" y="198" class="small" text-anchor="middle" fill="#17202A">+0.2</text>
+<rect x="976" y="171" width="75" height="43" rx="3" fill="#F9F7F6" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1013.5" y="198" class="small" text-anchor="middle" fill="#17202A">-0.1</text>
+<rect x="1054" y="171" width="75" height="43" rx="3" fill="#F4F6F5" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1091.5" y="198" class="small" text-anchor="middle" fill="#17202A">+0.1</text>
+<text x="810" y="245" class="small" text-anchor="end">Weather</text>
+<rect x="820" y="217" width="75" height="43" rx="3" fill="#FAFAF9" stroke="#FFFFFF" stroke-width="1"/>
+<text x="857.5" y="244" class="small" text-anchor="middle" fill="#17202A">+0.0</text>
+<rect x="898" y="217" width="75" height="43" rx="3" fill="#FAFAF9" stroke="#FFFFFF" stroke-width="1"/>
+<text x="935.5" y="244" class="small" text-anchor="middle" fill="#17202A">+0.0</text>
+<rect x="976" y="217" width="75" height="43" rx="3" fill="#FAFAF9" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1013.5" y="244" class="small" text-anchor="middle" fill="#17202A">+0.0</text>
+<rect x="1054" y="217" width="75" height="43" rx="3" fill="#FAFAF9" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1091.5" y="244" class="small" text-anchor="middle" fill="#17202A">+0.0</text>
+<text x="810" y="291" class="small" text-anchor="end">Electricity</text>
+<rect x="820" y="263" width="75" height="43" rx="3" fill="#FAFAF9" stroke="#FFFFFF" stroke-width="1"/>
+<text x="857.5" y="290" class="small" text-anchor="middle" fill="#17202A">+0.0</text>
+<rect x="898" y="263" width="75" height="43" rx="3" fill="#FAFAF9" stroke="#FFFFFF" stroke-width="1"/>
+<text x="935.5" y="290" class="small" text-anchor="middle" fill="#17202A">+0.0</text>
+<rect x="976" y="263" width="75" height="43" rx="3" fill="#FAFAF9" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1013.5" y="290" class="small" text-anchor="middle" fill="#17202A">+0.0</text>
+<rect x="1054" y="263" width="75" height="43" rx="3" fill="#FAFAF9" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1091.5" y="290" class="small" text-anchor="middle" fill="#17202A">+0.0</text>
+<text x="810" y="337" class="small" text-anchor="end">Traffic</text>
+<rect x="820" y="309" width="75" height="43" rx="3" fill="#FAFAF9" stroke="#FFFFFF" stroke-width="1"/>
+<text x="857.5" y="336" class="small" text-anchor="middle" fill="#17202A">+0.0</text>
+<rect x="898" y="309" width="75" height="43" rx="3" fill="#FAFAF9" stroke="#FFFFFF" stroke-width="1"/>
+<text x="935.5" y="336" class="small" text-anchor="middle" fill="#17202A">+0.0</text>
+<rect x="976" y="309" width="75" height="43" rx="3" fill="#FAFAF9" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1013.5" y="336" class="small" text-anchor="middle" fill="#17202A">+0.0</text>
+<rect x="1054" y="309" width="75" height="43" rx="3" fill="#FAFAF9" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1091.5" y="336" class="small" text-anchor="middle" fill="#17202A">+0.0</text>
+<text x="276" y="392" class="panel" text-anchor="middle">No trend/residual - MSE</text>
+<text x="159.0" y="422" class="small" text-anchor="middle">96</text>
+<text x="237.0" y="422" class="small" text-anchor="middle">192</text>
+<text x="315.0" y="422" class="small" text-anchor="middle">336</text>
+<text x="393.0" y="422" class="small" text-anchor="middle">720</text>
+<text x="110" y="468" class="small" text-anchor="end">ETTh1</text>
+<rect x="120" y="440" width="75" height="43" rx="3" fill="#ABCEC3" stroke="#FFFFFF" stroke-width="1"/>
+<text x="157.5" y="467" class="small" text-anchor="middle" fill="#17202A">+1.6</text>
+<rect x="198" y="440" width="75" height="43" rx="3" fill="#F5F7F6" stroke="#FFFFFF" stroke-width="1"/>
+<text x="235.5" y="467" class="small" text-anchor="middle" fill="#17202A">+0.1</text>
+<rect x="276" y="440" width="75" height="43" rx="3" fill="#F0DDDA" stroke="#FFFFFF" stroke-width="1"/>
+<text x="313.5" y="467" class="small" text-anchor="middle" fill="#17202A">-0.7</text>
+<rect x="354" y="440" width="75" height="43" rx="3" fill="#E6BDB9" stroke="#FFFFFF" stroke-width="1"/>
+<text x="391.5" y="467" class="small" text-anchor="middle" fill="#17202A">-1.4</text>
+<text x="110" y="514" class="small" text-anchor="end">ETTh2</text>
+<rect x="120" y="486" width="75" height="43" rx="3" fill="#B5D3CA" stroke="#FFFFFF" stroke-width="1"/>
+<text x="157.5" y="513" class="small" text-anchor="middle" fill="#17202A">+1.4</text>
+<rect x="198" y="486" width="75" height="43" rx="3" fill="#5AA08B" stroke="#FFFFFF" stroke-width="1"/>
+<text x="235.5" y="513" class="small" text-anchor="middle" fill="#FFFFFF">+3.3</text>
+<rect x="276" y="486" width="75" height="43" rx="3" fill="#419279" stroke="#FFFFFF" stroke-width="1"/>
+<text x="313.5" y="513" class="small" text-anchor="middle" fill="#FFFFFF">+3.8</text>
+<rect x="354" y="486" width="75" height="43" rx="3" fill="#F4E6E4" stroke="#FFFFFF" stroke-width="1"/>
+<text x="391.5" y="513" class="small" text-anchor="middle" fill="#17202A">-0.5</text>
+<text x="110" y="560" class="small" text-anchor="end">Weather</text>
+<rect x="120" y="532" width="75" height="43" rx="3" fill="#D4847E" stroke="#FFFFFF" stroke-width="1"/>
+<text x="157.5" y="559" class="small" text-anchor="middle" fill="#17202A">-2.7</text>
+<rect x="198" y="532" width="75" height="43" rx="3" fill="#F1DDDB" stroke="#FFFFFF" stroke-width="1"/>
+<text x="235.5" y="559" class="small" text-anchor="middle" fill="#17202A">-0.7</text>
+<rect x="276" y="532" width="75" height="43" rx="3" fill="#E5B9B5" stroke="#FFFFFF" stroke-width="1"/>
+<text x="313.5" y="559" class="small" text-anchor="middle" fill="#17202A">-1.5</text>
+<rect x="354" y="532" width="75" height="43" rx="3" fill="#F6EEEC" stroke="#FFFFFF" stroke-width="1"/>
+<text x="391.5" y="559" class="small" text-anchor="middle" fill="#17202A">-0.3</text>
+<text x="110" y="606" class="small" text-anchor="end">Electricity</text>
+<rect x="120" y="578" width="75" height="43" rx="3" fill="#B42318" stroke="#FFFFFF" stroke-width="1"/>
+<text x="157.5" y="605" class="small" text-anchor="middle" fill="#FFFFFF">-4.9</text>
+<rect x="198" y="578" width="75" height="43" rx="3" fill="#D17B74" stroke="#FFFFFF" stroke-width="1"/>
+<text x="235.5" y="605" class="small" text-anchor="middle" fill="#FFFFFF">-2.9</text>
+<rect x="276" y="578" width="75" height="43" rx="3" fill="#D3817B" stroke="#FFFFFF" stroke-width="1"/>
+<text x="313.5" y="605" class="small" text-anchor="middle" fill="#FFFFFF">-2.7</text>
+<rect x="354" y="578" width="75" height="43" rx="3" fill="#CD7069" stroke="#FFFFFF" stroke-width="1"/>
+<text x="391.5" y="605" class="small" text-anchor="middle" fill="#FFFFFF">-3.1</text>
+<text x="110" y="652" class="small" text-anchor="end">Traffic</text>
+<rect x="120" y="624" width="75" height="43" rx="3" fill="#EED6D4" stroke="#FFFFFF" stroke-width="1"/>
+<text x="157.5" y="651" class="small" text-anchor="middle" fill="#17202A">-0.8</text>
+<rect x="198" y="624" width="75" height="43" rx="3" fill="#F4E6E4" stroke="#FFFFFF" stroke-width="1"/>
+<text x="235.5" y="651" class="small" text-anchor="middle" fill="#17202A">-0.4</text>
+<rect x="276" y="624" width="75" height="43" rx="3" fill="#D68A84" stroke="#FFFFFF" stroke-width="1"/>
+<text x="313.5" y="651" class="small" text-anchor="middle" fill="#17202A">-2.5</text>
+<rect x="354" y="624" width="75" height="43" rx="3" fill="#F4E7E5" stroke="#FFFFFF" stroke-width="1"/>
+<text x="391.5" y="651" class="small" text-anchor="middle" fill="#17202A">-0.4</text>
+<text x="976" y="392" class="panel" text-anchor="middle">No trend/residual - MAE</text>
+<text x="859.0" y="422" class="small" text-anchor="middle">96</text>
+<text x="937.0" y="422" class="small" text-anchor="middle">192</text>
+<text x="1015.0" y="422" class="small" text-anchor="middle">336</text>
+<text x="1093.0" y="422" class="small" text-anchor="middle">720</text>
+<text x="810" y="468" class="small" text-anchor="end">ETTh1</text>
+<rect x="820" y="440" width="75" height="43" rx="3" fill="#ADCEC4" stroke="#FFFFFF" stroke-width="1"/>
+<text x="857.5" y="467" class="small" text-anchor="middle" fill="#17202A">+1.6</text>
+<rect x="898" y="440" width="75" height="43" rx="3" fill="#E9F1EE" stroke="#FFFFFF" stroke-width="1"/>
+<text x="935.5" y="467" class="small" text-anchor="middle" fill="#17202A">+0.3</text>
+<rect x="976" y="440" width="75" height="43" rx="3" fill="#E4EDEA" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1013.5" y="467" class="small" text-anchor="middle" fill="#17202A">+0.5</text>
+<rect x="1054" y="440" width="75" height="43" rx="3" fill="#EFD9D6" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1091.5" y="467" class="small" text-anchor="middle" fill="#17202A">-0.8</text>
+<text x="810" y="514" class="small" text-anchor="end">ETTh2</text>
+<rect x="820" y="486" width="75" height="43" rx="3" fill="#C5DCD5" stroke="#FFFFFF" stroke-width="1"/>
+<text x="857.5" y="513" class="small" text-anchor="middle" fill="#17202A">+1.1</text>
+<rect x="898" y="486" width="75" height="43" rx="3" fill="#C2DAD2" stroke="#FFFFFF" stroke-width="1"/>
+<text x="935.5" y="513" class="small" text-anchor="middle" fill="#17202A">+1.2</text>
+<rect x="976" y="486" width="75" height="43" rx="3" fill="#ACCEC3" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1013.5" y="513" class="small" text-anchor="middle" fill="#17202A">+1.6</text>
+<rect x="1054" y="486" width="75" height="43" rx="3" fill="#E9F0ED" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1091.5" y="513" class="small" text-anchor="middle" fill="#17202A">+0.4</text>
+<text x="810" y="560" class="small" text-anchor="end">Weather</text>
+<rect x="820" y="532" width="75" height="43" rx="3" fill="#E5B9B5" stroke="#FFFFFF" stroke-width="1"/>
+<text x="857.5" y="559" class="small" text-anchor="middle" fill="#17202A">-1.5</text>
+<rect x="898" y="532" width="75" height="43" rx="3" fill="#DAE8E3" stroke="#FFFFFF" stroke-width="1"/>
+<text x="935.5" y="559" class="small" text-anchor="middle" fill="#17202A">+0.7</text>
+<rect x="976" y="532" width="75" height="43" rx="3" fill="#F0F5F2" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1013.5" y="559" class="small" text-anchor="middle" fill="#17202A">+0.2</text>
+<rect x="1054" y="532" width="75" height="43" rx="3" fill="#D7E6E1" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1091.5" y="559" class="small" text-anchor="middle" fill="#17202A">+0.7</text>
+<text x="810" y="606" class="small" text-anchor="end">Electricity</text>
+<rect x="820" y="578" width="75" height="43" rx="3" fill="#D3817A" stroke="#FFFFFF" stroke-width="1"/>
+<text x="857.5" y="605" class="small" text-anchor="middle" fill="#FFFFFF">-2.7</text>
+<rect x="898" y="578" width="75" height="43" rx="3" fill="#E8C3C0" stroke="#FFFFFF" stroke-width="1"/>
+<text x="935.5" y="605" class="small" text-anchor="middle" fill="#17202A">-1.2</text>
+<rect x="976" y="578" width="75" height="43" rx="3" fill="#E6BCB8" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1013.5" y="605" class="small" text-anchor="middle" fill="#17202A">-1.4</text>
+<rect x="1054" y="578" width="75" height="43" rx="3" fill="#E3B2AE" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1091.5" y="605" class="small" text-anchor="middle" fill="#17202A">-1.6</text>
+<text x="810" y="652" class="small" text-anchor="end">Traffic</text>
+<rect x="820" y="624" width="75" height="43" rx="3" fill="#EFD9D7" stroke="#FFFFFF" stroke-width="1"/>
+<text x="857.5" y="651" class="small" text-anchor="middle" fill="#17202A">-0.7</text>
+<rect x="898" y="624" width="75" height="43" rx="3" fill="#EFDAD7" stroke="#FFFFFF" stroke-width="1"/>
+<text x="935.5" y="651" class="small" text-anchor="middle" fill="#17202A">-0.7</text>
+<rect x="976" y="624" width="75" height="43" rx="3" fill="#D8928C" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1013.5" y="651" class="small" text-anchor="middle" fill="#17202A">-2.4</text>
+<rect x="1054" y="624" width="75" height="43" rx="3" fill="#EED4D1" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1091.5" y="651" class="small" text-anchor="middle" fill="#17202A">-0.9</text>
+</svg>

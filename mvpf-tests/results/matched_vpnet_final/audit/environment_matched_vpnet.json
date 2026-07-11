@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-07-11T04:19:59+00:00",
+  "cuda_available": true,
+  "cuda_version": "12.6",
+  "git_hash": "4f47cd71858ced0014690de8116877155bf5a9cf",
+  "gpu_names": [
+    "NVIDIA GH200 120GB"
+  ],
+  "packages": {
+    "aeon": "1.4.0",
+    "jax": "0.10.2",
+    "mamba_ssm": "not_installed",
+    "numpy": "2.3.5",
+    "pandas": "2.2.2",
+    "scipy": "1.17.1",
+    "sklearn": "1.7.2",
+    "sktime": "1.0.1",
+    "statsmodels": "0.14.6",
+    "tbats": "not_installed",
+    "tensorflow": "not_installed",
+    "torch": "2.6.0+cu126"
+  },
+  "platform": "Linux-5.14.0-611.16.1.el9_7.aarch64+64k-aarch64-with-glibc2.34",
+  "python": "3.11.8 (main, Feb 25 2025, 23:24:35) [GCC 14.2.0]"
+}
