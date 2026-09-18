@@ -1,0 +1,5 @@
+comparison,metric,estimand,cluster_unit,clusters,cells,mean_relative_improvement_percent,median_relative_improvement_percent,ci95_low_percent,ci95_high_percent,wins,ties,losses
+LatentFlow vs TimePro,mse,mean paired per-cell relative improvement percent,source_family,5,140,1.38073414759,0.958758241366,0.143296709943,3.36739112471,94,0,46
+LatentFlow vs TimePro,mse,mean paired per-cell relative improvement percent,source_family_seed,25,140,1.38073414759,0.958758241366,0.745806890769,2.14713511737,94,0,46
+LatentFlow vs TimePro,mae,mean paired per-cell relative improvement percent,source_family,5,140,0.561216494661,0.625383958462,-0.28118222,1.41635246531,88,0,52
+LatentFlow vs TimePro,mae,mean paired per-cell relative improvement percent,source_family_seed,25,140,0.561216494661,0.625383958462,0.155079550616,0.964466713471,88,0,52

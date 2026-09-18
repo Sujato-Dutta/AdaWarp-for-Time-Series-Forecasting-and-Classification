@@ -1,0 +1,13 @@
+comparison,metric,estimand,cluster_unit,clusters,cells,mean_relative_degradation_percent,median_relative_degradation_percent,ci95_low_percent,ci95_high_percent,control_better,ties,control_worse
+process preserving vs early fusion,mse,mean paired per-cell control degradation percent,source_family,5,140,5.1226990264,0.226059115599,0.62601410065,13.4953481434,33,25,82
+process preserving vs early fusion,mse,mean paired per-cell control degradation percent,source_family_seed,25,140,5.1226990264,0.226059115599,2.36904534716,8.83338227076,33,25,82
+process preserving vs early fusion,mae,mean paired per-cell control degradation percent,source_family,5,140,5.27443542796,0.0769419025196,0.350588829804,13.9013338259,35,25,80
+process preserving vs early fusion,mae,mean paired per-cell control degradation percent,source_family_seed,25,140,5.27443542796,0.0769419025196,2.65058895637,8.69912506584,35,25,80
+process preserving vs causal X-to-Z,mse,mean paired per-cell control degradation percent,source_family,5,140,4.85687606752,0.34163352399,0.883479627125,11.7573375208,22,29,89
+process preserving vs causal X-to-Z,mse,mean paired per-cell control degradation percent,source_family_seed,25,140,4.85687606752,0.34163352399,2.76644136778,7.51199177779,22,29,89
+process preserving vs causal X-to-Z,mae,mean paired per-cell control degradation percent,source_family,5,140,5.72870761397,0.200977455231,0.547405270184,14.8765589014,23,29,88
+process preserving vs causal X-to-Z,mae,mean paired per-cell control degradation percent,source_family_seed,25,140,5.72870761397,0.200977455231,2.95381415481,9.30297359149,23,29,88
+process preserving vs no linear bank,mse,mean paired per-cell control degradation percent,source_family,5,140,0.634932535503,0.556529653794,0.0353481661812,1.12791467341,49,0,91
+process preserving vs no linear bank,mse,mean paired per-cell control degradation percent,source_family_seed,25,140,0.634932535503,0.556529653794,0.195714113216,1.06532441344,49,0,91
+process preserving vs no linear bank,mae,mean paired per-cell control degradation percent,source_family,5,140,0.628738593412,0.722366893271,0.179070493059,0.988489822147,43,0,97
+process preserving vs no linear bank,mae,mean paired per-cell control degradation percent,source_family_seed,25,140,0.628738593412,0.722366893271,0.386244262053,0.863929813345,43,0,97

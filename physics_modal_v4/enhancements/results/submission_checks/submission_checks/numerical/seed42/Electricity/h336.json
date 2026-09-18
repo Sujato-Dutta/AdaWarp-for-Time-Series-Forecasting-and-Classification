@@ -1,0 +1,40 @@
+{
+  "adapter_weight_norm_max": 6.8584303855896,
+  "adapter_weight_norm_min": 3.397510290145874,
+  "all_finite": true,
+  "audit_protocol": "latentflow-submission-checks-v1",
+  "dataset": "Electricity",
+  "decoder_weight_norm": 1.5527169704437256,
+  "horizon": 336,
+  "kernel_min_eigenvalue": 1.8629075384524185e-06,
+  "latent_rms": 0.09058881551027298,
+  "observation_max_condition_number": 3265.249267578125,
+  "observation_min_eigenvalue": 0.016190480440855026,
+  "observation_noise_std": 0.12684740126132965,
+  "posterior_variance_mean": 0.07565613836050034,
+  "predictive_variance_min": 0.002362125786021352,
+  "process_parameters": {
+    "process_0_daily": {
+      "amplitude": 0.7088028192520142,
+      "decay": 48.664241790771484,
+      "length": 1.0338289737701416,
+      "period": 24.146072387695312
+    },
+    "process_1_weekly": {
+      "amplitude": 0.5364571213722229,
+      "decay": 336.6816711425781,
+      "length": 1.60305917263031,
+      "period": 177.229736328125
+    },
+    "process_2_baseline": {
+      "amplitude": 0.6750970482826233,
+      "length": 168.39468383789062
+    },
+    "process_3_irregular": {
+      "amplitude": 0.8122840523719788,
+      "length": 5.0822553634643555
+    }
+  },
+  "raw_parameter_boundary_rate": 0.0,
+  "seed": 42
+}

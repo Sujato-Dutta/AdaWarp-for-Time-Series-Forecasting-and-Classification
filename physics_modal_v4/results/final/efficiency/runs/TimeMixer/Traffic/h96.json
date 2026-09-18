@@ -1,0 +1,18 @@
+{
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/TimeMixer/seed42/Traffic/h96.pt",
+  "dataset": "Traffic",
+  "flops_note": "torch.profiler count; unsupported custom operations may be omitted",
+  "flops_per_sample": 44879805018.0,
+  "gflops_per_sample": 44.879805018,
+  "gpu": "NVIDIA GH200 120GB",
+  "horizon": 96,
+  "inference_ms_batch": 4.821718716993928,
+  "model": "TimeMixer",
+  "parameters_total": 192889,
+  "parameters_trainable": 192889,
+  "peak_inference_gpu_mb": 501.1298828125,
+  "peak_training_gpu_mb": 1540.982421875,
+  "profile_batch_size": 1,
+  "seed": 42,
+  "training_ms_iter": 15.522074233740568
+}

@@ -1,0 +1,18 @@
+{
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/LatentFlow/seed42/ETTm1/h336.pt",
+  "dataset": "ETTm1",
+  "flops_note": "torch.profiler count; unsupported custom operations may be omitted",
+  "flops_per_sample": 375290095.0,
+  "gflops_per_sample": 0.375290095,
+  "gpu": "NVIDIA GH200 120GB",
+  "horizon": 336,
+  "inference_ms_batch": 65.65235974267125,
+  "model": "LatentFlow",
+  "parameters_total": 1678900,
+  "parameters_trainable": 652438,
+  "peak_inference_gpu_mb": 43.65771484375,
+  "peak_training_gpu_mb": 112.205078125,
+  "profile_batch_size": 1,
+  "seed": 42,
+  "training_ms_iter": 191.34704782627523
+}

@@ -1,0 +1,11 @@
+omitted_source_family,metric,remaining_source_families,remaining_cells,mean_relative_improvement_percent,median_relative_improvement_percent
+ETT station 1,mse,4,100,2.01372289267,1.54132393823
+ETT station 1,mae,4,100,0.928444425465,0.82925562735
+ETT station 2,mse,4,100,1.26945179197,0.66212327638
+ETT station 2,mae,4,100,0.261940237452,0.209838529661
+Electricity,mse,4,120,1.44350759673,1.19405449571
+Electricity,mae,4,120,0.703478406474,0.73713849401
+Traffic,mse,4,120,1.5436953074,1.30424376108
+Traffic,mae,4,120,0.647444620131,0.68289575908
+Weather,mse,4,120,0.720244214066,0.475205225368
+Weather,mae,4,120,0.276100062715,0.24465427572

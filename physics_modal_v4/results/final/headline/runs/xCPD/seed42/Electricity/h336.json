@@ -1,0 +1,18 @@
+{
+  "best_epoch": 15,
+  "best_validation_mse": 0.1780466834261976,
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/xCPD/seed42/Electricity/h336.pt",
+  "dataset": "Electricity",
+  "horizon": 336,
+  "inference_ms_batch": 3.1081575847314142,
+  "mae": 0.29740061744153035,
+  "model": "xCPD",
+  "mse": 0.20480872475793305,
+  "num_windows": 4927.0,
+  "parameters": 1872362,
+  "provenance": "paper-derived DLinear+xCPD; plugin source unavailable in named repository",
+  "rmse": 0.4525579794434444,
+  "seed": 42,
+  "selection_protocol": "validation MSE only; test evaluated once",
+  "training_ms_optimizer_step": 13.477368961988153
+}

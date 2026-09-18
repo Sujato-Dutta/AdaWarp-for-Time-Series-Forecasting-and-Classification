@@ -1,0 +1,18 @@
+{
+  "best_epoch": 10,
+  "best_validation_mse": 0.5357206028605265,
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/DLinear/seed42/Weather/h192.pt",
+  "dataset": "Weather",
+  "horizon": 192,
+  "inference_ms_batch": 0.35883727200005366,
+  "mae": 0.301156215725268,
+  "model": "DLinear",
+  "mse": 0.24117005054884896,
+  "num_windows": 10349.0,
+  "parameters": 37248,
+  "provenance": "repository-native matched implementation",
+  "rmse": 0.4910906744674032,
+  "seed": 42,
+  "selection_protocol": "validation MSE only; test evaluated once",
+  "training_ms_optimizer_step": 2.3680448088271078
+}

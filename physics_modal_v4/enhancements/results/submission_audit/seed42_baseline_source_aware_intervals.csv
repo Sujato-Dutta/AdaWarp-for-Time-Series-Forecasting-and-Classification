@@ -1,0 +1,25 @@
+comparison,metric,estimand,cluster_unit,clusters,cells,mean_relative_improvement_percent,median_relative_improvement_percent,ci95_low_percent,ci95_high_percent,wins,ties,losses
+LatentFlow vs DLinear,mse,mean paired per-cell relative improvement percent,source_family,5,28,14.9934189012,15.2939366674,5.65538291744,24.3314548849,26,0,2
+LatentFlow vs DLinear,mse,mean paired per-cell relative improvement percent,source_family_seed,5,28,14.9934189012,15.2939366674,5.65538291744,24.3314548849,26,0,2
+LatentFlow vs DLinear,mae,mean paired per-cell relative improvement percent,source_family,5,28,13.3780553444,13.6729217154,5.71150200158,20.6684945646,27,0,1
+LatentFlow vs DLinear,mae,mean paired per-cell relative improvement percent,source_family_seed,5,28,13.3780553444,13.6729217154,5.71150200158,20.6684945646,27,0,1
+LatentFlow vs TimeMixer,mse,mean paired per-cell relative improvement percent,source_family,5,28,9.19729760298,4.7188856422,3.22768463243,19.94260095,25,0,3
+LatentFlow vs TimeMixer,mse,mean paired per-cell relative improvement percent,source_family_seed,5,28,9.19729760298,4.7188856422,3.22768463243,19.94260095,25,0,3
+LatentFlow vs TimeMixer,mae,mean paired per-cell relative improvement percent,source_family,5,28,6.51282573921,2.61396601047,1.74713923776,15.0910614418,25,0,3
+LatentFlow vs TimeMixer,mae,mean paired per-cell relative improvement percent,source_family_seed,5,28,6.51282573921,2.61396601047,1.74713923776,15.835237137,25,0,3
+LatentFlow vs TimePro,mse,mean paired per-cell relative improvement percent,source_family,5,28,1.8714386061,1.23548236345,0.346195758443,3.72452152785,23,0,5
+LatentFlow vs TimePro,mse,mean paired per-cell relative improvement percent,source_family_seed,5,28,1.8714386061,1.23548236345,0.346195758443,3.72452152785,23,0,5
+LatentFlow vs TimePro,mae,mean paired per-cell relative improvement percent,source_family,5,28,0.801180035098,0.813716123215,-0.119079643419,1.74647633282,18,0,10
+LatentFlow vs TimePro,mae,mean paired per-cell relative improvement percent,source_family_seed,5,28,0.801180035098,0.813716123215,-0.119079643419,1.72143971361,18,0,10
+LatentFlow vs VPNet,mse,mean paired per-cell relative improvement percent,source_family,5,28,6.67224576726,7.10560446438,4.72475439673,7.86092243605,28,0,0
+LatentFlow vs VPNet,mse,mean paired per-cell relative improvement percent,source_family_seed,5,28,6.67224576726,7.10560446438,4.72475439673,7.86092243605,28,0,0
+LatentFlow vs VPNet,mae,mean paired per-cell relative improvement percent,source_family,5,28,5.1141571995,5.01597159402,3.27868484587,6.76421766952,28,0,0
+LatentFlow vs VPNet,mae,mean paired per-cell relative improvement percent,source_family_seed,5,28,5.1141571995,5.01597159402,3.41067691264,6.76421766952,28,0,0
+LatentFlow vs iTransformer,mse,mean paired per-cell relative improvement percent,source_family,5,28,6.96924341376,5.17661139932,2.60448515709,14.032041191,24,0,4
+LatentFlow vs iTransformer,mse,mean paired per-cell relative improvement percent,source_family_seed,5,28,6.96924341376,5.17661139932,2.60448515709,14.032041191,24,0,4
+LatentFlow vs iTransformer,mae,mean paired per-cell relative improvement percent,source_family,5,28,5.20187246572,3.07529027722,1.64821861201,11.1602852208,26,0,2
+LatentFlow vs iTransformer,mae,mean paired per-cell relative improvement percent,source_family_seed,5,28,5.20187246572,3.07529027722,1.55747187928,11.1602852208,26,0,2
+LatentFlow vs xCPD,mse,mean paired per-cell relative improvement percent,source_family,5,28,12.0240277605,11.8196829379,3.15194735862,20.7200686881,24,0,4
+LatentFlow vs xCPD,mse,mean paired per-cell relative improvement percent,source_family_seed,5,28,12.0240277605,11.8196829379,3.40783256692,20.7200686881,24,0,4
+LatentFlow vs xCPD,mae,mean paired per-cell relative improvement percent,source_family,5,28,10.2089609973,8.80392063485,3.47909938094,17.0886593904,23,0,5
+LatentFlow vs xCPD,mae,mean paired per-cell relative improvement percent,source_family_seed,5,28,10.2089609973,8.80392063485,3.47909938094,17.0886593904,23,0,5

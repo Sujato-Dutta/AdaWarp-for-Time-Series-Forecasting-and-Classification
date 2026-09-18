@@ -1,0 +1,18 @@
+{
+  "best_epoch": 10,
+  "best_validation_mse": 0.4911605338472883,
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/TimeMixer/seed42/Traffic/h336.pt",
+  "dataset": "Traffic",
+  "horizon": 336,
+  "inference_ms_batch": 18.32732992088587,
+  "mae": 0.3869955736527351,
+  "model": "TimeMixer",
+  "mse": 0.6087072359864529,
+  "num_windows": 3175.0,
+  "parameters": 227929,
+  "provenance": "repository-native matched implementation",
+  "rmse": 0.780196921287474,
+  "seed": 42,
+  "selection_protocol": "validation MSE only; test evaluated once",
+  "training_ms_optimizer_step": 66.1911661388558
+}

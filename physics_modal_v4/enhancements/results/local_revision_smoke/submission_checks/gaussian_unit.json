@@ -1,0 +1,7 @@
+{
+  "audit_protocol": "latentflow-submission-checks-v1",
+  "component_recovery_max_abs": 2.886579864025407e-15,
+  "dense_sparse_mean_max_abs": 1.6604150943066998e-08,
+  "dense_sparse_variance_max_abs": 4.659118646443972e-10,
+  "passed": true
+}

@@ -1,0 +1,23 @@
+{
+  "ablation_protocol": "single seed 42; same train/validation/test windows; validation-MSE checkpoint selection",
+  "backbone_patch_lens": "16-32-48",
+  "backbone_switches": {},
+  "best_epoch": 9,
+  "best_stage": "extension",
+  "best_validation_mse": 1.773684790273192,
+  "continuation_unfreeze_blocks": 0,
+  "dataset": "ETTh1",
+  "elapsed_seconds": 234.57153617031872,
+  "horizon": 720,
+  "inference_ms_batch": 54.562267548501936,
+  "mae": 0.4779116345333827,
+  "model": "LatentFlow",
+  "mse": 0.4909733902212569,
+  "num_windows": 2161.0,
+  "primal_dual": false,
+  "rmse": 0.7006949337773586,
+  "seed": 42,
+  "selected_hyperparameters": true,
+  "training_ms_optimizer_step": 172.14279676882143,
+  "variant": "continuation_frozen"
+}

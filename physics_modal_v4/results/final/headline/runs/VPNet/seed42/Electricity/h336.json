@@ -1,0 +1,18 @@
+{
+  "best_epoch": 9,
+  "best_validation_mse": 0.17559021489412596,
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/VPNet/seed42/Electricity/h336.pt",
+  "dataset": "Electricity",
+  "horizon": 336,
+  "inference_ms_batch": 1.1691974521410176,
+  "mae": 0.29156546956866236,
+  "model": "VPNet",
+  "mse": 0.20017356397352776,
+  "num_windows": 4927.0,
+  "parameters": 672163,
+  "provenance": "repository-native matched implementation",
+  "rmse": 0.44740760383963946,
+  "seed": 42,
+  "selection_protocol": "validation MSE only; test evaluated once",
+  "training_ms_optimizer_step": 7.129454797541257
+}

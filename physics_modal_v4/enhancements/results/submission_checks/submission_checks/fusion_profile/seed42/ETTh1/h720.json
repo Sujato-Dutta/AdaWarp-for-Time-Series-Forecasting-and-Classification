@@ -1,0 +1,26 @@
+{
+  "audit_protocol": "latentflow-submission-checks-v1",
+  "dataset": "ETTh1",
+  "horizon": 720,
+  "profiles": {
+    "early_fusion": {
+      "gflops_extension_per_sample": 0.367578397,
+      "parameters_active_stage_c": 649145,
+      "parameters_total": 2055222,
+      "validation_selected_stage": "extension"
+    },
+    "final_no_exchange": {
+      "gflops_extension_per_sample": 0.367535389,
+      "parameters_active_stage_c": 649145,
+      "parameters_total": 2055222,
+      "validation_selected_stage": "extension"
+    },
+    "x_to_z": {
+      "gflops_extension_per_sample": 0.293329708,
+      "parameters_active_stage_c": 649145,
+      "parameters_total": 2055222,
+      "validation_selected_stage": "extension"
+    }
+  },
+  "seed": 42
+}

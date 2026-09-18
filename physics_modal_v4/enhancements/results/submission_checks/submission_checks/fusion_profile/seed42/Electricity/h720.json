@@ -1,0 +1,26 @@
+{
+  "audit_protocol": "latentflow-submission-checks-v1",
+  "dataset": "Electricity",
+  "horizon": 720,
+  "profiles": {
+    "early_fusion": {
+      "gflops_extension_per_sample": 29.677262396,
+      "parameters_active_stage_c": 618127,
+      "parameters_total": 2018213,
+      "validation_selected_stage": "extension"
+    },
+    "final_no_exchange": {
+      "gflops_extension_per_sample": 29.675290172,
+      "parameters_active_stage_c": 618127,
+      "parameters_total": 2018213,
+      "validation_selected_stage": "extension"
+    },
+    "x_to_z": {
+      "gflops_extension_per_sample": 26.332153916,
+      "parameters_active_stage_c": 618127,
+      "parameters_total": 2018213,
+      "validation_selected_stage": "extension"
+    }
+  },
+  "seed": 42
+}

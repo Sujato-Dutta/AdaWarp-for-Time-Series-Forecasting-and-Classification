@@ -1,0 +1,18 @@
+{
+  "best_epoch": 8,
+  "best_validation_mse": 0.4858407194888781,
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/xCPD/seed42/Weather/h96.pt",
+  "dataset": "Weather",
+  "horizon": 96,
+  "inference_ms_batch": 2.95482812157493,
+  "mae": 0.2569334023644118,
+  "model": "xCPD",
+  "mse": 0.19685938388325014,
+  "num_windows": 10445.0,
+  "parameters": 448642,
+  "provenance": "paper-derived DLinear+xCPD; plugin source unavailable in named repository",
+  "rmse": 0.4436883860134837,
+  "seed": 42,
+  "selection_protocol": "validation MSE only; test evaluated once",
+  "training_ms_optimizer_step": 12.980515987510444
+}

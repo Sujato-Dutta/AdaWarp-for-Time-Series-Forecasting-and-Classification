@@ -1,0 +1,14 @@
+{
+  "audit_protocol": "latentflow-submission-checks-v1",
+  "dataset": "Weather",
+  "extension_retrained": false,
+  "horizon": 720,
+  "seed": 43,
+  "selected_stage": "extension",
+  "test_extension_minus_reference_mse": 0.00034036395525460783,
+  "test_extension_mse": 0.3507824229126084,
+  "test_reference_mse": 0.3504420589573538,
+  "validation_extension_minus_reference_mse": -0.006474304703808387,
+  "validation_extension_mse": 0.682433659689767,
+  "validation_reference_mse": 0.6889079643935754
+}

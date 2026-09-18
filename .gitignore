@@ -26,6 +26,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+tmp/
 
 # Unit test / coverage reports
 htmlcov/
@@ -94,3 +95,9 @@ mvpf-paper/
 adawarp_adv/results/
 adawarp_adv/logs/
 adawarp_adv/checkpoints/
+tacc setup.md
+Time-Series Forecasting Enhancements - II.md
+new_benchmarks/
+Latent Flow Enhancements for ICLR 2027.md
+REVISION_PLAN.md
+.tmp_pdf

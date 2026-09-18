@@ -1,0 +1,26 @@
+{
+  "ablation_protocol": "single seed 42; same train/validation/test windows; validation-MSE checkpoint selection",
+  "backbone_patch_lens": "16",
+  "backbone_switches": {
+    "use_adaptive_radius": false,
+    "use_component_gate": false,
+    "use_linear_field": false
+  },
+  "best_epoch": 10,
+  "best_stage": "backbone",
+  "best_validation_mse": 0.4386224883154023,
+  "continuation_unfreeze_blocks": null,
+  "dataset": "Traffic",
+  "elapsed_seconds": 58.85709172813222,
+  "horizon": 96,
+  "inference_ms_batch": 1.912908494131456,
+  "mae": 0.3366517056054043,
+  "model": "LatentFlow",
+  "mse": 0.49219291302664725,
+  "num_windows": 3415.0,
+  "primal_dual": false,
+  "rmse": 0.7015646178554383,
+  "seed": 42,
+  "selected_hyperparameters": true,
+  "variant": "single_scale_field"
+}

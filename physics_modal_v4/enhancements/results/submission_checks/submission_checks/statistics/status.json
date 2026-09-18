@@ -1,0 +1,9 @@
+{
+  "audit_protocol": "latentflow-submission-checks-v1",
+  "fusion_profile_rows": 28,
+  "matched_control_rows": 28,
+  "numerical_rows": 28,
+  "provenance_rows": 140,
+  "selector_validation_test_rows": 140,
+  "traffic_replay_rows": 1
+}

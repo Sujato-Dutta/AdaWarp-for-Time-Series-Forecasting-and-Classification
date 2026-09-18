@@ -1,0 +1,18 @@
+{
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/DLinear/seed42/Weather/h336.pt",
+  "dataset": "Weather",
+  "flops_note": "torch.profiler count; unsupported custom operations may be omitted",
+  "flops_per_sample": 2716560.0,
+  "gflops_per_sample": 0.00271656,
+  "gpu": "NVIDIA GH200 120GB",
+  "horizon": 336,
+  "inference_ms_batch": 0.3258609212934971,
+  "model": "DLinear",
+  "parameters_total": 65184,
+  "parameters_trainable": 65184,
+  "peak_inference_gpu_mb": 32.3818359375,
+  "peak_training_gpu_mb": 65.30810546875,
+  "profile_batch_size": 1,
+  "seed": 42,
+  "training_ms_iter": 1.3453376945108175
+}

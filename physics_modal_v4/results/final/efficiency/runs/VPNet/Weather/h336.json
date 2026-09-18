@@ -1,0 +1,18 @@
+{
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/VPNet/seed42/Weather/h336.pt",
+  "dataset": "Weather",
+  "flops_note": "torch.profiler count; unsupported custom operations may be omitted",
+  "flops_per_sample": 213677856.0,
+  "gflops_per_sample": 0.213677856,
+  "gpu": "NVIDIA GH200 120GB",
+  "horizon": 336,
+  "inference_ms_batch": 1.1196205392479897,
+  "model": "VPNet",
+  "parameters_total": 672163,
+  "parameters_trainable": 672163,
+  "peak_inference_gpu_mb": 36.74853515625,
+  "peak_training_gpu_mb": 77.51171875,
+  "profile_batch_size": 1,
+  "seed": 42,
+  "training_ms_iter": 6.4286161214113235
+}

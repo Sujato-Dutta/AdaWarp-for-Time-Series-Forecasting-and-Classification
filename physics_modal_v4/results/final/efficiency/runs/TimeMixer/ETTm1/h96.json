@@ -1,0 +1,18 @@
+{
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/TimeMixer/seed42/ETTm1/h96.pt",
+  "dataset": "ETTm1",
+  "flops_note": "torch.profiler count; unsupported custom operations may be omitted",
+  "flops_per_sample": 364453173.0,
+  "gflops_per_sample": 0.364453173,
+  "gpu": "NVIDIA GH200 120GB",
+  "horizon": 96,
+  "inference_ms_batch": 2.824735501781106,
+  "model": "TimeMixer",
+  "parameters_total": 189469,
+  "parameters_trainable": 189469,
+  "peak_inference_gpu_mb": 39.62744140625,
+  "peak_training_gpu_mb": 81.412109375,
+  "profile_batch_size": 1,
+  "seed": 42,
+  "training_ms_iter": 12.155772605910897
+}

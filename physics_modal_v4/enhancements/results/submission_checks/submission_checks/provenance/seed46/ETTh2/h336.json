@@ -1,0 +1,32 @@
+{
+  "audit_protocol": "latentflow-submission-checks-v1",
+  "candidate": "latentflow_process_preserving_unfreeze2",
+  "checkpoint_sha256": "ccc1cf09652d542026358682c7b40a5783c92436adfe111a9884e0625fb81968",
+  "dataset": "ETTh2",
+  "dataset_sha256": "a3dc2c597b9218c7ce1cd55eb77b283fd459a1d09d753063f944967dd6b9218b",
+  "horizon": 336,
+  "metric_sha256": "9b3ef1afebef639358ef46aeceab561b65c6d3ee8641a0af30c7e0e9db63b1e8",
+  "seed": 46,
+  "selected_config": {
+    "inducing_points": 32,
+    "latent_dim": 8,
+    "patch_lens": [
+      16,
+      32,
+      48
+    ],
+    "representation_weight": 0.001
+  },
+  "selected_epoch": 2,
+  "selected_stage": "extension",
+  "selected_validation_mse": 0.356954462370094,
+  "test_mae": 0.4282362560130841,
+  "test_mse": 0.41389734326232563,
+  "test_origins": 2545,
+  "test_unique_timepoints": 2976,
+  "train_origins": 2048,
+  "train_unique_timepoints": 8628,
+  "validation_origins": 1024,
+  "validation_unique_timepoints": 2974,
+  "window_index_sha256": "0c35e3338d7126071967dd474ac92e5ebece533d8ca134a29180eefd43b5af9b"
+}

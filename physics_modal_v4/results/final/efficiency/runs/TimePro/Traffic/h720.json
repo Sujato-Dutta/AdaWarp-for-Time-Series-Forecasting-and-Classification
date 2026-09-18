@@ -1,0 +1,18 @@
+{
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/TimePro/seed42/Traffic/h720.pt",
+  "dataset": "Traffic",
+  "flops_note": "torch.profiler count; unsupported custom operations may be omitted",
+  "flops_per_sample": 31651068574.0,
+  "gflops_per_sample": 31.651068574,
+  "gpu": "NVIDIA GH200 120GB",
+  "horizon": 720,
+  "inference_ms_batch": 273.3971911948174,
+  "model": "TimePro",
+  "parameters_total": 14738196,
+  "parameters_trainable": 14738196,
+  "peak_inference_gpu_mb": 119.39501953125,
+  "peak_training_gpu_mb": 479.251953125,
+  "profile_batch_size": 1,
+  "seed": 42,
+  "training_ms_iter": 2698.7536139786243
+}

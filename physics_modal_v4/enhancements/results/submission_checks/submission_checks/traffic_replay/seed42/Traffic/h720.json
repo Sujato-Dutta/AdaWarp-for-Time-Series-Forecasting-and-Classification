@@ -1,0 +1,31 @@
+{
+  "absolute_tolerance": 2e-05,
+  "audit_protocol": "latentflow-submission-checks-v1",
+  "batch1_mae": 0.3180493492723476,
+  "batch1_mse": 0.4914542522228762,
+  "batch1_prediction_sha256": "754bcf0f753cd06d5f2325f5920ada620ee6fea01697fb2b412e04277efcf5dc",
+  "batch4_mae": 0.31804934173138644,
+  "batch4_mse": 0.49145426921709967,
+  "batch4_prediction_sha256": "5ee36a425fa54eb308156f466fa1c2dde81b9aa696f178750c5b287c90a9771f",
+  "checkpoint_sha256": "89693a838408c9b48423f9ffcd351ec2cbf5ccd68f3af9c743a1436256cbbbde",
+  "config": {
+    "inducing_points": 32,
+    "latent_dim": 16,
+    "patch_lens": [
+      8,
+      16,
+      32
+    ],
+    "representation_weight": 0.001
+  },
+  "dataset": "Traffic",
+  "horizon": 720,
+  "maximum_absolute_prediction_difference": 0.0037174224853515625,
+  "mean_absolute_prediction_difference": 1.209583959444797e-05,
+  "passed": false,
+  "rms_prediction_difference": 1.955386961566874e-05,
+  "seed": 42,
+  "selected_epoch": 10,
+  "selected_stage": "extension",
+  "window_index_sha256": "b2829d0bf6d0ca6b5ed4b3a017733d54523fc7a3153577b999755c4cec5851d1"
+}

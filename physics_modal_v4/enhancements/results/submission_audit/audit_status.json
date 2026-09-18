@@ -1,0 +1,14 @@
+{
+  "analysis_only": true,
+  "bootstrap_repetitions": 10000,
+  "source_families": {
+    "ETTh1": "ETT station 1",
+    "ETTh2": "ETT station 2",
+    "ETTm1": "ETT station 1",
+    "ETTm2": "ETT station 2",
+    "Electricity": "Electricity",
+    "Traffic": "Traffic",
+    "Weather": "Weather"
+  },
+  "status": "complete"
+}

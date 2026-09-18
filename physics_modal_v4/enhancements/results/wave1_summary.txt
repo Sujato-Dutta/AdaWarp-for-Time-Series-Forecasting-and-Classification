@@ -1,0 +1,260 @@
+===== factorial_cell_summary.csv =====
+bank  continuation  dataset      mae_mean             mae_std               mse_mean             mse_std               runs  scale       variant
+off   early         ETTh1        0.45191095478614823  0.02953968170852274   0.46818168564171275  0.05144062639043785   12    multiscale  scale-multiscale__bank-off__continuation-early
+off   early         ETTh2        0.4079107871244964   0.03595325428703711   0.3864436897896377   0.049126936486908294  12    multiscale  scale-multiscale__bank-off__continuation-early
+off   early         ETTm1        0.4171651208784793   0.03207460033435066   0.40992360869294503  0.053517451904402026  12    multiscale  scale-multiscale__bank-off__continuation-early
+off   early         ETTm2        0.3309118232735421   0.054695218273504716  0.28767229812561884  0.09082068911635452   12    multiscale  scale-multiscale__bank-off__continuation-early
+off   early         Electricity  0.28580547986744165  0.022357600991020046  0.1957786216779598   0.026937857102353333  12    multiscale  scale-multiscale__bank-off__continuation-early
+off   early         Traffic      0.31898117913805507  0.009319642776094272  0.4778703520851644   0.02160725794240377   12    multiscale  scale-multiscale__bank-off__continuation-early
+off   early         Weather      0.27994024876415863  0.05170236423984382   0.2523565879600768   0.0705454323220124    12    multiscale  scale-multiscale__bank-off__continuation-early
+off   preserved     ETTh1        0.45191095478614823  0.02953968170852274   0.46818168564171275  0.05144062639043785   12    multiscale  scale-multiscale__bank-off__continuation-preserved
+off   preserved     ETTh2        0.4079107871244964   0.03595325428703711   0.3864436897896377   0.049126936486908294  12    multiscale  scale-multiscale__bank-off__continuation-preserved
+off   preserved     ETTm1        0.4171651208784793   0.03207460033435066   0.40992360869294503  0.053517451904402026  12    multiscale  scale-multiscale__bank-off__continuation-preserved
+off   preserved     ETTm2        0.3309118232735421   0.054695218273504716  0.28767229812561884  0.09082068911635452   12    multiscale  scale-multiscale__bank-off__continuation-preserved
+off   preserved     Electricity  0.28580547986744165  0.022357600991020046  0.1957786216779598   0.026937857102353333  12    multiscale  scale-multiscale__bank-off__continuation-preserved
+off   preserved     Traffic      0.31898117913805507  0.009319642776094272  0.4778703520851644   0.02160725794240377   12    multiscale  scale-multiscale__bank-off__continuation-preserved
+off   preserved     Weather      0.27994024876415863  0.05170236423984382   0.2523565879600768   0.0705454323220124    12    multiscale  scale-multiscale__bank-off__continuation-preserved
+on    early         ETTh1        0.44683233313697174  0.026668385624142258  0.4606042226923793   0.040613807973700684  12    multiscale  scale-multiscale__bank-on__continuation-early
+on    early         ETTh2        0.4042885952184064   0.04032280610634412   0.38156758957431963  0.054887210102931926  12    multiscale  scale-multiscale__bank-on__continuation-early
+on    early         ETTm1        0.41677741358698034  0.03797515349827854   0.4100646950114845   0.0618965501873483    12    multiscale  scale-multiscale__bank-on__continuation-early
+on    early         ETTm2        0.32884429768209317  0.05673136902800606   0.2854617067971071   0.09224415293670425   12    multiscale  scale-multiscale__bank-on__continuation-early
+on    early         Electricity  0.2822368285819972   0.025044968459545507  0.19297814527203902  0.028448354892475478  12    multiscale  scale-multiscale__bank-on__continuation-early
+on    early         Traffic      0.31406896693842107  0.009523096882551405  0.47222729615560227  0.021527412452132584  12    multiscale  scale-multiscale__bank-on__continuation-early
+on    early         Weather      0.2809631379700939   0.05112548184579534   0.2534917683064281   0.07041301952830238   12    multiscale  scale-multiscale__bank-on__continuation-early
+on    preserved     ETTh1        0.4470164746048874   0.027062193248913624  0.4609035881714986   0.04130594149875021   12    multiscale  scale-multiscale__bank-on__continuation-preserved
+on    preserved     ETTh2        0.4041529952511267   0.04004443472483881   0.38126656252488483  0.05428347890283043   12    multiscale  scale-multiscale__bank-on__continuation-preserved
+on    preserved     ETTm1        0.41708827831861534  0.03880114938219546   0.4117754751144251   0.06472468249660757   12    multiscale  scale-multiscale__bank-on__continuation-preserved
+on    preserved     ETTm2        0.3279189649148773   0.0570783718445064    0.2844939110599468   0.09248314319582847   12    multiscale  scale-multiscale__bank-on__continuation-preserved
+on    preserved     Electricity  0.2758912819461659   0.022903120624847152  0.18402175779705754  0.026045910475063463  12    multiscale  scale-multiscale__bank-on__continuation-preserved
+on    preserved     Traffic      0.3024234317586865   0.009478792196997652  0.4595890266717415   0.022489935432119277  12    multiscale  scale-multiscale__bank-on__continuation-preserved
+on    preserved     Weather      0.27929194797271706  0.05244403638493009   0.2512396577436952   0.07169916483227577   12    multiscale  scale-multiscale__bank-on__continuation-preserved
+off   early         ETTh1        0.44618924830872825  0.025230941533969684  0.45962135691647793  0.038211894371645225  12    single      scale-single__bank-off__continuation-early
+off   early         ETTh2        0.4021905918672595   0.03989159230094304   0.3784580052326469   0.05283286834396116   12    single      scale-single__bank-off__continuation-early
+off   early         ETTm1        0.41395201946508003  0.030212423714430482  0.40556286537638714  0.051217847625182784  12    single      scale-single__bank-off__continuation-early
+off   early         ETTm2        0.33320403339694166  0.05334961365545216   0.29010349384564255  0.08924771494808473   12    single      scale-single__bank-off__continuation-early
+off   early         Electricity  0.28820154423018685  0.02148108475196627   0.19906570433664098  0.02493846672508533   12    single      scale-single__bank-off__continuation-early
+off   early         Traffic      0.3190321711240713   0.007998017662307719  0.4799558082256435   0.020266775036173076  12    single      scale-single__bank-off__continuation-early
+off   early         Weather      0.27908216082659093  0.05110676052598091   0.250910233346481    0.06963722220295905   12    single      scale-single__bank-off__continuation-early
+off   preserved     ETTh1        0.445103317627533    0.025698667327845537  0.45867187903277556  0.038427930952044734  12    single      scale-single__bank-off__continuation-preserved
+off   preserved     ETTh2        0.40285668028234967  0.040626891024600556  0.3797592620104126   0.0540196262048544    12    single      scale-single__bank-off__continuation-preserved
+off   preserved     ETTm1        0.4131906092647837   0.03160026217576612   0.40545189258265846  0.05231406509255971   12    single      scale-single__bank-off__continuation-preserved
+off   preserved     ETTm2        0.33362948233251916  0.05455722737091582   0.2913008651507558   0.09074239235048526   12    single      scale-single__bank-off__continuation-preserved
+off   preserved     Electricity  0.2884104713102451   0.02187101386058712   0.199336699699287    0.02545078998098643   12    single      scale-single__bank-off__continuation-preserved
+off   preserved     Traffic      0.3190321711240713   0.007998017662307719  0.4799558082256435   0.020266775036173076  12    single      scale-single__bank-off__continuation-preserved
+off   preserved     Weather      0.278787715500121    0.051480696186379786  0.2504944928039742   0.0701380577550692    12    single      scale-single__bank-off__continuation-preserved
+on    early         ETTh1        0.4416351520385493   0.02996130042282118   0.4563698072994449   0.04251418134932932   12    single      scale-single__bank-on__continuation-early
+on    early         ETTh2        0.4015692749865918   0.0411125643895491    0.3803978753638248   0.05618852733703492   12    single      scale-single__bank-on__continuation-early
+on    early         ETTm1        0.41530168831951     0.0346195136298215    0.40886419009735303  0.05594890032037223   12    single      scale-single__bank-on__continuation-early
+on    early         ETTm2        0.3274736088644801   0.055515983019497665  0.28434403044443074  0.09035309299555923   12    single      scale-single__bank-on__continuation-early
+on    early         Electricity  0.2815138006356767   0.02303886295253913   0.1933531944186722   0.02631065129884681   12    single      scale-single__bank-on__continuation-early
+on    early         Traffic      0.3148911170557276   0.008599229999067039  0.4762486579771173   0.01986299202149425   12    single      scale-single__bank-on__continuation-early
+on    early         Weather      0.2804481276553805   0.05169300087743275   0.2530782203700442   0.07102671835506935   12    single      scale-single__bank-on__continuation-early
+on    preserved     ETTh1        0.44178904102595357  0.030010066657110198  0.455526814494751    0.041947108150213644  12    single      scale-single__bank-on__continuation-preserved
+on    preserved     ETTh2        0.4015692749865918   0.0411125643895491    0.3803978753638248   0.05618852733703492   12    single      scale-single__bank-on__continuation-preserved
+on    preserved     ETTm1        0.41530168831951     0.0346195136298215    0.40886419009735303  0.05594890032037223   12    single      scale-single__bank-on__continuation-preserved
+on    preserved     ETTm2        0.32675566865471656  0.05472966765782368   0.28350989390346004  0.089327720502311     12    single      scale-single__bank-on__continuation-preserved
+on    preserved     Electricity  0.2817114149915911   0.023427437922407986  0.19384812657710038  0.027318109638865728  12    single      scale-single__bank-on__continuation-preserved
+on    preserved     Traffic      0.3148911170557276   0.008599229999067039  0.4762486579771173   0.01986299202149425   12    single      scale-single__bank-on__continuation-preserved
+on    preserved     Weather      0.2804481276553805   0.05169300087743275   0.2530782203700442   0.07102671835506935   12    single      scale-single__bank-on__continuation-preserved
+===== factorial_effects.csv =====
+clustered_ci95_high      clustered_ci95_low       contrast_plus_minus      dataset      effect                       interpretation                            metric  paired_dataset_horizon_seed_cells
+0.0036330904068229536    -0.0027407557875229202   0.00047717747495984816   ALL          scale                        negative contrast favors the +1 level(s)  mse     84
+0.006920331100963495     0.006920331100963495     0.006920331100963495     ETTh1        scale                        negative contrast favors the +1 level(s)  mse     12
+0.004177128426942733     0.004177128426942733     0.004177128426942733     ETTh2        scale                        negative contrast favors the +1 level(s)  mse     12
+0.0032360623395120774    0.0032360623395120774    0.0032360623395120774    ETTm1        scale                        negative contrast favors the +1 level(s)  mse     12
+-0.0009895173089993874   -0.0009895173089993874   -0.0009895173089993874   ETTm2        scale                        negative contrast favors the +1 level(s)  mse     12
+0.0004708587699334005    0.0004708587699334005    0.0004708587699334005    Weather      scale                        negative contrast favors the +1 level(s)  mse     12
+-0.004261644651671083    -0.004261644651671083    -0.004261644651671083    Electricity  scale                        negative contrast favors the +1 level(s)  mse     12
+-0.006212976351962299    -0.006212976351962299    -0.006212976351962299    Traffic      scale                        negative contrast favors the +1 level(s)  mse     12
+-0.0005991657845048221   -0.005780733640957464    -0.0032602463244468024   ALL          bank                         negative contrast favors the +1 level(s)  mse     84
+-0.005313043643651352    -0.005313043643651352    -0.005313043643651352    ETTh1        bank                         negative contrast favors the +1 level(s)  mse     12
+-0.0018686859988701922   -0.0018686859988701922   -0.0018686859988701922   ETTh2        bank                         negative contrast favors the +1 level(s)  mse     12
+0.0021766437439199745    0.0021766437439199745    0.0021766437439199745    ETTm1        bank                         negative contrast favors the +1 level(s)  mse     12
+-0.004734853260672873    -0.004734853260672873    -0.004734853260672873    ETTm2        bank                         negative contrast favors the +1 level(s)  mse     12
+0.0011924911799007394    0.0011924911799007394    0.0011924911799007394    Weather      bank                         negative contrast favors the +1 level(s)  mse     12
+-0.00643960583174459     -0.00643960583174459     -0.00643960583174459     Electricity  bank                         negative contrast favors the +1 level(s)  mse     12
+-0.007834670460009324    -0.007834670460009324    -0.007834670460009324    Traffic      bank                         negative contrast favors the +1 level(s)  mse     12
+-1.621383745385688e-05   -0.0017850800520273218   -0.0008212217745628489   ALL          continuation                 negative contrast favors the +1 level(s)  mse     84
+-0.00037327630231922285  -0.00037327630231922285  -0.00037327630231922285  ETTh1        continuation                 negative contrast favors the +1 level(s)  mse     12
+0.0002500574320827356    0.0002500574320827356    0.0002500574320827356    ETTh2        continuation                 negative contrast favors the +1 level(s)  mse     12
+0.000399951827302959     0.000399951827302959     0.000399951827302959     ETTm1        continuation                 negative contrast favors the +1 level(s)  mse     12
+-0.00015114024325443438  -0.00015114024325443438  -0.00015114024325443438  ETTm2        continuation                 negative contrast favors the +1 level(s)  mse     12
+-0.0006669627763099418   -0.0006669627763099418   -0.0006669627763099418   Weather      continuation                 negative contrast favors the +1 level(s)  mse     12
+-0.0020476149884768335   -0.0020476149884768335   -0.0020476149884768335   Electricity  continuation                 negative contrast favors the +1 level(s)  mse     12
+-0.003159567370965203    -0.003159567370965203    -0.003159567370965203    Traffic      continuation                 negative contrast favors the +1 level(s)  mse     12
+-0.00011428547095216071  -0.002805633335601217    -0.0015089168936689944   ALL          scale_x_bank                 negative contrast favors the +1 level(s)  mse     84
+-0.0021147365661224847   -0.0021147365661224847   -0.0021147365661224847   ETTh1        scale_x_bank                 negative contrast favors the +1 level(s)  mse     12
+-0.0031579277411652846   -0.0031579277411652846   -0.0031579277411652846   ETTh2        scale_x_bank                 negative contrast favors the +1 level(s)  mse     12
+-0.0011801673739102493   -0.0011801673739102493   -0.0011801673739102493   ETTm1        scale_x_bank                 negative contrast favors the +1 level(s)  mse     12
+0.0020403640635809155    0.0020403640635809155    0.0020403640635809155    ETTm2        scale_x_bank                 negative contrast favors the +1 level(s)  mse     12
+-0.001183366114915899    -0.001183366114915899    -0.001183366114915899    Weather      scale_x_bank                 negative contrast favors the +1 level(s)  mse     12
+-0.0008390643116669358   -0.0008390643116669358   -0.0008390643116669358   Electricity  scale_x_bank                 negative contrast favors the +1 level(s)  mse     12
+-0.004127520211483024    -0.004127520211483024    -0.004127520211483024    Traffic      scale_x_bank                 negative contrast favors the +1 level(s)  mse     12
+8.175977794119287e-05    -0.0018620148243165444   -0.0008291671344450463   ALL          scale_x_continuation         negative contrast favors the +1 level(s)  mse     84
+0.0005229590418788822    0.0005229590418788822    0.0005229590418788822    ETTh1        scale_x_continuation         negative contrast favors the +1 level(s)  mse     12
+-0.00040057095680013505  -0.00040057095680013505  -0.00040057095680013505  ETTh2        scale_x_continuation         negative contrast favors the +1 level(s)  mse     12
+0.0004554382241672983    0.0004554382241672983    0.0004554382241672983    ETTm1        scale_x_continuation         negative contrast favors the +1 level(s)  mse     12
+-0.0003327576253257184   -0.0003327576253257184   -0.0003327576253257184   ETTm2        scale_x_continuation         negative contrast favors the +1 level(s)  mse     12
+-0.00045909250505652154  -0.00045909250505652154  -0.00045909250505652154  Weather      scale_x_continuation         negative contrast favors the +1 level(s)  mse     12
+-0.0024305787490139243   -0.0024305787490139243   -0.0024305787490139243   Electricity  scale_x_continuation         negative contrast favors the +1 level(s)  mse     12
+-0.0031595673709652037   -0.0031595673709652037   -0.0031595673709652037   Traffic      scale_x_continuation         negative contrast favors the +1 level(s)  mse     12
+-0.00010099826226382536  -0.0018544266879071541   -0.0009136097906762142   ALL          bank_x_continuation          negative contrast favors the +1 level(s)  mse     84
+0.00010146263953194137   0.00010146263953194137   0.00010146263953194137   ETTh1        bank_x_continuation          negative contrast favors the +1 level(s)  mse     12
+-0.00040057095680013505  -0.00040057095680013505  -0.00040057095680013505  ETTh2        bank_x_continuation          negative contrast favors the +1 level(s)  mse     12
+0.00045543822416729715   0.00045543822416729715   0.00045543822416729715   ETTm1        bank_x_continuation          negative contrast favors the +1 level(s)  mse     12
+-0.0007498258958110465   -0.0007498258958110465   -0.0007498258958110465   ETTm2        bank_x_continuation          negative contrast favors the +1 level(s)  mse     12
+-0.00045909250505652154  -0.00045909250505652154  -0.00045909250505652154  Weather      bank_x_continuation          negative contrast favors the +1 level(s)  mse     12
+-0.0021831126697998324   -0.0021831126697998324   -0.0021831126697998324   Electricity  bank_x_continuation          negative contrast favors the +1 level(s)  mse     12
+-0.003159567370965203    -0.003159567370965203    -0.003159567370965203    Traffic      bank_x_continuation          negative contrast favors the +1 level(s)  mse     12
+0.00015446109568458972   -0.0017720677557710365   -0.0007367791183316802   ALL          scale_x_bank_x_continuation  negative contrast favors the +1 level(s)  mse     84
+4.822010002771803e-05    4.822010002771803e-05    4.822010002771803e-05    ETTh1        scale_x_bank_x_continuation  negative contrast favors the +1 level(s)  mse     12
+0.0002500574320827356    0.0002500574320827356    0.0002500574320827356    ETTh2        scale_x_bank_x_continuation  negative contrast favors the +1 level(s)  mse     12
+0.0003999518273029602    0.0003999518273029602    0.0003999518273029602    ETTm1        scale_x_bank_x_continuation  negative contrast favors the +1 level(s)  mse     12
+0.00026592802723089383   0.00026592802723089383   0.00026592802723089383   ETTm2        scale_x_bank_x_continuation  negative contrast favors the +1 level(s)  mse     12
+-0.0006669627763099418   -0.0006669627763099418   -0.0006669627763099418   Weather      scale_x_bank_x_continuation  negative contrast favors the +1 level(s)  mse     12
+-0.0022950810676909245   -0.0022950810676909245   -0.0022950810676909245   Electricity  scale_x_bank_x_continuation  negative contrast favors the +1 level(s)  mse     12
+-0.003159567370965203    -0.003159567370965203    -0.003159567370965203    Traffic      scale_x_bank_x_continuation  negative contrast favors the +1 level(s)  mse     12
+0.00316626068773457      -0.0013981444527594682   0.0008887434514576565    ALL          scale                        negative contrast favors the +1 level(s)  mae     84
+0.005738489578347847     0.005738489578347847     0.005738489578347847     ETTh1        scale                        negative contrast favors the +1 level(s)  mae     12
+0.004019335648933221     0.004019335648933221     0.004019335648933221     ETTh2        scale                        negative contrast favors the +1 level(s)  mae     12
+0.002612482073417638     0.002612482073417638     0.002612482073417638     ETTm1        scale                        negative contrast favors the +1 level(s)  mae     12
+-0.0006189710261506748   -0.0006189710261506748   -0.0006189710261506748   ETTm2        scale                        negative contrast favors the +1 level(s)  mae     12
+0.0003423629584138425    0.0003423629584138425    0.0003423629584138425    Weather      scale                        negative contrast favors the +1 level(s)  mae     12
+-0.0025245402261633424   -0.0025245402261633424   -0.0025245402261633424   Electricity  scale                        negative contrast favors the +1 level(s)  mae     12
+-0.0033479548465949354   -0.0033479548465949354   -0.0033479548465949354   Traffic      scale                        negative contrast favors the +1 level(s)  mae     12
+-0.0011295057466286249   -0.005630854481765095    -0.0033935483642034453   ALL          bank                         negative contrast favors the +1 level(s)  mae     84
+-0.004460368675548918    -0.004460368675548918    -0.004460368675548918    ETTh1        bank                         negative contrast favors the +1 level(s)  mae     12
+-0.0023221764889712684   -0.0023221764889712684   -0.0023221764889712684   ETTh2        bank                         negative contrast favors the +1 level(s)  mae     12
+0.0007490495144483583    0.0007490495144483583    0.0007490495144483583    ETTm1        bank                         negative contrast favors the +1 level(s)  mae     12
+-0.004416155540094467    -0.004416155540094467    -0.004416155540094467    ETTm2        bank                         negative contrast favors the +1 level(s)  mae     12
+0.0008502418496357326    0.0008502418496357326    0.0008502418496357326    Weather      bank                         negative contrast favors the +1 level(s)  mae     12
+-0.006717412279971108    -0.006717412279971108    -0.006717412279971108    Electricity  bank                         negative contrast favors the +1 level(s)  mae     12
+-0.007438016928922447    -0.007438016928922447    -0.007438016928922447    Traffic      bank                         negative contrast favors the +1 level(s)  mae     12
+-0.00014314910051162498  -0.001565057911027401    -0.0007655698925560004   ALL          continuation                 negative contrast favors the +1 level(s)  mae     84
+-0.00018697505646878576  -0.00018697505646878576  -0.00018697505646878576  ETTh1        continuation                 negative contrast favors the +1 level(s)  mae     12
+0.00013262211195260581   0.00013262211195260581   0.00013262211195260581   ETTh2        continuation                 negative contrast favors the +1 level(s)  mae     12
+-0.00011263636716534603  -0.00011263636716534603  -0.00011263636716534603  ETTm1        continuation                 negative contrast favors the +1 level(s)  mae     12
+-0.000304456010350457    -0.000304456010350457    -0.000304456010350457    ETTm2        continuation                 negative contrast favors the +1 level(s)  mae     12
+-0.0004914088309616946   -0.0004914088309616946   -0.0004914088309616946   Weather      continuation                 negative contrast favors the +1 level(s)  mae     12
+-0.0014847512999646751   -0.0014847512999646751   -0.0014847512999646751   Electricity  continuation                 negative contrast favors the +1 level(s)  mae     12
+-0.00291138379493365     -0.00291138379493365     -0.00291138379493365     Traffic      continuation                 negative contrast favors the +1 level(s)  mae     12
+0.0003678233103751387    -0.0017982178776563545   -0.0007104687631253016   ALL          scale_x_bank                 negative contrast favors the +1 level(s)  mae     84
+-0.0005261822396697065   -0.0005261822396697065   -0.0005261822396697065   ETTh1        scale_x_bank                 negative contrast favors the +1 level(s)  mae     12
+-0.0013678154007584927   -0.0013678154007584927   -0.0013678154007584927   ETTh2        scale_x_bank                 negative contrast favors the +1 level(s)  mae     12
+-0.0009813244401298202   -0.0009813244401298202   -0.0009813244401298202   ETTm1        scale_x_bank                 negative contrast favors the +1 level(s)  mae     12
+0.0018859635650375697    0.0018859635650375697    0.0018859635650375697    ETTm2        scale_x_bank                 negative contrast favors the +1 level(s)  mae     12
+-0.0006629476423888324   -0.0006629476423888324   -0.0006629476423888324   Weather      scale_x_bank                 negative contrast favors the +1 level(s)  mae     12
+-2.4012323389023076e-05  -2.4012323389023076e-05  -2.4012323389023076e-05  Electricity  scale_x_bank                 negative contrast favors the +1 level(s)  mae     12
+-0.0032969628605788053   -0.0032969628605788053   -0.0032969628605788053   Traffic      scale_x_bank                 negative contrast favors the +1 level(s)  mae     12
+3.380989723773737e-05    -0.0015645677172886115   -0.0006793014180074028   ALL          scale_x_continuation         negative contrast favors the +1 level(s)  mae     84
+0.00027904579042665215   0.00027904579042665215   0.00027904579042665215   ETTh1        scale_x_continuation         negative contrast favors the +1 level(s)  mae     12
+-0.00020042209559248172  -0.00020042209559248172  -0.00020042209559248172  ETTh2        scale_x_continuation         negative contrast favors the +1 level(s)  mae     12
+0.0002680687329828027    0.0002680687329828027    0.0002680687329828027    ETTm1        scale_x_continuation         negative contrast favors the +1 level(s)  mae     12
+-0.00015821037325744816  -0.00015821037325744816  -0.00015821037325744816  ETTm2        scale_x_continuation         negative contrast favors the +1 level(s)  mae     12
+-0.00034418616772672526  -0.00034418616772672526  -0.00034418616772672526  Weather      scale_x_continuation         negative contrast favors the +1 level(s)  mae     12
+-0.001688022017950969    -0.001688022017950969    -0.001688022017950969    Electricity  scale_x_continuation         negative contrast favors the +1 level(s)  mae     12
+-0.00291138379493365     -0.00291138379493365     -0.00291138379493365     Traffic      scale_x_continuation         negative contrast favors the +1 level(s)  mae     12
+1.9049974788951096e-06   -0.0015842369211557692   -0.0007054754798963275   ALL          bank_x_continuation          negative contrast favors the +1 level(s)  mae     84
+0.0003559902841287846    0.0003559902841287846    0.0003559902841287846    ETTh1        bank_x_continuation          negative contrast favors the +1 level(s)  mae     12
+-0.00020042209559248172  -0.00020042209559248172  -0.00020042209559248172  ETTh2        bank_x_continuation          negative contrast favors the +1 level(s)  mae     12
+0.0002680687329828027    0.0002680687329828027    0.0002680687329828027    ETTm1        bank_x_continuation          negative contrast favors the +1 level(s)  mae     12
+-0.0005171804781392136   -0.0005171804781392136   -0.0005171804781392136   ETTm2        bank_x_continuation          negative contrast favors the +1 level(s)  mae     12
+-0.00034418616772672526  -0.00034418616772672526  -0.00034418616772672526  Weather      bank_x_continuation          negative contrast favors the +1 level(s)  mae     12
+-0.0015892148399938091   -0.0015892148399938091   -0.0015892148399938091   Electricity  bank_x_continuation          negative contrast favors the +1 level(s)  mae     12
+-0.00291138379493365     -0.00291138379493365     -0.00291138379493365     Traffic      bank_x_continuation          negative contrast favors the +1 level(s)  mae     12
+-8.324782565792678e-05   -0.0015729053942947417   -0.0007393958306670757   ALL          scale_x_bank_x_continuation  negative contrast favors the +1 level(s)  mae     84
+-0.00026391955017091825  -0.00026391955017091825  -0.00026391955017091825  ETTh1        scale_x_bank_x_continuation  negative contrast favors the +1 level(s)  mae     12
+0.00013262211195260581   0.00013262211195260581   0.00013262211195260581   ETTh2        scale_x_bank_x_continuation  negative contrast favors the +1 level(s)  mae     12
+-0.00011263636716534603  -0.00011263636716534603  -0.00011263636716534603  ETTm1        scale_x_bank_x_continuation  negative contrast favors the +1 level(s)  mae     12
+5.451409453130843e-05    5.451409453130843e-05    5.451409453130843e-05    ETTm2        scale_x_bank_x_continuation  negative contrast favors the +1 level(s)  mae     12
+-0.0004914088309616946   -0.0004914088309616946   -0.0004914088309616946   Weather      scale_x_bank_x_continuation  negative contrast favors the +1 level(s)  mae     12
+-0.0015835584779218352   -0.0015835584779218352   -0.0015835584779218352   Electricity  scale_x_bank_x_continuation  negative contrast favors the +1 level(s)  mae     12
+-0.00291138379493365     -0.00291138379493365     -0.00291138379493365     Traffic      scale_x_bank_x_continuation  negative contrast favors the +1 level(s)  mae     12
+===== strongest_comparator_summary.csv =====
+dataset      horizon  mae_mean             mae_std                model         mse_mean             mse_std                 runs
+ETTh1        192      0.4384213237866822   0.004721198085468362   LatentFlow    0.45167314956055166  0.007264661238888605    5
+ETTh1        336      0.45695542584013893  0.0031429291149319746  LatentFlow    0.48893428259980665  0.007010167470538615    5
+ETTh1        720      0.4812601830166482   0.0011641093804995073  LatentFlow    0.5000977259408034   0.005309916351231013    5
+ETTh1        96       0.4140382771974263   0.0043141771466926136  LatentFlow    0.4036839167016117   0.00479366696772546     5
+ETTh2        192      0.39679707735885095  0.0043089405824382546  LatentFlow    0.3812493967037596   0.007316288707563001    5
+ETTh2        336      0.42953086008239866  0.0046703849644618815  LatentFlow    0.41880761376797154  0.007467256568814657    5
+ETTh2        720      0.4455885541262795   0.005003077162340971   LatentFlow    0.4267151760834512   0.009990251056637285    5
+ETTh2        96       0.34682111067151045  0.0035772750134781418  LatentFlow    0.2987783630340438   0.003943855103913707    5
+ETTm1        192      0.39927663215645     0.0033928575775468103  LatentFlow    0.38593679615685517  0.007885061330672422    5
+ETTm1        336      0.4255779987312341   0.008610716138545063   LatentFlow    0.4295736487782051   0.01804332612808959     5
+ETTm1        720      0.46904994815563256  0.007985665224170367   LatentFlow    0.498565494335542    0.012856406079257162    5
+ETTm1        96       0.3743297305053953   0.002891942302890422   LatentFlow    0.33735155654582083  0.0052454316291029625   5
+ETTm2        192      0.3014370016574697   0.001300275743787532   LatentFlow    0.24121727242702745  0.001404432940918319    5
+ETTm2        336      0.3456668267867164   0.0009728928142447407  LatentFlow    0.3077813057398058   0.0014015774083738126   5
+ETTm2        720      0.40597213935610144  0.0015736371139281847  LatentFlow    0.41450561168508415  0.0020525411101484383   5
+ETTm2        96       0.2589720556365086   0.000981307576533206   LatentFlow    0.17492455641200075  0.0016682273434948745   5
+Electricity  192      0.26283678846991687  0.00122997411485615    LatentFlow    0.16989630363034774  0.0013702609573599518   5
+Electricity  336      0.27989380911027956  0.0016620604614335935  LatentFlow    0.18707974227717972  0.001790456319104597    5
+Electricity  720      0.3100938481841851   0.002475928932517962   LatentFlow    0.22367875986046698  0.0038867198009672156   5
+Electricity  96       0.2513634516926837   0.0007508516364066935  LatentFlow    0.15652926322845415  0.001020570872920287    5
+Traffic      192      0.2973730974340877   0.0020956258910325306  LatentFlow    0.45034298683289525  0.002611000583558385    5
+Traffic      336      0.3024237437642837   0.0026732245779386827  LatentFlow    0.4633265011568848   0.003825722948062533    5
+Traffic      720      0.3165800315656986   0.0015381807884792121  LatentFlow    0.49092933309575193  0.003218904297074807    5
+Traffic      96       0.29415919003401847  0.0016521770360148947  LatentFlow    0.4350099819851704   0.0036657662166713644   5
+Weather      192      0.2567220405055182   0.0023772541517597706  LatentFlow    0.21507278107197636  0.002319648396915359    5
+Weather      336      0.2991246541337756   0.001190953069484569   LatentFlow    0.27409283382458904  0.0018264157599456722   5
+Weather      720      0.34885674605110717  0.000674751491610888   LatentFlow    0.3507794092026078   0.0002784415858152272   5
+Weather      96       0.21301290014273153  0.001373768660356692   LatentFlow    0.16639330807220729  0.001483329277495391    5
+ETTh2        192      0.3971289472085631   0.0008800543348322689  TimeMixer     0.38127378867615697  0.001246804867417407    5
+ETTh2        336      0.4333178423801526   0.0013173442469596136  TimeMixer     0.4235496110828064   0.0024508716908790843   5
+ETTh2        720      0.44502393314440053  0.0018940685518714915  TimeMixer     0.4283815962567278   0.003086801800278823    5
+ETTh2        96       0.3445419478630463   0.0011287065942342535  TimeMixer     0.29435162884318505  0.0013130597054464613   5
+ETTm2        192      0.31326093704090996  0.0008648502405787706  TimeMixer     0.253504806526155    0.00046423456161593816  5
+ETTm2        336      0.352616626050583    0.0009845683298976516  TimeMixer     0.31552837533339956  0.0010038960498733424   5
+ETTm2        720      0.4075635792757675   0.0007649095863571758  TimeMixer     0.4164559168734767   0.0012757304197984363   5
+ETTm2        96       0.272458837111468    0.0010339502519334648  TimeMixer     0.18817487693650284  0.000931824403368364    5
+Electricity  192      0.2755418508957189   0.0023630961377430525  VPNet         0.18244916948435524  0.0022128912907403006   5
+Electricity  336      0.2927423958746106   0.0018416864346479538  VPNet         0.20132956480023104  0.0017333169331815964   5
+Electricity  720      0.32880127967376005  0.003430105000122174   VPNet         0.24671320822699302  0.004977699442973891    5
+Electricity  96       0.26314747811568745  0.002720579604676182   VPNet         0.168335436823997    0.002295552515410187    5
+Traffic      192      0.3249004143671543   0.0060648894322510045  VPNet         0.48309689921447607  0.005652980725955992    5
+Traffic      336      0.333643518992768    0.005635989607257477   VPNet         0.4977286794478054   0.0032537989824250385   5
+Traffic      720      0.34768172504822525  0.005335881794997365   VPNet         0.5276713078129196   0.008374703177717529    5
+Traffic      96       0.31718017846837016  0.003262857078196478   VPNet         0.4645962932447869   0.003326064041509449    5
+Weather      192      0.25961314907882305  0.001738158985662621   VPNet         0.22018072096651417  0.0015585828242154528   5
+Weather      336      0.3002327196097056   0.0016445090161818219  VPNet         0.27604667616318607  0.0022106431698884813   5
+Weather      720      0.35037294177887357  0.0017873490490029032  VPNet         0.35348178483436515  0.0023375626217146585   5
+Weather      96       0.21837283888511494  0.0013343551229439256  VPNet         0.1724156467231628   0.0009448395977538773   5
+ETTh1        192      0.43979663272980546  0.0006025686873715357  iTransformer  0.4466005866423567   0.0011009972638567798   5
+ETTh1        336      0.46068248925537186  0.0005970938761182589  iTransformer  0.4865772335994197   0.0013855099201411129   5
+ETTh1        720      0.48858523363588746  0.00341391112583907    iTransformer  0.4969171469894017   0.006464345498701358    5
+ETTh1        96       0.4104020955944362   0.0011380294644676443  iTransformer  0.39478729043891925  0.0015653470812647605   5
+ETTm1        192      0.3937868457579314   0.0005969640237384879  xCPD          0.3863896484792572   0.000830273885322499    5
+ETTm1        336      0.41982633713611356  0.0017957718040992796  xCPD          0.41974420287384706  0.0013300817044664607   5
+ETTm1        720      0.4604819016987475   0.005230128577258207   xCPD          0.4834895816075725   0.005031090248987893    5
+ETTm1        96       0.3767013245320536   0.0008981876904270811  xCPD          0.3535965977019166   0.0013181600686763086   5
+===== capacity_summary.csv =====
+dataset      mae_mean             mae_std               mse_mean             mse_std               runs  variant
+ETTh1        0.44642008202738925  0.02607287758145337   0.4565179197996794   0.041206076603802086  4     no_bank_decoder_matched
+ETTh2        0.40606848627047964  0.04083786505870173   0.38484900703981945  0.05718028927773047   4     no_bank_decoder_matched
+ETTm1        0.42161189617080475  0.036366213972692525  0.4201748621210311   0.0666152435241122    4     no_bank_decoder_matched
+ETTm2        0.33110950942657025  0.05954881844070292   0.28887191887579866  0.09920225824074748   4     no_bank_decoder_matched
+Electricity  0.285498256822187    0.026881927385973933  0.19565629768270315  0.03140362617832812   4     no_bank_decoder_matched
+Traffic      0.31466008111476396  0.00843619414091464   0.47304307319608024  0.022346322493795708  4     no_bank_decoder_matched
+Weather      0.281050769460959    0.05664226165691027   0.2537082532911865   0.07639571368138062   4     no_bank_decoder_matched
+ETTh1        0.4467244885462867   0.0285898751210588    0.45719605736105917  0.0417084450003412    4     no_linear_bank
+ETTh2        0.4067326988901746   0.041939963365115934  0.3839290314131828   0.056501363831654     4     no_linear_bank
+ETTm1        0.4217038903875188   0.0406570023653364    0.41859048693318085  0.06682440467660798   4     no_linear_bank
+ETTm2        0.33230956346423035  0.061049363741196204  0.2891228069129921   0.10049124599222678   4     no_linear_bank
+Electricity  0.28623039033404285  0.02578718321989693   0.19631354450732724  0.03091719418080526   4     no_linear_bank
+Traffic      0.3169191145621804   0.010793186660726296  0.4763746601323158   0.02581978664898278   4     no_linear_bank
+Weather      0.280956442210607    0.055209828932374465  0.2537283224318063   0.0761819493355191    4     no_linear_bank
+ETTh1        0.4426846093918493   0.030860513553382263  0.4536982823486417   0.04212923131698026   4     single_scale_selected
+ETTh2        0.3988721606824951   0.04284303694854848   0.37713250423221084  0.05712761233840981   4     single_scale_selected
+ETTm1        0.41682247548457174  0.03882801214851537   0.409862441161187    0.06323666021990287   4     single_scale_selected
+ETTm2        0.3266640849512681   0.059565911977394914  0.2834476526527233   0.09801686410851435   4     single_scale_selected
+Electricity  0.28481153406657594  0.02948721808960308   0.19808255561463775  0.03531553150510047   4     single_scale_selected
+Traffic      0.31487128269510223  0.008218271247771781  0.47548675709147387  0.02120060366741862   4     single_scale_selected
+Weather      0.28129828713874205  0.05635031981516109   0.25442573322685785  0.07723850476559069   4     single_scale_selected
+ETTh1        0.44088854704332864  0.033182415534652836  0.4525581234299244   0.044805434073446476  4     single_scale_width_matched
+ETTh2        0.40331997029904415  0.04663976069728867   0.38399547686311175  0.06289997729679518   4     single_scale_width_matched
+ETTm1        0.411508518806619    0.03497911308096931   0.4035257042482709   0.05608547036380318   4     single_scale_width_matched
+ETTm2        0.32684623151534475  0.059703360437196394  0.28297988714608774  0.09845615371106675   4     single_scale_width_matched
+Electricity  0.28491724558109427  0.0253820394132413    0.1980162378470087   0.028271298445313592  4     single_scale_width_matched
+Traffic      0.31208411298194105  0.008826133052385797  0.4723318831040702   0.021390018404189942  4     single_scale_width_matched
+Weather      0.2807812781645532   0.05690232386621269   0.2527142780921158   0.07858104147301641   4     single_scale_width_matched

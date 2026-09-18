@@ -1,0 +1,18 @@
+{
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/VPNet/seed42/ETTm1/h336.pt",
+  "dataset": "ETTm1",
+  "flops_note": "torch.profiler count; unsupported custom operations may be omitted",
+  "flops_per_sample": 71225952.0,
+  "gflops_per_sample": 0.071225952,
+  "gpu": "NVIDIA GH200 120GB",
+  "horizon": 336,
+  "inference_ms_batch": 1.199818029999733,
+  "model": "VPNet",
+  "parameters_total": 672163,
+  "parameters_trainable": 672163,
+  "peak_inference_gpu_mb": 35.96435546875,
+  "peak_training_gpu_mb": 76.8515625,
+  "profile_batch_size": 1,
+  "seed": 42,
+  "training_ms_iter": 6.549860304221511
+}

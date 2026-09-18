@@ -1,0 +1,14 @@
+{
+  "audit_protocol": "latentflow-submission-checks-v1",
+  "dataset": "Traffic",
+  "extension_retrained": false,
+  "horizon": 336,
+  "seed": 44,
+  "selected_stage": "extension",
+  "test_extension_minus_reference_mse": -0.012306562911328367,
+  "test_extension_mse": 0.4622203080251388,
+  "test_reference_mse": 0.47452687093646717,
+  "validation_extension_minus_reference_mse": -0.009602694416056712,
+  "validation_extension_mse": 0.3974966358551069,
+  "validation_reference_mse": 0.40709933027116363
+}

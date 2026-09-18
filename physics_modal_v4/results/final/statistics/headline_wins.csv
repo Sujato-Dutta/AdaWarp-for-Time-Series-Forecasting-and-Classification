@@ -1,0 +1,15 @@
+metric,model,tasks,wins
+mse,LatentFlow,28,12
+mse,VPNet,28,0
+mse,xCPD,28,3
+mse,TimePro,28,9
+mse,iTransformer,28,3
+mse,TimeMixer,28,1
+mse,DLinear,28,0
+mae,LatentFlow,28,16
+mae,VPNet,28,0
+mae,xCPD,28,2
+mae,TimePro,28,8
+mae,iTransformer,28,1
+mae,TimeMixer,28,1
+mae,DLinear,28,0

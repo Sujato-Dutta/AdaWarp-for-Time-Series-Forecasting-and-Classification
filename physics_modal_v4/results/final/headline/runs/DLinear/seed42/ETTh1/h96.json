@@ -1,0 +1,18 @@
+{
+  "best_epoch": 10,
+  "best_validation_mse": 0.7412098440386,
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/DLinear/seed42/ETTh1/h96.pt",
+  "dataset": "ETTh1",
+  "horizon": 96,
+  "inference_ms_batch": 0.3142086897305278,
+  "mae": 0.4146561245373236,
+  "model": "DLinear",
+  "mse": 0.4009885470480086,
+  "num_windows": 2785.0,
+  "parameters": 18624,
+  "provenance": "repository-native matched implementation",
+  "rmse": 0.6332365648381406,
+  "seed": 42,
+  "selection_protocol": "validation MSE only; test evaluated once",
+  "training_ms_optimizer_step": 2.1973147420794703
+}

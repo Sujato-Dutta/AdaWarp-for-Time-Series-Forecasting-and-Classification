@@ -1,0 +1,3 @@
+metric,models,p_value,statistic,tasks,test
+mse,7,1.0330837126945954e-12,68.03571428571422,28,Friedman
+mae,7,2.2773539572218966e-17,90.59693877551024,28,Friedman

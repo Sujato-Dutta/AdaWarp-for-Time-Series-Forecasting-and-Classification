@@ -1,0 +1,18 @@
+{
+  "best_epoch": 10,
+  "best_validation_mse": 0.1953884168117553,
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/TimeMixer/seed42/Electricity/h336.pt",
+  "dataset": "Electricity",
+  "horizon": 336,
+  "inference_ms_batch": 7.732861722266771,
+  "mae": 0.310139168644117,
+  "model": "TimeMixer",
+  "mse": 0.22238276339564314,
+  "num_windows": 4927.0,
+  "parameters": 225765,
+  "provenance": "repository-native matched implementation",
+  "rmse": 0.47157476967671114,
+  "seed": 42,
+  "selection_protocol": "validation MSE only; test evaluated once",
+  "training_ms_optimizer_step": 28.17729459857219
+}

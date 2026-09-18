@@ -1,0 +1,18 @@
+{
+  "best_epoch": 10,
+  "best_validation_mse": 0.7741138528894496,
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/TimeMixer/seed42/Weather/h720.pt",
+  "dataset": "Weather",
+  "horizon": 720,
+  "inference_ms_batch": 5.170134406109325,
+  "mae": 0.3595443041575989,
+  "model": "TimeMixer",
+  "mse": 0.3693050405814846,
+  "num_windows": 9821.0,
+  "parameters": 280629,
+  "provenance": "repository-native matched implementation",
+  "rmse": 0.6077047314127846,
+  "seed": 42,
+  "selection_protocol": "validation MSE only; test evaluated once",
+  "training_ms_optimizer_step": 19.315514097252162
+}

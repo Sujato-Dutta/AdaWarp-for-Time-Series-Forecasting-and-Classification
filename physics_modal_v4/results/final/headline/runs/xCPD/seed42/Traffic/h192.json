@@ -1,0 +1,18 @@
+{
+  "best_epoch": 4,
+  "best_validation_mse": 0.4315289375584714,
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/xCPD/seed42/Traffic/h192.pt",
+  "dataset": "Traffic",
+  "horizon": 192,
+  "inference_ms_batch": 5.094242827355664,
+  "mae": 0.3285763610610621,
+  "model": "xCPD",
+  "mse": 0.5307768789099574,
+  "num_windows": 3319.0,
+  "parameters": 26051012,
+  "provenance": "paper-derived DLinear+xCPD; plugin source unavailable in named repository",
+  "rmse": 0.7285443561719199,
+  "seed": 42,
+  "selection_protocol": "validation MSE only; test evaluated once",
+  "training_ms_optimizer_step": 18.568496993144176
+}

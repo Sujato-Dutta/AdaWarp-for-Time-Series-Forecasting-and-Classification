@@ -1,0 +1,18 @@
+{
+  "best_epoch": 8,
+  "best_validation_mse": 0.4236873654736536,
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/VPNet/seed42/Traffic/h336.pt",
+  "dataset": "Traffic",
+  "horizon": 336,
+  "inference_ms_batch": 1.6589657426458981,
+  "mae": 0.3303995092034247,
+  "model": "VPNet",
+  "mse": 0.4961930676883378,
+  "num_windows": 3175.0,
+  "parameters": 672163,
+  "provenance": "repository-native matched implementation",
+  "rmse": 0.7044097299784677,
+  "seed": 42,
+  "selection_protocol": "validation MSE only; test evaluated once",
+  "training_ms_optimizer_step": 8.481309585340568
+}

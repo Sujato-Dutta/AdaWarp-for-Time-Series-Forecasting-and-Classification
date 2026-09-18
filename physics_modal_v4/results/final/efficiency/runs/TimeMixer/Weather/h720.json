@@ -1,0 +1,18 @@
+{
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/TimeMixer/seed42/Weather/h720.pt",
+  "dataset": "Weather",
+  "flops_note": "torch.profiler count; unsupported custom operations may be omitted",
+  "flops_per_sample": 1583160831.0,
+  "gflops_per_sample": 1.583160831,
+  "gpu": "NVIDIA GH200 120GB",
+  "horizon": 720,
+  "inference_ms_batch": 2.8430997859686613,
+  "model": "TimeMixer",
+  "parameters_total": 280629,
+  "parameters_trainable": 280629,
+  "peak_inference_gpu_mb": 52.4501953125,
+  "peak_training_gpu_mb": 129.43603515625,
+  "profile_batch_size": 1,
+  "seed": 42,
+  "training_ms_iter": 12.332426151260734
+}

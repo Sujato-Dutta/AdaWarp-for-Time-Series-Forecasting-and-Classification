@@ -1,0 +1,67 @@
+{
+  "architecture": {
+    "candidate": "latentflow_process_preserving_unfreeze2",
+    "continuation_unfreeze_blocks": 2,
+    "cross_process_exchange": false,
+    "primal_dual": false
+  },
+  "datasets": [
+    "ETTh1",
+    "ETTh2",
+    "ETTm1",
+    "ETTm2",
+    "Weather",
+    "Electricity",
+    "Traffic"
+  ],
+  "horizons": [96, 192, 336, 720],
+  "seeds": [42, 43, 44, 45, 46],
+  "selection": {
+    "criterion": "validation_mse",
+    "test_evaluations_after_selection": 1,
+    "validation_windows": 1024
+  },
+  "strongest_non_timepro_comparator_selected_from_seed42": {
+    "ETTh1": "iTransformer",
+    "ETTh2": "TimeMixer",
+    "ETTm1": "xCPD",
+    "ETTm2": "TimeMixer",
+    "Electricity": "VPNet",
+    "Traffic": "VPNet",
+    "Weather": "VPNet"
+  },
+  "training": {
+    "effective_batch_size": 16,
+    "extension_epochs": 10,
+    "gradient_clip": 5.0,
+    "head_learning_rate": 0.001,
+    "learning_rate": 0.0007,
+    "nll_weight": 0.02,
+    "reference_epochs": 2,
+    "sequence_length": 96,
+    "training_windows": 2048,
+    "weight_decay": 0.0001
+  },
+  "selected_hyperparameters": {
+    "ETTh1": {"inducing_points": 32, "latent_dim": 16, "patch_lens": [16, 32, 48], "representation_weight": 0.05},
+    "ETTh2": {"inducing_points": 32, "latent_dim": 8, "patch_lens": [16, 32, 48], "representation_weight": 0.001},
+    "ETTm1": {"inducing_points": 32, "latent_dim": 8, "patch_lens": [8, 24, 48], "representation_weight": 0.01},
+    "ETTm2": {"inducing_points": 16, "latent_dim": 8, "patch_lens": [8, 16, 32], "representation_weight": 0.001},
+    "Electricity": {"inducing_points": 32, "latent_dim": 16, "patch_lens": [8, 16, 32], "representation_weight": 0.001},
+    "Traffic": {"inducing_points": 32, "latent_dim": 16, "patch_lens": [8, 16, 32], "representation_weight": 0.001},
+    "Weather": {"inducing_points": 32, "latent_dim": 16, "patch_lens": [8, 16, 32], "representation_weight": 0.001}
+  },
+  "final_reviewer_audits": {
+    "architecture_changes": false,
+    "prior_control_seeds": [42, 43, 44],
+    "prior_control_variants": [
+      "no_sensor_group_priors",
+      "permuted_process_families",
+      "neutral_process_scales"
+    ],
+    "prior_control_cells": 252,
+    "reference_extension_audit_cells": 140,
+    "fusion_anomaly_audit_cells": 140,
+    "dataset_mechanism_breakdown_retraining": false
+  }
+}

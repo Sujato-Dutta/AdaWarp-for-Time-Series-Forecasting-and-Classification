@@ -1,0 +1,18 @@
+{
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/TimePro/seed42/Weather/h96.pt",
+  "dataset": "Weather",
+  "flops_note": "torch.profiler count; unsupported custom operations may be omitted",
+  "flops_per_sample": 1994981205.0,
+  "gflops_per_sample": 1.994981205,
+  "gpu": "NVIDIA GH200 120GB",
+  "horizon": 96,
+  "inference_ms_batch": 14.759933995082974,
+  "model": "TimePro",
+  "parameters_total": 37901318,
+  "parameters_trainable": 37901318,
+  "peak_inference_gpu_mb": 178.26904296875,
+  "peak_training_gpu_mb": 786.96337890625,
+  "profile_batch_size": 1,
+  "seed": 42,
+  "training_ms_iter": 93.61565397121012
+}

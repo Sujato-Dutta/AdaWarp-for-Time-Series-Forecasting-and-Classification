@@ -1,0 +1,40 @@
+{
+  "adapter_weight_norm_max": 5.656854152679443,
+  "adapter_weight_norm_min": 2.8284270763397217,
+  "all_finite": true,
+  "audit_protocol": "latentflow-submission-checks-v1",
+  "dataset": "ETTm2",
+  "decoder_weight_norm": 1.0,
+  "horizon": 336,
+  "kernel_min_eigenvalue": 1.1269509741396178e-05,
+  "latent_rms": 0.2319854199886322,
+  "observation_max_condition_number": 7274.95751953125,
+  "observation_min_eigenvalue": 0.010099893435835838,
+  "observation_noise_std": 0.10000000149011612,
+  "posterior_variance_mean": 0.1192055195569992,
+  "predictive_variance_min": 0.06386154145002365,
+  "process_parameters": {
+    "process_0_load_daily": {
+      "amplitude": 1.0,
+      "decay": 192.0,
+      "length": 0.6500000357627869,
+      "period": 96.0
+    },
+    "process_1_load_weekly": {
+      "amplitude": 1.0,
+      "decay": 1344.0,
+      "length": 1.25,
+      "period": 672.0
+    },
+    "process_2_thermal": {
+      "amplitude": 1.0,
+      "length": 192.0
+    },
+    "process_3_innovation": {
+      "amplitude": 1.0,
+      "length": 19.200000762939453
+    }
+  },
+  "raw_parameter_boundary_rate": 0.0,
+  "seed": 42
+}

@@ -1,0 +1,18 @@
+{
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/iTransformer/seed42/Weather/h192.pt",
+  "dataset": "Weather",
+  "flops_note": "torch.profiler count; unsupported custom operations may be omitted",
+  "flops_per_sample": 7530789.0,
+  "gflops_per_sample": 0.007530789,
+  "gpu": "NVIDIA GH200 120GB",
+  "horizon": 192,
+  "inference_ms_batch": 2.019190927967429,
+  "model": "iTransformer",
+  "parameters_total": 302400,
+  "parameters_trainable": 302400,
+  "peak_inference_gpu_mb": 34.2578125,
+  "peak_training_gpu_mb": 69.80859375,
+  "profile_batch_size": 1,
+  "seed": 42,
+  "training_ms_iter": 7.928566774353385
+}

@@ -1,0 +1,46 @@
+{
+  "adapter_weight_norm_max": 6.200299263000488,
+  "adapter_weight_norm_min": 2.8353493213653564,
+  "all_finite": true,
+  "audit_protocol": "latentflow-submission-checks-v1",
+  "dataset": "Weather",
+  "decoder_weight_norm": 1.2314790487289429,
+  "horizon": 720,
+  "kernel_min_eigenvalue": 5.6459565911382015e-08,
+  "latent_rms": 0.07966345548629761,
+  "observation_max_condition_number": 6684.01318359375,
+  "observation_min_eigenvalue": 0.013190452940762043,
+  "observation_noise_std": 0.11441265791654587,
+  "posterior_variance_mean": 0.08551379293203354,
+  "predictive_variance_min": 0.05309619382023811,
+  "process_parameters": {
+    "process_0_solar_daily": {
+      "amplitude": 0.9721901416778564,
+      "decay": 288.1026611328125,
+      "length": 0.6414362788200378,
+      "period": 143.035888671875
+    },
+    "process_1_thermodynamic": {
+      "amplitude": 0.9729991555213928,
+      "length": 288.0008850097656
+    },
+    "process_2_humidity": {
+      "amplitude": 0.9854857325553894,
+      "length": 108.00836944580078
+    },
+    "process_3_wind": {
+      "amplitude": 0.9240488409996033,
+      "length": 28.954368591308594
+    },
+    "process_4_precipitation": {
+      "amplitude": 0.9043668508529663,
+      "length": 8.78640365600586
+    },
+    "process_5_slow_state": {
+      "amplitude": 0.982256293296814,
+      "length": 1007.9795532226562
+    }
+  },
+  "raw_parameter_boundary_rate": 0.0,
+  "seed": 42
+}

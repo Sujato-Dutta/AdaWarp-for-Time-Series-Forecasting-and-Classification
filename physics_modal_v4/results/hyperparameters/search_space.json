@@ -1,0 +1,13 @@
+{
+  "selection_split": "validation only",
+  "seed": 42,
+  "aggregation": "mean validation MSE across horizons 96, 192, 336, and 720",
+  "test_access": false,
+  "search_space": {
+    "latent_dim": [4, 8, 16],
+    "inducing_points": [8, 16, 32],
+    "patch_geometry": ["8-16-32", "8-24-48", "16-32-48"],
+    "representation_weight": [0.001, 0.01, 0.05]
+  }
+}
+

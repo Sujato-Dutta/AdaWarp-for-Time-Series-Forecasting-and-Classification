@@ -1,0 +1,23 @@
+{
+  "ablation_protocol": "single seed 42; same train/validation/test windows; validation-MSE checkpoint selection",
+  "backbone_patch_lens": "8-16-32",
+  "backbone_switches": {},
+  "best_epoch": 4,
+  "best_stage": "extension",
+  "best_validation_mse": 0.5459746633257184,
+  "continuation_unfreeze_blocks": 2,
+  "dataset": "Weather",
+  "elapsed_seconds": 373.95975055731833,
+  "horizon": 336,
+  "inference_ms_batch": 84.21364864451611,
+  "mae": 0.2990644564998048,
+  "model": "LatentFlow",
+  "mse": 0.2730423594287538,
+  "num_windows": 10205.0,
+  "primal_dual": false,
+  "rmse": 0.5225345533347568,
+  "seed": 42,
+  "selected_hyperparameters": true,
+  "training_ms_optimizer_step": 244.39989914135367,
+  "variant": "no_sensor_priors"
+}

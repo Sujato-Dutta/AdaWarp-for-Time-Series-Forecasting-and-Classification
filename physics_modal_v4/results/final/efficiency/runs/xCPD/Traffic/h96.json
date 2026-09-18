@@ -1,0 +1,18 @@
+{
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/xCPD/seed42/Traffic/h96.pt",
+  "dataset": "Traffic",
+  "flops_note": "torch.profiler count; unsupported custom operations may be omitted",
+  "flops_per_sample": 68499354096.0,
+  "gflops_per_sample": 68.499354096,
+  "gpu": "NVIDIA GH200 120GB",
+  "horizon": 96,
+  "inference_ms_batch": 3.560124896466732,
+  "model": "xCPD",
+  "parameters_total": 25611332,
+  "parameters_trainable": 25592708,
+  "peak_inference_gpu_mb": 212.86181640625,
+  "peak_training_gpu_mb": 611.7822265625,
+  "profile_batch_size": 1,
+  "seed": 42,
+  "training_ms_iter": 15.886986401164904
+}

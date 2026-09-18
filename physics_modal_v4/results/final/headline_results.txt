@@ -1,0 +1,308 @@
+latentflow-result dataset=ETTh1       h=96  seed=42 mse=0.403224 mae=0.411410
+latentflow-result dataset=ETTh1       h=720 seed=43 mse=0.509148 mae=0.483220
+latentflow-result dataset=ETTh2       h=336 seed=44 mse=0.411564 mae=0.423917
+latentflow-result dataset=ETTm1       h=192 seed=45 mse=0.392956 mae=0.402501
+latentflow-result dataset=ETTm2       h=96  seed=46 mse=0.173470 mae=0.258460
+latentflow-result dataset=Weather     h=96  seed=42 mse=0.167284 mae=0.213902
+latentflow-result dataset=Weather     h=720 seed=43 mse=0.350340 mae=0.348068
+latentflow-result dataset=Electricity h=336 seed=44 mse=0.185275 mae=0.278601
+latentflow-result dataset=Traffic     h=192 seed=45 mse=0.454096 mae=0.297267
+latentflow-result dataset=ETTh1       h=336 seed=42 mse=0.481718 mae=0.454156
+latentflow-result dataset=ETTh2       h=192 seed=43 mse=0.382780 mae=0.396162
+latentflow-result dataset=ETTm1       h=96  seed=44 mse=0.334763 mae=0.372151
+latentflow-result dataset=ETTm1       h=720 seed=45 mse=0.482647 mae=0.458822
+latentflow-result dataset=ETTm2       h=336 seed=46 mse=0.307779 mae=0.346484
+latentflow-result dataset=Weather     h=336 seed=42 mse=0.272626 mae=0.298593
+latentflow-result dataset=Electricity h=192 seed=43 mse=0.171356 mae=0.263537
+latentflow-result dataset=Traffic     h=96  seed=44 mse=0.432696 mae=0.294742
+latentflow-result dataset=Traffic     h=720 seed=45 mse=0.493781 mae=0.315981
+latentflow-result dataset=ETTh1       h=336 seed=43 mse=0.496602 mae=0.460520
+latentflow-result dataset=ETTh2       h=192 seed=44 mse=0.389345 mae=0.400381
+latentflow-result dataset=ETTm1       h=96  seed=45 mse=0.338801 mae=0.375683
+latentflow-result dataset=ETTm1       h=720 seed=46 mse=0.494509 mae=0.463716
+latentflow-result dataset=ETTm2       h=720 seed=42 mse=0.415127 mae=0.408043
+latentflow-result dataset=Weather     h=336 seed=43 mse=0.274182 mae=0.299667
+latentflow-result dataset=Electricity h=192 seed=44 mse=0.170088 mae=0.263441
+latentflow-result dataset=Traffic     h=96  seed=45 mse=0.440552 mae=0.296670
+latentflow-result dataset=Traffic     h=720 seed=46 mse=0.488911 mae=0.314390
+latentflow-result dataset=ETTh1       h=336 seed=44 mse=0.494717 mae=0.459606
+latentflow-result dataset=ETTh2       h=192 seed=45 mse=0.381426 mae=0.396340
+latentflow-result dataset=ETTm1       h=96  seed=46 mse=0.332758 mae=0.371598
+latentflow-result dataset=ETTm2       h=96  seed=42 mse=0.173613 mae=0.258002
+latentflow-result dataset=ETTm2       h=720 seed=43 mse=0.411601 mae=0.404003
+latentflow-result dataset=Weather     h=336 seed=44 mse=0.273976 mae=0.299131
+latentflow-result dataset=Electricity h=192 seed=45 mse=0.171081 mae=0.264119
+latentflow-result dataset=Traffic     h=96  seed=46 mse=0.434119 mae=0.293033
+latentflow-result dataset=ETTh1       h=336 seed=45 mse=0.489869 mae=0.456996
+latentflow-result dataset=ETTh2       h=192 seed=46 mse=0.383448 mae=0.401013
+latentflow-result dataset=ETTm1       h=192 seed=42 mse=0.381348 mae=0.398064
+latentflow-result dataset=ETTm2       h=96  seed=43 mse=0.175000 mae=0.259032
+latentflow-result dataset=ETTm2       h=720 seed=44 mse=0.424058 mae=0.409420
+latentflow-result dataset=Weather     h=336 seed=45 mse=0.275808 mae=0.300400
+latentflow-result dataset=Electricity h=192 seed=46 mse=0.169188 mae=0.261717
+latentflow-result dataset=Traffic     h=192 seed=42 mse=0.451631 mae=0.299624
+latentflow-result dataset=ETTh1       h=336 seed=46 mse=0.482060 mae=0.453612
+latentflow-result dataset=ETTh2       h=336 seed=42 mse=0.415521 mae=0.426998
+latentflow-result dataset=ETTm1       h=192 seed=43 mse=0.380906 mae=0.396515
+latentflow-result dataset=ETTm2       h=96  seed=44 mse=0.176170 mae=0.259036
+latentflow-result dataset=ETTm2       h=720 seed=45 mse=0.415324 mae=0.406016
+latentflow-result dataset=Weather     h=336 seed=46 mse=0.275513 mae=0.299375
+latentflow-result dataset=Electricity h=336 seed=42 mse=0.188539 mae=0.281585
+latentflow-result dataset=Traffic     h=192 seed=43 mse=0.449525 mae=0.296953
+latentflow-result dataset=ETTh1       h=720 seed=42 mse=0.492159 mae=0.478601
+latentflow-result dataset=ETTh2       h=336 seed=43 mse=0.426774 mae=0.433816
+latentflow-result dataset=ETTm1       h=192 seed=44 mse=0.378469 mae=0.395969
+latentflow-result dataset=ETTm2       h=96  seed=45 mse=0.177241 mae=0.260558
+latentflow-result dataset=ETTm2       h=720 seed=46 mse=0.413418 mae=0.404942
+latentflow-result dataset=Weather     h=720 seed=42 mse=0.355560 mae=0.353290
+latentflow-result dataset=Electricity h=336 seed=43 mse=0.188560 mae=0.281215
+latentflow-result dataset=Traffic     h=192 seed=44 mse=0.449437 mae=0.298468
+latentflow-result dataset=ETTh1       h=96  seed=43 mse=0.400310 mae=0.411474
+latentflow-result dataset=ETTh1       h=720 seed=44 mse=0.498469 mae=0.480233
+latentflow-result dataset=ETTh2       h=336 seed=45 mse=0.426702 mae=0.434857
+latentflow-result dataset=ETTm1       h=192 seed=46 mse=0.390449 mae=0.401171
+latentflow-result dataset=ETTm2       h=192 seed=42 mse=0.240219 mae=0.299827
+latentflow-result dataset=Weather     h=96  seed=43 mse=0.167484 mae=0.213536
+latentflow-result dataset=Weather     h=720 seed=44 mse=0.351018 mae=0.349225
+latentflow-result dataset=Electricity h=336 seed=45 mse=0.187880 mae=0.280112
+latentflow-result dataset=Traffic     h=192 seed=46 mse=0.447012 mae=0.295195
+latentflow-result dataset=ETTh1       h=96  seed=44 mse=0.403513 mae=0.411701
+latentflow-result dataset=ETTh1       h=720 seed=45 mse=0.495298 mae=0.480774
+latentflow-result dataset=ETTh2       h=336 seed=46 mse=0.415026 mae=0.427837
+latentflow-result dataset=ETTm1       h=336 seed=42 mse=0.422422 mae=0.421102
+latentflow-result dataset=ETTm2       h=192 seed=43 mse=0.241481 mae=0.301905
+latentflow-result dataset=Weather     h=96  seed=44 mse=0.165764 mae=0.212441
+latentflow-result dataset=Weather     h=720 seed=45 mse=0.352248 mae=0.349416
+latentflow-result dataset=Electricity h=336 seed=46 mse=0.185371 mae=0.278269
+latentflow-result dataset=Traffic     h=336 seed=42 mse=0.459557 mae=0.298886
+latentflow-result dataset=ETTh1       h=96  seed=45 mse=0.398874 mae=0.411185
+latentflow-result dataset=ETTh1       h=720 seed=46 mse=0.502412 mae=0.484780
+latentflow-result dataset=ETTh2       h=720 seed=42 mse=0.418208 mae=0.438541
+latentflow-result dataset=ETTm1       h=336 seed=43 mse=0.413566 mae=0.420317
+latentflow-result dataset=ETTm2       h=192 seed=44 mse=0.241947 mae=0.302334
+latentflow-result dataset=Weather     h=96  seed=45 mse=0.166442 mae=0.213319
+latentflow-result dataset=Weather     h=720 seed=46 mse=0.352245 mae=0.349476
+latentflow-result dataset=Electricity h=720 seed=42 mse=0.216889 mae=0.306796
+latentflow-result dataset=Traffic     h=336 seed=43 mse=0.466778 mae=0.304615
+latentflow-result dataset=ETTh1       h=96  seed=46 mse=0.393364 mae=0.407155
+latentflow-result dataset=ETTh2       h=96  seed=42 mse=0.293485 mae=0.342680
+latentflow-result dataset=ETTh2       h=720 seed=43 mse=0.436837 mae=0.446868
+latentflow-result dataset=ETTm1       h=336 seed=44 mse=0.416108 mae=0.416967
+latentflow-result dataset=ETTm2       h=192 seed=45 mse=0.241445 mae=0.301374
+latentflow-result dataset=Weather     h=96  seed=46 mse=0.164202 mae=0.210449
+latentflow-result dataset=Electricity h=96  seed=42 mse=0.155707 mae=0.250860
+latentflow-result dataset=Electricity h=720 seed=43 mse=0.223619 mae=0.309726
+latentflow-result dataset=Traffic     h=336 seed=44 mse=0.462185 mae=0.300648
+latentflow-result dataset=ETTh1       h=192 seed=42 mse=0.447686 mae=0.437708
+latentflow-result dataset=ETTh2       h=96  seed=43 mse=0.296592 mae=0.344685
+latentflow-result dataset=ETTh2       h=720 seed=44 mse=0.437598 mae=0.451160
+latentflow-result dataset=ETTm1       h=336 seed=45 mse=0.460622 mae=0.439587
+latentflow-result dataset=ETTm2       h=192 seed=46 mse=0.239303 mae=0.300413
+latentflow-result dataset=Weather     h=192 seed=42 mse=0.213546 mae=0.255193
+latentflow-result dataset=Electricity h=96  seed=43 mse=0.157135 mae=0.251810
+latentflow-result dataset=Electricity h=720 seed=44 mse=0.219904 mae=0.307308
+latentflow-result dataset=Traffic     h=336 seed=45 mse=0.467492 mae=0.300574
+latentflow-result dataset=ETTh1       h=192 seed=43 mse=0.449781 mae=0.438399
+latentflow-result dataset=ETTh2       h=96  seed=44 mse=0.304412 mae=0.351820
+latentflow-result dataset=ETTh2       h=720 seed=45 mse=0.424385 mae=0.444041
+latentflow-result dataset=ETTm1       h=336 seed=46 mse=0.418476 mae=0.421395
+latentflow-result dataset=ETTm2       h=336 seed=42 mse=0.308036 mae=0.346007
+latentflow-result dataset=Weather     h=192 seed=43 mse=0.213284 mae=0.254318
+latentflow-result dataset=Electricity h=96  seed=44 mse=0.155813 mae=0.250814
+latentflow-result dataset=Electricity h=720 seed=45 mse=0.223487 mae=0.311168
+latentflow-result dataset=Traffic     h=336 seed=46 mse=0.460423 mae=0.302726
+latentflow-result dataset=ETTh1       h=192 seed=44 mse=0.446920 mae=0.433207
+latentflow-result dataset=ETTh2       h=96  seed=45 mse=0.301128 mae=0.349310
+latentflow-result dataset=ETTh2       h=720 seed=46 mse=0.424092 mae=0.439674
+latentflow-result dataset=ETTm1       h=720 seed=42 mse=0.511120 mae=0.476423
+latentflow-result dataset=ETTm2       h=336 seed=43 mse=0.307864 mae=0.345883
+latentflow-result dataset=Weather     h=192 seed=44 mse=0.214512 mae=0.257830
+latentflow-result dataset=Electricity h=96  seed=45 mse=0.157967 mae=0.252396
+latentflow-result dataset=Electricity h=720 seed=46 mse=0.224470 mae=0.310575
+latentflow-result dataset=Traffic     h=720 seed=42 mse=0.491469 mae=0.318078
+latentflow-result dataset=ETTh1       h=192 seed=45 mse=0.464779 mae=0.446225
+latentflow-result dataset=ETTh2       h=96  seed=46 mse=0.298961 mae=0.345814
+latentflow-result dataset=ETTm1       h=96  seed=42 mse=0.346087 mae=0.378830
+latentflow-result dataset=ETTm1       h=720 seed=43 mse=0.489062 mae=0.468620
+latentflow-result dataset=ETTm2       h=336 seed=44 mse=0.306335 mae=0.344244
+latentflow-result dataset=Weather     h=192 seed=45 mse=0.216707 mae=0.258237
+latentflow-result dataset=Electricity h=96  seed=46 mse=0.156195 mae=0.251119
+latentflow-result dataset=Traffic     h=96  seed=42 mse=0.431480 mae=0.292212
+latentflow-result dataset=Traffic     h=720 seed=43 mse=0.495848 mae=0.317690
+latentflow-result dataset=ETTh1       h=192 seed=46 mse=0.447931 mae=0.436242
+latentflow-result dataset=ETTh2       h=192 seed=42 mse=0.369359 mae=0.390250
+latentflow-result dataset=ETTm1       h=96  seed=43 mse=0.335052 mae=0.373867
+latentflow-result dataset=ETTm1       h=720 seed=44 mse=0.512729 mae=0.477363
+latentflow-result dataset=ETTm2       h=336 seed=45 mse=0.309828 mae=0.346530
+latentflow-result dataset=Weather     h=192 seed=46 mse=0.215266 mae=0.255525
+latentflow-result dataset=Electricity h=192 seed=42 mse=0.168156 mae=0.261247
+latentflow-result dataset=Traffic     h=96  seed=43 mse=0.436422 mae=0.294273
+latentflow-result dataset=Traffic     h=720 seed=44 mse=0.488532 mae=0.315601
+baseline-result model=VPNet        dataset=ETTh1       h=96  seed=42 mse=0.449512 mae=0.444676
+baseline-result model=VPNet        dataset=Weather     h=96  seed=42 mse=0.172611 mae=0.218992
+baseline-result model=xCPD         dataset=ETTh2       h=96  seed=42 mse=0.345930 mae=0.398421
+baseline-result model=xCPD         dataset=Electricity h=96  seed=42 mse=0.192391 mae=0.278577
+baseline-result model=TimePro      dataset=ETTm1       h=96  seed=42 mse=0.353466 mae=0.381547
+baseline-result model=TimePro      dataset=Traffic     h=96  seed=42 mse=0.434642 mae=0.290545
+baseline-result model=iTransformer dataset=ETTm2       h=96  seed=42 mse=0.189179 mae=0.274524
+baseline-result model=TimeMixer    dataset=ETTh1       h=96  seed=42 mse=0.402084 mae=0.412135
+baseline-result model=TimeMixer    dataset=Weather     h=96  seed=42 mse=0.200997 mae=0.242679
+baseline-result model=DLinear      dataset=ETTh2       h=96  seed=42 mse=0.348274 mae=0.401693
+baseline-result model=DLinear      dataset=Electricity h=96  seed=42 mse=0.199235 mae=0.286732
+baseline-result model=VPNet        dataset=ETTm1       h=336 seed=42 mse=0.452541 mae=0.444391
+baseline-result model=VPNet        dataset=Traffic     h=336 seed=42 mse=0.496193 mae=0.330400
+baseline-result model=xCPD         dataset=ETTm2       h=336 seed=42 mse=0.375294 mae=0.421928
+baseline-result model=TimePro      dataset=ETTh1       h=336 seed=42 mse=0.483874 mae=0.455570
+baseline-result model=TimePro      dataset=Weather     h=336 seed=42 mse=0.284281 mae=0.301778
+baseline-result model=iTransformer dataset=ETTh2       h=336 seed=42 mse=0.419227 mae=0.430965
+baseline-result model=iTransformer dataset=Electricity h=336 seed=42 mse=0.216348 mae=0.302695
+baseline-result model=TimeMixer    dataset=ETTm1       h=336 seed=42 mse=0.428826 mae=0.418692
+baseline-result model=TimeMixer    dataset=Traffic     h=336 seed=42 mse=0.608707 mae=0.386996
+baseline-result model=DLinear      dataset=ETTm2       h=336 seed=42 mse=0.397392 mae=0.441437
+baseline-result model=VPNet        dataset=ETTm1       h=720 seed=42 mse=0.550483 mae=0.495703
+baseline-result model=VPNet        dataset=Traffic     h=720 seed=42 mse=0.528607 mae=0.348294
+baseline-result model=xCPD         dataset=ETTm2       h=720 seed=42 mse=0.593846 mae=0.547675
+baseline-result model=TimePro      dataset=ETTh1       h=720 seed=42 mse=0.515180 mae=0.495751
+baseline-result model=TimePro      dataset=Weather     h=720 seed=42 mse=0.360884 mae=0.352722
+baseline-result model=iTransformer dataset=ETTh2       h=720 seed=42 mse=0.422552 mae=0.442910
+baseline-result model=iTransformer dataset=Electricity h=720 seed=42 mse=0.261140 mae=0.338035
+baseline-result model=TimeMixer    dataset=ETTm1       h=720 seed=42 mse=0.501598 mae=0.461237
+baseline-result model=TimeMixer    dataset=Traffic     h=720 seed=42 mse=0.639739 mae=0.404100
+baseline-result model=DLinear      dataset=ETTm2       h=720 seed=42 mse=0.590722 mae=0.547550
+baseline-result model=VPNet        dataset=ETTm2       h=96  seed=42 mse=0.192623 mae=0.278968
+baseline-result model=xCPD         dataset=ETTh1       h=96  seed=42 mse=0.392630 mae=0.406843
+baseline-result model=xCPD         dataset=Weather     h=96  seed=42 mse=0.196859 mae=0.256933
+baseline-result model=TimePro      dataset=ETTh2       h=96  seed=42 mse=0.298141 mae=0.348692
+baseline-result model=TimePro      dataset=Electricity h=96  seed=42 mse=0.156395 mae=0.248811
+baseline-result model=iTransformer dataset=ETTm1       h=96  seed=42 mse=0.356429 mae=0.381072
+baseline-result model=iTransformer dataset=Traffic     h=96  seed=42 mse=0.503542 mae=0.347996
+baseline-result model=TimeMixer    dataset=ETTm2       h=96  seed=42 mse=0.187338 mae=0.271364
+baseline-result model=DLinear      dataset=ETTh1       h=96  seed=42 mse=0.400989 mae=0.414656
+baseline-result model=DLinear      dataset=Weather     h=96  seed=42 mse=0.201732 mae=0.264344
+baseline-result model=VPNet        dataset=ETTm2       h=192 seed=42 mse=0.261420 mae=0.323221
+baseline-result model=xCPD         dataset=ETTh1       h=192 seed=42 mse=0.450141 mae=0.444883
+baseline-result model=xCPD         dataset=Weather     h=192 seed=42 mse=0.234628 mae=0.288557
+baseline-result model=TimePro      dataset=ETTh2       h=192 seed=42 mse=0.377507 mae=0.397148
+baseline-result model=TimePro      dataset=Electricity h=192 seed=42 mse=0.168743 mae=0.259176
+baseline-result model=iTransformer dataset=ETTm1       h=192 seed=42 mse=0.398931 mae=0.400549
+baseline-result model=iTransformer dataset=Traffic     h=192 seed=42 mse=0.516451 mae=0.352458
+baseline-result model=TimeMixer    dataset=ETTm2       h=192 seed=42 mse=0.253589 mae=0.313273
+baseline-result model=DLinear      dataset=ETTh1       h=192 seed=42 mse=0.450174 mae=0.445084
+baseline-result model=DLinear      dataset=Weather     h=192 seed=42 mse=0.241170 mae=0.301156
+baseline-result model=VPNet        dataset=ETTm2       h=336 seed=42 mse=0.327143 mae=0.362931
+baseline-result model=xCPD         dataset=ETTh1       h=336 seed=42 mse=0.491861 mae=0.469889
+baseline-result model=xCPD         dataset=Weather     h=336 seed=42 mse=0.279953 mae=0.327267
+baseline-result model=TimePro      dataset=ETTh2       h=336 seed=42 mse=0.418315 mae=0.430042
+baseline-result model=TimePro      dataset=Electricity h=336 seed=42 mse=0.186196 mae=0.276903
+baseline-result model=iTransformer dataset=ETTm1       h=336 seed=42 mse=0.436064 mae=0.424342
+baseline-result model=iTransformer dataset=Traffic     h=336 seed=42 mse=0.534508 mae=0.361966
+baseline-result model=TimeMixer    dataset=ETTm2       h=336 seed=42 mse=0.314026 mae=0.351065
+baseline-result model=DLinear      dataset=ETTh1       h=336 seed=42 mse=0.504543 mae=0.480438
+baseline-result model=DLinear      dataset=Weather     h=336 seed=42 mse=0.286813 mae=0.340726
+baseline-result model=VPNet        dataset=ETTm2       h=720 seed=42 mse=0.440756 mae=0.422338
+baseline-result model=xCPD         dataset=ETTh1       h=720 seed=42 mse=0.528297 mae=0.520671
+baseline-result model=xCPD         dataset=Weather     h=720 seed=42 mse=0.347144 mae=0.383182
+baseline-result model=TimePro      dataset=ETTh2       h=720 seed=42 mse=0.428682 mae=0.445124
+baseline-result model=TimePro      dataset=Electricity h=720 seed=42 mse=0.235691 mae=0.318220
+baseline-result model=iTransformer dataset=ETTm1       h=720 seed=42 mse=0.497996 mae=0.458443
+baseline-result model=iTransformer dataset=Traffic     h=720 seed=42 mse=0.579171 mae=0.384412
+baseline-result model=TimeMixer    dataset=ETTm2       h=720 seed=42 mse=0.417550 mae=0.408473
+baseline-result model=DLinear      dataset=ETTh1       h=720 seed=42 mse=0.513071 mae=0.510248
+baseline-result model=DLinear      dataset=Weather     h=720 seed=42 mse=0.352740 mae=0.394550
+baseline-result model=VPNet        dataset=ETTh1       h=192 seed=42 mse=0.477125 mae=0.460657
+baseline-result model=VPNet        dataset=Weather     h=192 seed=42 mse=0.219660 mae=0.259205
+baseline-result model=xCPD         dataset=ETTh2       h=192 seed=42 mse=0.467264 mae=0.468470
+baseline-result model=xCPD         dataset=Electricity h=192 seed=42 mse=0.192043 mae=0.282926
+baseline-result model=TimePro      dataset=ETTm1       h=192 seed=42 mse=0.386145 mae=0.397021
+baseline-result model=TimePro      dataset=Traffic     h=192 seed=42 mse=0.449026 mae=0.295438
+baseline-result model=iTransformer dataset=ETTm2       h=192 seed=42 mse=0.255526 mae=0.315977
+baseline-result model=TimeMixer    dataset=ETTh1       h=192 seed=42 mse=0.464580 mae=0.446982
+baseline-result model=TimeMixer    dataset=Weather     h=192 seed=42 mse=0.242430 mae=0.276719
+baseline-result model=DLinear      dataset=ETTh2       h=192 seed=42 mse=0.481500 mae=0.479378
+baseline-result model=DLinear      dataset=Electricity h=192 seed=42 mse=0.198436 mae=0.288932
+baseline-result model=VPNet        dataset=ETTh1       h=336 seed=42 mse=0.492390 mae=0.467174
+baseline-result model=VPNet        dataset=Weather     h=336 seed=42 mse=0.278259 mae=0.302737
+baseline-result model=xCPD         dataset=ETTh2       h=336 seed=42 mse=0.594471 mae=0.543058
+baseline-result model=xCPD         dataset=Electricity h=336 seed=42 mse=0.204809 mae=0.297401
+baseline-result model=TimePro      dataset=ETTm1       h=336 seed=42 mse=0.421075 mae=0.418566
+baseline-result model=TimePro      dataset=Traffic     h=336 seed=42 mse=0.464791 mae=0.302208
+baseline-result model=iTransformer dataset=ETTm2       h=336 seed=42 mse=0.318751 mae=0.354630
+baseline-result model=TimeMixer    dataset=ETTh1       h=336 seed=42 mse=0.495877 mae=0.462289
+baseline-result model=TimeMixer    dataset=Weather     h=336 seed=42 mse=0.292548 mae=0.310689
+baseline-result model=DLinear      dataset=ETTh2       h=336 seed=42 mse=0.590556 mae=0.540831
+baseline-result model=DLinear      dataset=Electricity h=336 seed=42 mse=0.212111 mae=0.305974
+baseline-result model=VPNet        dataset=ETTh1       h=720 seed=42 mse=0.531678 mae=0.507577
+baseline-result model=VPNet        dataset=Weather     h=720 seed=42 mse=0.353873 mae=0.350276
+baseline-result model=xCPD         dataset=ETTh2       h=720 seed=42 mse=0.831221 mae=0.656981
+baseline-result model=xCPD         dataset=Electricity h=720 seed=42 mse=0.244509 mae=0.334220
+baseline-result model=TimePro      dataset=ETTm1       h=720 seed=42 mse=0.484958 mae=0.454933
+baseline-result model=TimePro      dataset=Traffic     h=720 seed=42 mse=0.497703 mae=0.322493
+baseline-result model=iTransformer dataset=ETTm2       h=720 seed=42 mse=0.420650 mae=0.409943
+baseline-result model=TimeMixer    dataset=ETTh1       h=720 seed=42 mse=0.520232 mae=0.493849
+baseline-result model=TimeMixer    dataset=Weather     h=720 seed=42 mse=0.369305 mae=0.359544
+baseline-result model=DLinear      dataset=ETTh2       h=720 seed=42 mse=0.777661 mae=0.648108
+baseline-result model=DLinear      dataset=Electricity h=720 seed=42 mse=0.246843 mae=0.336269
+baseline-result model=VPNet        dataset=ETTh2       h=96  seed=42 mse=0.318142 mae=0.362536
+baseline-result model=VPNet        dataset=Electricity h=96  seed=42 mse=0.170232 mae=0.265016
+baseline-result model=xCPD         dataset=ETTm1       h=96  seed=42 mse=0.353029 mae=0.376334
+baseline-result model=xCPD         dataset=Traffic     h=96  seed=42 mse=0.577500 mae=0.350417
+baseline-result model=TimePro      dataset=ETTm2       h=96  seed=42 mse=0.185802 mae=0.268579
+baseline-result model=iTransformer dataset=ETTh1       h=96  seed=42 mse=0.393484 mae=0.409339
+baseline-result model=iTransformer dataset=Weather     h=96  seed=42 mse=0.199849 mae=0.238399
+baseline-result model=TimeMixer    dataset=ETTh2       h=96  seed=42 mse=0.292301 mae=0.343030
+baseline-result model=TimeMixer    dataset=Electricity h=96  seed=42 mse=0.204284 mae=0.290260
+baseline-result model=DLinear      dataset=ETTm1       h=96  seed=42 mse=0.372098 mae=0.392010
+baseline-result model=DLinear      dataset=Traffic     h=96  seed=42 mse=0.659617 mae=0.405753
+baseline-result model=VPNet        dataset=ETTh2       h=192 seed=42 mse=0.421925 mae=0.423214
+baseline-result model=VPNet        dataset=Electricity h=192 seed=42 mse=0.182113 mae=0.275503
+baseline-result model=xCPD         dataset=ETTm1       h=192 seed=42 mse=0.385966 mae=0.393687
+baseline-result model=xCPD         dataset=Traffic     h=192 seed=42 mse=0.530777 mae=0.328576
+baseline-result model=TimePro      dataset=ETTm2       h=192 seed=42 mse=0.252231 mae=0.311217
+baseline-result model=iTransformer dataset=ETTh1       h=192 seed=42 mse=0.448160 mae=0.440664
+baseline-result model=iTransformer dataset=Weather     h=192 seed=42 mse=0.248823 mae=0.277084
+baseline-result model=TimeMixer    dataset=ETTh2       h=192 seed=42 mse=0.381655 mae=0.397639
+baseline-result model=TimeMixer    dataset=Electricity h=192 seed=42 mse=0.204420 mae=0.291884
+baseline-result model=DLinear      dataset=ETTm1       h=192 seed=42 mse=0.401692 mae=0.406911
+baseline-result model=DLinear      dataset=Traffic     h=192 seed=42 mse=0.607680 mae=0.380272
+baseline-result model=VPNet        dataset=ETTh2       h=336 seed=42 mse=0.427741 mae=0.433199
+baseline-result model=VPNet        dataset=Electricity h=336 seed=42 mse=0.200174 mae=0.291565
+baseline-result model=xCPD         dataset=ETTm1       h=336 seed=42 mse=0.419697 mae=0.418779
+baseline-result model=xCPD         dataset=Traffic     h=336 seed=42 mse=0.540311 mae=0.340078
+baseline-result model=TimePro      dataset=ETTm2       h=336 seed=42 mse=0.315521 mae=0.351957
+baseline-result model=iTransformer dataset=ETTh1       h=336 seed=42 mse=0.487681 mae=0.461283
+baseline-result model=iTransformer dataset=Weather     h=336 seed=42 mse=0.302146 mae=0.315676
+baseline-result model=TimeMixer    dataset=ETTh2       h=336 seed=42 mse=0.420722 mae=0.432419
+baseline-result model=TimeMixer    dataset=Electricity h=336 seed=42 mse=0.222383 mae=0.310139
+baseline-result model=DLinear      dataset=ETTm1       h=336 seed=42 mse=0.432157 mae=0.428205
+baseline-result model=DLinear      dataset=Traffic     h=336 seed=42 mse=0.614334 mae=0.383153
+baseline-result model=VPNet        dataset=ETTh2       h=720 seed=42 mse=0.449087 mae=0.458247
+baseline-result model=VPNet        dataset=Electricity h=720 seed=42 mse=0.245921 mae=0.328515
+baseline-result model=xCPD         dataset=ETTm1       h=720 seed=42 mse=0.491945 mae=0.469098
+baseline-result model=xCPD         dataset=Traffic     h=720 seed=42 mse=0.563940 mae=0.343520
+baseline-result model=TimePro      dataset=ETTm2       h=720 seed=42 mse=0.417046 mae=0.407560
+baseline-result model=iTransformer dataset=ETTh1       h=720 seed=42 mse=0.488757 mae=0.484263
+baseline-result model=iTransformer dataset=Weather     h=720 seed=42 mse=0.373875 mae=0.361436
+baseline-result model=TimeMixer    dataset=ETTh2       h=720 seed=42 mse=0.430135 mae=0.445755
+baseline-result model=TimeMixer    dataset=Electricity h=720 seed=42 mse=0.262627 mae=0.340280
+baseline-result model=DLinear      dataset=ETTm1       h=720 seed=42 mse=0.486843 mae=0.461884
+baseline-result model=DLinear      dataset=Traffic     h=720 seed=42 mse=0.654457 mae=0.404114
+baseline-result model=VPNet        dataset=ETTm1       h=96  seed=42 mse=0.382221 mae=0.403369
+baseline-result model=VPNet        dataset=Traffic     h=96  seed=42 mse=0.467569 mae=0.319433
+baseline-result model=xCPD         dataset=ETTm2       h=96  seed=42 mse=0.194540 mae=0.292030
+baseline-result model=TimePro      dataset=ETTh1       h=96  seed=42 mse=0.395677 mae=0.409371
+baseline-result model=TimePro      dataset=Weather     h=96  seed=42 mse=0.178987 mae=0.221265
+baseline-result model=iTransformer dataset=ETTh2       h=96  seed=42 mse=0.305495 mae=0.353079
+baseline-result model=iTransformer dataset=Electricity h=96  seed=42 mse=0.186934 mae=0.273018
+baseline-result model=TimeMixer    dataset=ETTm1       h=96  seed=42 mse=0.353012 mae=0.377368
+baseline-result model=TimeMixer    dataset=Traffic     h=96  seed=42 mse=0.641950 mae=0.406820
+baseline-result model=DLinear      dataset=ETTm2       h=96  seed=42 mse=0.204236 mae=0.304598
+baseline-result model=VPNet        dataset=ETTm1       h=192 seed=42 mse=0.409752 mae=0.418176
+baseline-result model=VPNet        dataset=Traffic     h=192 seed=42 mse=0.489948 mae=0.327389
+baseline-result model=xCPD         dataset=ETTm2       h=192 seed=42 mse=0.280700 mae=0.358053
+baseline-result model=TimePro      dataset=ETTh1       h=192 seed=42 mse=0.451013 mae=0.438956
+baseline-result model=TimePro      dataset=Weather     h=192 seed=42 mse=0.232621 mae=0.265068
+baseline-result model=iTransformer dataset=ETTh2       h=192 seed=42 mse=0.379605 mae=0.398040
+baseline-result model=iTransformer dataset=Electricity h=192 seed=42 mse=0.196537 mae=0.283440
+baseline-result model=TimeMixer    dataset=ETTm1       h=192 seed=42 mse=0.399362 mae=0.402088
+baseline-result model=TimeMixer    dataset=Traffic     h=192 seed=42 mse=0.597689 mae=0.384729
+baseline-result model=DLinear      dataset=ETTm2       h=192 seed=42 mse=0.289933 mae=0.369074

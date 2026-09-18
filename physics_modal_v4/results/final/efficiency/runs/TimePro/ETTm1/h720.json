@@ -1,0 +1,18 @@
+{
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/TimePro/seed42/ETTm1/h720.pt",
+  "dataset": "ETTm1",
+  "flops_note": "torch.profiler count; unsupported custom operations may be omitted",
+  "flops_per_sample": 66630151.0,
+  "gflops_per_sample": 0.066630151,
+  "gpu": "NVIDIA GH200 120GB",
+  "horizon": 720,
+  "inference_ms_batch": 4.83501311391592,
+  "model": "TimePro",
+  "parameters_total": 3832852,
+  "parameters_trainable": 3832852,
+  "peak_inference_gpu_mb": 47.7333984375,
+  "peak_training_gpu_mb": 140.07373046875,
+  "profile_batch_size": 1,
+  "seed": 42,
+  "training_ms_iter": 27.174417581409216
+}

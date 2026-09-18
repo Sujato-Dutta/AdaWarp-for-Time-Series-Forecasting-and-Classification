@@ -1,0 +1,18 @@
+{
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/DLinear/seed42/Traffic/h192.pt",
+  "dataset": "Traffic",
+  "flops_note": "torch.profiler count; unsupported custom operations may be omitted",
+  "flops_per_sample": 63719040.0,
+  "gflops_per_sample": 0.06371904,
+  "gpu": "NVIDIA GH200 120GB",
+  "horizon": 192,
+  "inference_ms_batch": 0.34151370637118816,
+  "model": "DLinear",
+  "parameters_total": 37248,
+  "parameters_trainable": 37248,
+  "peak_inference_gpu_mb": 35.61572265625,
+  "peak_training_gpu_mb": 68.53271484375,
+  "profile_batch_size": 1,
+  "seed": 42,
+  "training_ms_iter": 1.4517884701490402
+}

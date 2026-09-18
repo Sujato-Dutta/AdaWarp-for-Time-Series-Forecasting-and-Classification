@@ -1,0 +1,32 @@
+{
+  "audit_protocol": "latentflow-submission-checks-v1",
+  "candidate": "latentflow_process_preserving_unfreeze2",
+  "checkpoint_sha256": "cf1226d8b13ab07c7e5d58eb2a4a8d055076fad73561298437df66c2817b223c",
+  "dataset": "Traffic",
+  "dataset_sha256": "cb06463d56fa17d87f47027cd9389ceae82a69eddee51cdb61480e120dab0b16",
+  "horizon": 720,
+  "metric_sha256": "1a5932b309eb480f21e0da2cdde65abebad5adfa7462feda1eaeffc29c95a024",
+  "seed": 46,
+  "selected_config": {
+    "inducing_points": 32,
+    "latent_dim": 16,
+    "patch_lens": [
+      8,
+      16,
+      32
+    ],
+    "representation_weight": 0.001
+  },
+  "selected_epoch": 8,
+  "selected_stage": "extension",
+  "selected_validation_mse": 0.4420588204958415,
+  "test_mae": 0.31441045138626217,
+  "test_mse": 0.48894046603249736,
+  "test_origins": 2791,
+  "test_unique_timepoints": 3606,
+  "train_origins": 2048,
+  "train_unique_timepoints": 12268,
+  "validation_origins": 1024,
+  "validation_unique_timepoints": 1850,
+  "window_index_sha256": "0a41bb382fafe941ed24c6ba4553a19331caaad691931649b39ca043281e7662"
+}

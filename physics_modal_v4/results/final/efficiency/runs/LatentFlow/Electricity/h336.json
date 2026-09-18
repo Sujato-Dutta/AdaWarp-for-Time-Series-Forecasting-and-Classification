@@ -1,0 +1,18 @@
+{
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/LatentFlow/seed42/Electricity/h336.pt",
+  "dataset": "Electricity",
+  "flops_note": "torch.profiler count; unsupported custom operations may be omitted",
+  "flops_per_sample": 20421169934.0,
+  "gflops_per_sample": 20.421169934,
+  "gpu": "NVIDIA GH200 120GB",
+  "horizon": 336,
+  "inference_ms_batch": 61.78635875694454,
+  "model": "LatentFlow",
+  "parameters_total": 1668161,
+  "parameters_trainable": 650191,
+  "peak_inference_gpu_mb": 176.99755859375,
+  "peak_training_gpu_mb": 1803.09423828125,
+  "profile_batch_size": 1,
+  "seed": 42,
+  "training_ms_iter": 199.55004584044218
+}

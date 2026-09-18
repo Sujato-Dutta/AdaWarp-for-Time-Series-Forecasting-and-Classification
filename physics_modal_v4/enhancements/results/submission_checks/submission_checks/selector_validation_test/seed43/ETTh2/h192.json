@@ -1,0 +1,14 @@
+{
+  "audit_protocol": "latentflow-submission-checks-v1",
+  "dataset": "ETTh2",
+  "extension_retrained": false,
+  "horizon": 192,
+  "seed": 43,
+  "selected_stage": "reference",
+  "test_extension_minus_reference_mse": 0.0403767137720501,
+  "test_extension_mse": 0.42315670078887396,
+  "test_reference_mse": 0.38277998701682386,
+  "validation_extension_minus_reference_mse": -0.0027158577882108736,
+  "validation_extension_mse": 0.29630577883550097,
+  "validation_reference_mse": 0.29902163662371184
+}

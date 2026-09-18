@@ -1,0 +1,18 @@
+{
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/xCPD/seed42/ETTm2/h720.pt",
+  "dataset": "ETTm2",
+  "flops_note": "torch.profiler count; unsupported custom operations may be omitted",
+  "flops_per_sample": 23769914.0,
+  "gflops_per_sample": 0.023769914,
+  "gpu": "NVIDIA GH200 120GB",
+  "horizon": 720,
+  "inference_ms_batch": 2.934849791927263,
+  "model": "xCPD",
+  "parameters_total": 789374,
+  "parameters_trainable": 649694,
+  "peak_inference_gpu_mb": 36.2978515625,
+  "peak_training_gpu_mb": 76.98876953125,
+  "profile_batch_size": 1,
+  "seed": 42,
+  "training_ms_iter": 13.902283605420962
+}

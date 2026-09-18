@@ -1,0 +1,18 @@
+{
+  "best_epoch": 10,
+  "best_validation_mse": 0.5221871158906392,
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/iTransformer/seed42/Weather/h96.pt",
+  "dataset": "Weather",
+  "horizon": 96,
+  "inference_ms_batch": 1.9780931285081,
+  "mae": 0.23839920841510867,
+  "model": "iTransformer",
+  "mse": 0.19984877298531292,
+  "num_windows": 10445.0,
+  "parameters": 290016,
+  "provenance": "repository-native matched implementation",
+  "rmse": 0.44704448658417983,
+  "seed": 42,
+  "selection_protocol": "validation MSE only; test evaluated once",
+  "training_ms_optimizer_step": 8.697742503136396
+}

@@ -1,0 +1,26 @@
+{
+  "ablation_protocol": "single seed 42; same train/validation/test windows; validation-MSE checkpoint selection",
+  "backbone_patch_lens": "8-16-32",
+  "backbone_switches": {
+    "use_adaptive_radius": true,
+    "use_component_gate": false,
+    "use_linear_field": false
+  },
+  "best_epoch": 9,
+  "best_stage": "backbone",
+  "best_validation_mse": 0.17668270212379164,
+  "continuation_unfreeze_blocks": null,
+  "dataset": "Electricity",
+  "elapsed_seconds": 84.02809377387166,
+  "horizon": 336,
+  "inference_ms_batch": 5.1488332011229625,
+  "mae": 0.2901108104799156,
+  "model": "LatentFlow",
+  "mse": 0.19848595983644296,
+  "num_windows": 4927.0,
+  "primal_dual": false,
+  "rmse": 0.4455176313418392,
+  "seed": 42,
+  "selected_hyperparameters": true,
+  "variant": "adaptive_local_field"
+}

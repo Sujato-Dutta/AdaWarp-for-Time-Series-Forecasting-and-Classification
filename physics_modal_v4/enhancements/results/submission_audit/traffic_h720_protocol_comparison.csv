@@ -1,0 +1,3 @@
+result,mse,mae,best_epoch,best_stage,checkpoint,reference_training_micro_batch,extension_training_micro_batch,effective_extension_batch,independent_retraining,source_file_sha256
+canonical_headline,0.491468812087,0.318078136368,10,extension,/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/LatentFlow/seed42/Traffic/h720.pt,16,4,16,True,e950cf85b7dacedffba7bbb3557acb94d94a54cef46d11cd641e403e97c0a6b7
+channel_scaling_endpoint,0.481411153443,0.309939570331,9,extension,/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/enhancements/results/real_channel_scaling/checkpoints/LatentFlow/C862.pt,4,4,16,True,9831e9bd18f6bbebe3a82abcdeb8dce5dfd63055937fe7dfb23df0e02aabd39b

@@ -1,0 +1,18 @@
+{
+  "best_epoch": 10,
+  "best_validation_mse": 0.554523524072681,
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/DLinear/seed42/Traffic/h96.pt",
+  "dataset": "Traffic",
+  "horizon": 96,
+  "inference_ms_batch": 0.34881423898653385,
+  "mae": 0.4057527313006249,
+  "model": "DLinear",
+  "mse": 0.6596170212833717,
+  "num_windows": 3415.0,
+  "parameters": 18624,
+  "provenance": "repository-native matched implementation",
+  "rmse": 0.8121680991539694,
+  "seed": 42,
+  "selection_protocol": "validation MSE only; test evaluated once",
+  "training_ms_optimizer_step": 2.5671944214764153
+}

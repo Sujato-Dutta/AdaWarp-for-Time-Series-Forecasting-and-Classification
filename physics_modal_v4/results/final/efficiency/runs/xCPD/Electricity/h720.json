@@ -1,0 +1,18 @@
+{
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/xCPD/seed42/Electricity/h720.pt",
+  "dataset": "Electricity",
+  "flops_note": "torch.profiler count; unsupported custom operations may be omitted",
+  "flops_per_sample": 11547397200.0,
+  "gflops_per_sample": 11.5473972,
+  "gpu": "NVIDIA GH200 120GB",
+  "horizon": 720,
+  "inference_ms_batch": 3.018429968506098,
+  "model": "xCPD",
+  "parameters_total": 2483946,
+  "parameters_trainable": 2344266,
+  "peak_inference_gpu_mb": 79.166015625,
+  "peak_training_gpu_mb": 228.17626953125,
+  "profile_batch_size": 1,
+  "seed": 42,
+  "training_ms_iter": 14.543327409774065
+}

@@ -1,0 +1,18 @@
+{
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/iTransformer/seed42/Traffic/h720.pt",
+  "dataset": "Traffic",
+  "flops_note": "torch.profiler count; unsupported custom operations may be omitted",
+  "flops_per_sample": 1180485726.0,
+  "gflops_per_sample": 1.180485726,
+  "gpu": "NVIDIA GH200 120GB",
+  "horizon": 720,
+  "inference_ms_batch": 2.046865102602169,
+  "model": "iTransformer",
+  "parameters_total": 370512,
+  "parameters_trainable": 370512,
+  "peak_inference_gpu_mb": 106.55322265625,
+  "peak_training_gpu_mb": 224.5263671875,
+  "profile_batch_size": 1,
+  "seed": 42,
+  "training_ms_iter": 7.8569175908342
+}

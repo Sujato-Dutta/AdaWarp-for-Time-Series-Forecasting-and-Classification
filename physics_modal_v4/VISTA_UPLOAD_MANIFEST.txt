@@ -1,0 +1,54 @@
+# Repository dependencies
+adawarp_mvpf.py
+adawarp_mvpf_plus.py
+benchmark_adawarp_ltsf.py
+benchmark_adawarp_mvpf_plus_ltsf.py
+requirements.txt
+
+# Final LatentFlow and experiment suite
+physics_modal_v4/model.py
+physics_modal_v4/models/__init__.py
+physics_modal_v4/models/registry.py
+physics_modal_v4/models/standard.py
+physics_modal_v4/models/timepro.py
+physics_modal_v4/models/xcpd.py
+physics_modal_v4/experiments/__init__.py
+physics_modal_v4/experiments/protocol.py
+physics_modal_v4/experiments/training.py
+physics_modal_v4/experiments/run.py
+physics_modal_v4/experiments/baselines.py
+physics_modal_v4/experiments/statistics.py
+physics_modal_v4/vista.sbatch
+physics_modal_v4/submit_vista.sh
+physics_modal_v4/README.md
+physics_modal_v4/additions/__init__.py
+physics_modal_v4/additions/run.py
+physics_modal_v4/additions/aggregate.py
+physics_modal_v4/additions/vista.sbatch
+physics_modal_v4/additions/submit_vista.sh
+physics_modal_v4/additions/README.md
+physics_modal_v4/enhancements/run.py
+physics_modal_v4/enhancements/aggregate.py
+physics_modal_v4/enhancements/mechanisms.py
+physics_modal_v4/enhancements/final_audits.py
+physics_modal_v4/enhancements/submission_checks.py
+physics_modal_v4/enhancements/vista.sbatch
+physics_modal_v4/enhancements/submit_vista.sh
+physics_modal_v4/enhancements/README.md
+physics_modal_v4/enhancements/protocol.json
+
+# Validation-only hyperparameter evidence
+physics_modal_v4/results/hyperparameters/search_space.json
+physics_modal_v4/results/hyperparameters/selected_config.csv
+physics_modal_v4/results/hyperparameters/selected_validation_scores.csv
+
+# Existing TSLibrary modules required by retained baselines
+TSLibrary/models/DLinear.py
+TSLibrary/models/iTransformer.py
+TSLibrary/models/TimeMixer.py
+TSLibrary/layers/
+
+# Dataset directory required on Vista
+TSLibrary/dataset/
+
+

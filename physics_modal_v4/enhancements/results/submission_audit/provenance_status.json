@@ -1,0 +1,14 @@
+{
+  "headline_rows": 308,
+  "missing_checkpoint_hashes": 308,
+  "models": [
+    "DLinear",
+    "LatentFlow",
+    "TimeMixer",
+    "TimePro",
+    "VPNet",
+    "iTransformer",
+    "xCPD"
+  ],
+  "note": "This local manifest hashes result files. Checkpoint, dataset, split, and sampled-window hashes require the TACC checkpoint/data audit."
+}

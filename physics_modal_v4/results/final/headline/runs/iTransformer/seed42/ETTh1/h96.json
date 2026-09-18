@@ -1,0 +1,18 @@
+{
+  "best_epoch": 10,
+  "best_validation_mse": 0.7669677031891686,
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/iTransformer/seed42/ETTh1/h96.pt",
+  "dataset": "ETTh1",
+  "horizon": 96,
+  "inference_ms_batch": 2.0147378578089006,
+  "mae": 0.40933896332426317,
+  "model": "iTransformer",
+  "mse": 0.393483573693113,
+  "num_windows": 2785.0,
+  "parameters": 290016,
+  "provenance": "repository-native matched implementation",
+  "rmse": 0.6272826904140693,
+  "seed": 42,
+  "selection_protocol": "validation MSE only; test evaluated once",
+  "training_ms_optimizer_step": 8.690369214127713
+}

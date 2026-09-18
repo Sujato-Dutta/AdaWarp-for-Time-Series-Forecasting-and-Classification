@@ -1,0 +1,18 @@
+{
+  "best_epoch": 4,
+  "best_validation_mse": 0.5498169030816782,
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/VPNet/seed42/ETTm1/h192.pt",
+  "dataset": "ETTm1",
+  "horizon": 192,
+  "inference_ms_batch": 1.150665572901089,
+  "mae": 0.418175817371235,
+  "model": "VPNet",
+  "mse": 0.40975231750910496,
+  "num_windows": 11329.0,
+  "parameters": 672100,
+  "provenance": "repository-native matched implementation",
+  "rmse": 0.6401189869931253,
+  "seed": 42,
+  "selection_protocol": "validation MSE only; test evaluated once",
+  "training_ms_optimizer_step": 6.610561345691427
+}

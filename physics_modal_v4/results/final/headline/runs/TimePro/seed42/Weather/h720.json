@@ -1,0 +1,18 @@
+{
+  "best_epoch": 9,
+  "best_validation_mse": 0.7455738673134455,
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/TimePro/seed42/Weather/h720.pt",
+  "dataset": "Weather",
+  "horizon": 720,
+  "inference_ms_batch": 17.59579450876803,
+  "mae": 0.35272248753893437,
+  "model": "TimePro",
+  "mse": 0.36088408244914494,
+  "num_windows": 9821.0,
+  "parameters": 5605958,
+  "provenance": "portable PyTorch reproduction of official TimePro commit 70a20e5",
+  "rmse": 0.6007362836129885,
+  "seed": 42,
+  "selection_protocol": "validation MSE only; test evaluated once",
+  "training_ms_optimizer_step": 91.79573688907112
+}

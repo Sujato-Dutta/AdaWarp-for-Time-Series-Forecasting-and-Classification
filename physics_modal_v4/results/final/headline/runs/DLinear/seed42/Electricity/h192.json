@@ -1,0 +1,18 @@
+{
+  "best_epoch": 10,
+  "best_validation_mse": 0.17259206916065356,
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/DLinear/seed42/Electricity/h192.pt",
+  "dataset": "Electricity",
+  "horizon": 192,
+  "inference_ms_batch": 0.3111135806023227,
+  "mae": 0.28893223977762306,
+  "model": "DLinear",
+  "mse": 0.19843638520796741,
+  "num_windows": 5071.0,
+  "parameters": 37248,
+  "provenance": "repository-native matched implementation",
+  "rmse": 0.44546199075562826,
+  "seed": 42,
+  "selection_protocol": "validation MSE only; test evaluated once",
+  "training_ms_optimizer_step": 2.158315219276119
+}

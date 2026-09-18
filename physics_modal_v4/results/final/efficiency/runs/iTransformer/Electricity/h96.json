@@ -1,0 +1,18 @@
+{
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/iTransformer/seed42/Electricity/h96.pt",
+  "dataset": "Electricity",
+  "flops_note": "torch.profiler count; unsupported custom operations may be omitted",
+  "flops_per_sample": 207314961.0,
+  "gflops_per_sample": 0.207314961,
+  "gpu": "NVIDIA GH200 120GB",
+  "horizon": 96,
+  "inference_ms_batch": 2.039865870028734,
+  "model": "iTransformer",
+  "parameters_total": 290016,
+  "parameters_trainable": 290016,
+  "peak_inference_gpu_mb": 43.68115234375,
+  "peak_training_gpu_mb": 90.68017578125,
+  "profile_batch_size": 1,
+  "seed": 42,
+  "training_ms_iter": 8.092955686151981
+}

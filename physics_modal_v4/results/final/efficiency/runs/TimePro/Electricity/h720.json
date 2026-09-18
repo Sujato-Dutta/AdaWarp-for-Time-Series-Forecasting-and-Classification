@@ -1,0 +1,18 @@
+{
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/TimePro/seed42/Electricity/h720.pt",
+  "dataset": "Electricity",
+  "flops_note": "torch.profiler count; unsupported custom operations may be omitted",
+  "flops_per_sample": 3055468353.0,
+  "gflops_per_sample": 3.055468353,
+  "gpu": "NVIDIA GH200 120GB",
+  "horizon": 720,
+  "inference_ms_batch": 108.7516546016559,
+  "model": "TimePro",
+  "parameters_total": 3832852,
+  "parameters_trainable": 3832852,
+  "peak_inference_gpu_mb": 52.92724609375,
+  "peak_training_gpu_mb": 160.66357421875,
+  "profile_batch_size": 1,
+  "seed": 42,
+  "training_ms_iter": 990.3864962107036
+}

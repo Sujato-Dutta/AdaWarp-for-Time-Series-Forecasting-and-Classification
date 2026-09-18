@@ -1,0 +1,18 @@
+{
+  "best_epoch": 7,
+  "best_validation_mse": 0.31181149787846063,
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/xCPD/seed42/ETTh2/h192.pt",
+  "dataset": "ETTh2",
+  "horizon": 192,
+  "inference_ms_batch": 2.5547240933258375,
+  "mae": 0.46846962231802214,
+  "model": "xCPD",
+  "mse": 0.4672639332007791,
+  "num_windows": 2689.0,
+  "parameters": 279394,
+  "provenance": "paper-derived DLinear+xCPD; plugin source unavailable in named repository",
+  "rmse": 0.6835670656203231,
+  "seed": 42,
+  "selection_protocol": "validation MSE only; test evaluated once",
+  "training_ms_optimizer_step": 10.270794284588192
+}

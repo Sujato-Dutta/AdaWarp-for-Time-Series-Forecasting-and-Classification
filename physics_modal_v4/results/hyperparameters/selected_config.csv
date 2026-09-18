@@ -1,0 +1,9 @@
+dataset,latent_dim,inducing_points,patch_geometry,representation_weight,selection_metric,test_access
+ETTh1,16,32,16-32-48,0.05,mean validation MSE,false
+ETTh2,8,32,16-32-48,0.001,mean validation MSE,false
+ETTm1,8,32,8-24-48,0.01,mean validation MSE,false
+ETTm2,8,16,8-16-32,0.001,mean validation MSE,false
+Weather,16,32,8-16-32,0.001,mean validation MSE,false
+Electricity,16,32,8-16-32,0.001,mean validation MSE,false
+Traffic,16,32,8-16-32,0.001,mean validation MSE,false
+

@@ -1,0 +1,5 @@
+comparison,metric,estimand,cluster_unit,clusters,cells,mean_relative_improvement_percent,median_relative_improvement_percent,ci95_low_percent,ci95_high_percent,wins,ties,losses
+validation-selected predictor vs frozen reference,mse,mean paired per-cell relative improvement percent,source_family,5,140,1.21548907992,0.532395747897,0.217816938325,3.0112989348,95,32,13
+validation-selected predictor vs frozen reference,mse,mean paired per-cell relative improvement percent,source_family_seed,25,140,1.21548907992,0.532395747897,0.6728466254,1.90887597659,95,32,13
+validation-selected predictor vs frozen reference,mae,mean paired per-cell relative improvement percent,source_family,5,140,0.961991514799,0.343485299063,0.151696731687,2.4205221244,91,32,17
+validation-selected predictor vs frozen reference,mae,mean paired per-cell relative improvement percent,source_family_seed,25,140,0.961991514799,0.343485299063,0.53075322486,1.52955328592,91,32,17

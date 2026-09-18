@@ -1,0 +1,18 @@
+{
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/TimeMixer/seed42/Electricity/h336.pt",
+  "dataset": "Electricity",
+  "flops_note": "torch.profiler count; unsupported custom operations may be omitted",
+  "flops_per_sample": 19592382339.0,
+  "gflops_per_sample": 19.592382339,
+  "gpu": "NVIDIA GH200 120GB",
+  "horizon": 336,
+  "inference_ms_batch": 2.9565907549113035,
+  "model": "TimeMixer",
+  "parameters_total": 225765,
+  "parameters_trainable": 225765,
+  "peak_inference_gpu_mb": 212.9287109375,
+  "peak_training_gpu_mb": 751.52685546875,
+  "profile_batch_size": 1,
+  "seed": 42,
+  "training_ms_iter": 12.807468324899673
+}

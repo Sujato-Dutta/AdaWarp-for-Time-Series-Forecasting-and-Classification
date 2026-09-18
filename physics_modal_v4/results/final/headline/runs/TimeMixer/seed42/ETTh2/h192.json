@@ -1,0 +1,18 @@
+{
+  "best_epoch": 8,
+  "best_validation_mse": 0.2718665972352028,
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/TimeMixer/seed42/ETTh2/h192.pt",
+  "dataset": "ETTh2",
+  "horizon": 192,
+  "inference_ms_batch": 2.9009088021085923,
+  "mae": 0.39763929471132103,
+  "model": "TimeMixer",
+  "mse": 0.38165545355898095,
+  "num_windows": 2689.0,
+  "parameters": 203485,
+  "provenance": "repository-native matched implementation",
+  "rmse": 0.6177826912102515,
+  "seed": 42,
+  "selection_protocol": "validation MSE only; test evaluated once",
+  "training_ms_optimizer_step": 11.963439573446522
+}

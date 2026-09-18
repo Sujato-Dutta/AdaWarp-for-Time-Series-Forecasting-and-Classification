@@ -1,0 +1,18 @@
+{
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/DLinear/seed42/ETTh1/h720.pt",
+  "dataset": "ETTh1",
+  "flops_note": "torch.profiler count; unsupported custom operations may be omitted",
+  "flops_per_sample": 1940400.0,
+  "gflops_per_sample": 0.0019404,
+  "gpu": "NVIDIA GH200 120GB",
+  "horizon": 720,
+  "inference_ms_batch": 0.32862898078747094,
+  "model": "DLinear",
+  "parameters_total": 139680,
+  "parameters_trainable": 139680,
+  "peak_inference_gpu_mb": 32.6201171875,
+  "peak_training_gpu_mb": 66.70849609375,
+  "profile_batch_size": 1,
+  "seed": 42,
+  "training_ms_iter": 1.4525219856295735
+}

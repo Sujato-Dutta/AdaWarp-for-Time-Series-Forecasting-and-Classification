@@ -1,0 +1,18 @@
+{
+  "best_epoch": 10,
+  "best_validation_mse": 0.23017920622490565,
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/iTransformer/seed42/Electricity/h720.pt",
+  "dataset": "Electricity",
+  "horizon": 720,
+  "inference_ms_batch": 1.8325482417210917,
+  "mae": 0.33803456848509594,
+  "model": "iTransformer",
+  "mse": 0.26114043564963296,
+  "num_windows": 4543.0,
+  "parameters": 370512,
+  "provenance": "repository-native matched implementation",
+  "rmse": 0.5110190169158414,
+  "seed": 42,
+  "selection_protocol": "validation MSE only; test evaluated once",
+  "training_ms_optimizer_step": 8.526550174406111
+}

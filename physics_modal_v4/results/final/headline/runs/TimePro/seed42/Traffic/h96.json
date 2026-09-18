@@ -1,0 +1,18 @@
+{
+  "best_epoch": 10,
+  "best_validation_mse": 0.39547732838898414,
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/TimePro/seed42/Traffic/h96.pt",
+  "dataset": "Traffic",
+  "horizon": 96,
+  "inference_ms_batch": 328.51669678853676,
+  "mae": 0.29054548423009013,
+  "model": "TimePro",
+  "mse": 0.43464174585753557,
+  "num_windows": 3415.0,
+  "parameters": 14258340,
+  "provenance": "portable PyTorch reproduction of official TimePro commit 70a20e5",
+  "rmse": 0.6592736502072076,
+  "seed": 42,
+  "selection_protocol": "validation MSE only; test evaluated once",
+  "training_ms_optimizer_step": 2362.8663684223284
+}

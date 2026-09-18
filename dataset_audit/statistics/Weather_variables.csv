@@ -1,0 +1,22 @@
+variable,meaning,unit,group,min,max,mean,std,dominant_period_hours,roughness,missing_count,behavior
+p (mbar),Air pressure,mbar,pressure/density,955.58,1020.07,989.9892325793229,9.207062052890175,1254.6666666666665,0.010904305835241336,0,smooth/moderate; long-cycle (52.3 d)
+T (degC),Air temperature,$^\circ$C,temperature,-6.44,34.8,10.818240663427964,7.46859967406142,23.996357012750455,0.03395989909890697,0,smooth/moderate; daily
+Tpot (K),Potential temperature,K,temperature,266.19,309.13,284.79693752846515,7.6169225670930505,23.996357012750455,0.03360185278496937,0,smooth/moderate; daily
+Tdew (degC),Dew-point temperature,$^\circ$C,temperature,-13.81,20.5,5.409104865644451,5.9566657314718165,1254.6666666666665,0.034389419937863944,0,smooth/moderate; long-cycle (52.3 d)
+rh (%),Relative humidity,\%,humidity,21.16,100.0,72.48713336875663,19.23007703595306,23.996357012750455,0.06981311931543623,0,smooth/moderate; daily
+VPmax (mbar),Saturation vapor pressure,mbar,humidity,3.77,55.67,14.487045696068012,7.632887720388922,23.996357012750455,0.03941692144268084,0,smooth/moderate; daily
+VPact (mbar),Actual vapor pressure,mbar,humidity,2.09,24.16,9.67682822225596,4.023466134803807,1254.6666666666665,0.03806919715975862,0,smooth/moderate; long-cycle (52.3 d)
+VPdef (mbar),Vapor-pressure deficit,mbar,humidity,0.0,42.1,4.8101311294974956,5.539266946594821,23.996357012750455,0.06282474482679314,0,smooth/moderate; daily
+sh (g/kg),Specific humidity,"g\,kg$^{-1}$",humidity,1.3,15.4,6.111158531956884,2.561511626536544,1254.6666666666665,0.03801701613389659,0,smooth/moderate; long-cycle (52.3 d)
+H2OC (mmol/mol),Water-vapor concentration,"mmol\,mol$^{-1}$",humidity,2.09,24.53,9.782340784879308,4.082645103176176,1254.6666666666665,0.03791683804723361,0,smooth/moderate; long-cycle (52.3 d)
+rho (g/m**3),Air density,"g\,m$^{-3}$",pressure/density,1107.38,1318.52,1210.8828548656445,36.42987682817073,23.996357012750455,0.030061566908968933,0,smooth/moderate; daily
+wv (m/s),Mean wind speed,"m\,s$^{-1}$",wind,0.08,13.77,2.1857252111205994,1.6015954924617226,23.996357012750455,0.3633246984052896,1,gusty with a daily spectral component
+max. wv (m/s),Maximum wind speed,"m\,s$^{-1}$",wind,0.0,22.9,3.632806854410202,2.462443284760482,23.996357012750455,0.3793850368803717,0,gusty with a daily spectral component
+wd (deg),Wind direction,degree,wind,0.0,360.0,176.85027573250343,81.19406967387906,548.9166666666666,0.8072090307707679,0,circular and abrupt; Euclidean roughness is misleading
+rain (mm),Precipitation amount,mm,precipitation/radiation,0.0,11.2,0.011773189615910128,0.1232880271008858,33.77948717948718,0.7934380794673047,0,sharp/intermittent precipitation events
+raining (s),Duration of precipitation in interval,s,precipitation/radiation,0.0,600.0,25.907469257628662,111.50236218489714,159.68484848484846,0.5298590376590236,0,sharp/intermittent precipitation events
+SWDR,Short-wave downward radiation,"W\,m$^{-2}$",precipitation/radiation,0.0,1115.29,131.33182177015334,215.7330689913524,23.996357012750455,0.27312960269997266,0,smooth daily daylight envelope with night zeros
+PAR,Photosynthetically active radiation,"$\mu$mol\,m$^{-2}$\,s$^{-1}$",precipitation/radiation,0.0,2131.76,259.8634384013967,422.7825032535054,23.996357012750455,0.26544487440605274,0,smooth daily daylight envelope with night zeros
+max. PAR,Maximum photosynthetically active radiation,"$\mu$mol\,m$^{-2}$\,s$^{-1}$",precipitation/radiation,0.0,2498.94,314.47343200546845,514.2704515655753,23.996357012750455,0.2765600899339692,30,smooth daily daylight envelope with night zeros
+Tlog (degC),Data-logger internal temperature,$^\circ$C,temperature,6.9,49.09,21.515205518445423,7.790545674635017,23.996357012750455,0.026826999375123076,0,smooth/moderate; daily
+OT,Ambient CO$_2$ concentration (locally renamed from source CO2 channel),ppm,atmospheric composition,305.5,524.2,427.6918626296395,18.69953577664901,23.996357012750455,0.1432564303534804,50,smooth/moderate; daily

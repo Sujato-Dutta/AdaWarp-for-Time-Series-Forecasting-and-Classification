@@ -1,0 +1,14 @@
+{
+  "audit_protocol": "latentflow-submission-checks-v1",
+  "dataset": "Electricity",
+  "extension_retrained": false,
+  "horizon": 96,
+  "seed": 43,
+  "selected_stage": "extension",
+  "test_extension_minus_reference_mse": -0.005996581937927625,
+  "test_extension_mse": 0.15727370938941218,
+  "test_reference_mse": 0.1632702913273398,
+  "validation_extension_minus_reference_mse": -0.006695365856245916,
+  "validation_extension_mse": 0.13606457878000888,
+  "validation_reference_mse": 0.1427599446362548
+}

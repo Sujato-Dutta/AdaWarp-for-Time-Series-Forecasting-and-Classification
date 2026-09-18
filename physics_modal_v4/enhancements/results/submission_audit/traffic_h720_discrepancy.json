@@ -1,0 +1,6 @@
+{
+  "mse_absolute_difference": -0.01005765864375363,
+  "mse_relative_difference_percent": -2.0464490108831335,
+  "reason": "The channel-scaling endpoint independently retrained the reference with micro-batch 4; the headline path trained its reference with micro-batch 16. A canonical checkpoint replay at batch sizes 1 and 4 is still required.",
+  "status": "not_a_batch_invariance_comparison"
+}

@@ -1,0 +1,32 @@
+{
+  "audit_protocol": "latentflow-submission-checks-v1",
+  "candidate": "latentflow_process_preserving_unfreeze2",
+  "checkpoint_sha256": "8d8211add9d079fdff5399d70153b9ed30a57251f0159d9c09ba980928993531",
+  "dataset": "Electricity",
+  "dataset_sha256": "7e45845d54c5219bad0ae6bc1b5316cf8ff9cead5d33fa998a5a51c2e4a497ad",
+  "horizon": 192,
+  "metric_sha256": "09c34f3fa3b1ad2bf5c7ce9991c8dc9d4971e61c8af3defc63d973c625cbc0aa",
+  "seed": 45,
+  "selected_config": {
+    "inducing_points": 32,
+    "latent_dim": 16,
+    "patch_lens": [
+      8,
+      16,
+      32
+    ],
+    "representation_weight": 0.001
+  },
+  "selected_epoch": 9,
+  "selected_stage": "extension",
+  "selected_validation_mse": 0.1471314048965153,
+  "test_mae": 0.2641094642564542,
+  "test_mse": 0.17108681495107703,
+  "test_origins": 5071,
+  "test_unique_timepoints": 5358,
+  "train_origins": 2048,
+  "train_unique_timepoints": 18349,
+  "validation_origins": 1024,
+  "validation_unique_timepoints": 2721,
+  "window_index_sha256": "b4d4645d95b68608f1b80948c411acb65d8009e005d93e0ab948f65923f97c90"
+}

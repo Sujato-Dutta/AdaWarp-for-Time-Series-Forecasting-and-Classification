@@ -1,0 +1,18 @@
+{
+  "best_epoch": 10,
+  "best_validation_mse": 0.44541501768411634,
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/iTransformer/seed42/Traffic/h96.pt",
+  "dataset": "Traffic",
+  "horizon": 96,
+  "inference_ms_batch": 1.912744011852383,
+  "mae": 0.347996281835142,
+  "model": "iTransformer",
+  "mse": 0.5035424766011768,
+  "num_windows": 3415.0,
+  "parameters": 290016,
+  "provenance": "repository-native matched implementation",
+  "rmse": 0.709607269270247,
+  "seed": 42,
+  "selection_protocol": "validation MSE only; test evaluated once",
+  "training_ms_optimizer_step": 9.004529260710115
+}

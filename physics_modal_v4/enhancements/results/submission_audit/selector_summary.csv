@@ -1,0 +1,2 @@
+fits,validation_selected_extension,validation_selected_reference,test_extension_better,test_reference_better,test_ties,mean_regret_percent,median_regret_percent,p90_regret_percent,p95_regret_percent,maximum_regret_percent
+140,108,32,98,42,0,0.198718155725,0,0.108153438172,1.39759171249,5.16497789335

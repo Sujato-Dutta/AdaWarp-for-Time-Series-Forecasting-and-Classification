@@ -1,0 +1,18 @@
+{
+  "best_epoch": 10,
+  "best_validation_mse": 0.5080132316502314,
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/VPNet/seed42/Weather/h192.pt",
+  "dataset": "Weather",
+  "horizon": 192,
+  "inference_ms_batch": 1.1835157409194828,
+  "mae": 0.25920548742752336,
+  "model": "VPNet",
+  "mse": 0.21966009469111983,
+  "num_windows": 10349.0,
+  "parameters": 672100,
+  "provenance": "repository-native matched implementation",
+  "rmse": 0.4686790956412712,
+  "seed": 42,
+  "selection_protocol": "validation MSE only; test evaluated once",
+  "training_ms_optimizer_step": 6.649028402171098
+}

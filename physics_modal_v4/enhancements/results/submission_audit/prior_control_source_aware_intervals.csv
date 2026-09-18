@@ -1,0 +1,13 @@
+comparison,metric,estimand,cluster_unit,clusters,cells,mean_relative_improvement_percent,median_relative_improvement_percent,ci95_low_percent,ci95_high_percent,wins,ties,losses
+final vs neutral_process_scales,mse,mean paired per-cell relative improvement percent,source_family,5,84,-0.221348238287,0,-0.677076220095,0.126735168874,27,18,39
+final vs neutral_process_scales,mse,mean paired per-cell relative improvement percent,source_family_seed,15,84,-0.221348238287,0,-0.504565579626,0.0134465847493,27,18,39
+final vs neutral_process_scales,mae,mean paired per-cell relative improvement percent,source_family,5,84,-0.0305249783904,0,-0.139151334614,0.0786184219005,33,18,33
+final vs neutral_process_scales,mae,mean paired per-cell relative improvement percent,source_family_seed,15,84,-0.0305249783904,0,-0.135452839984,0.0640422987874,33,18,33
+final vs no_sensor_group_priors,mse,mean paired per-cell relative improvement percent,source_family,5,84,0.0456467832666,0,-0.0883583216046,0.238149066569,39,21,24
+final vs no_sensor_group_priors,mse,mean paired per-cell relative improvement percent,source_family_seed,15,84,0.0456467832666,0,-0.0966033764052,0.21267595083,39,21,24
+final vs no_sensor_group_priors,mae,mean paired per-cell relative improvement percent,source_family,5,84,0.0613104635968,0,-0.00419843061576,0.16567938541,40,21,23
+final vs no_sensor_group_priors,mae,mean paired per-cell relative improvement percent,source_family_seed,15,84,0.0613104635968,0,-0.0215538676201,0.155047708208,40,21,23
+final vs permuted_process_families,mse,mean paired per-cell relative improvement percent,source_family,5,84,-0.134362431564,0,-0.542528289526,0.093487802319,34,20,30
+final vs permuted_process_families,mse,mean paired per-cell relative improvement percent,source_family_seed,15,84,-0.134362431564,0,-0.382883566505,0.0545690945296,34,20,30
+final vs permuted_process_families,mae,mean paired per-cell relative improvement percent,source_family,5,84,-0.0123467064658,0,-0.123054812938,0.0363240498151,31,20,33
+final vs permuted_process_families,mae,mean paired per-cell relative improvement percent,source_family_seed,15,84,-0.0123467064658,0,-0.101478835712,0.055349290001,31,20,33

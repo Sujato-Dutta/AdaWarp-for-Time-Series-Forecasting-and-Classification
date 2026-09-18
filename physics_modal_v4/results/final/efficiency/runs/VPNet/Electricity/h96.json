@@ -1,0 +1,18 @@
+{
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/VPNet/seed42/Electricity/h96.pt",
+  "dataset": "Electricity",
+  "flops_note": "torch.profiler count; unsupported custom operations may be omitted",
+  "flops_per_sample": 2580716736.0,
+  "gflops_per_sample": 2.580716736,
+  "gpu": "NVIDIA GH200 120GB",
+  "horizon": 96,
+  "inference_ms_batch": 1.2281204981263727,
+  "model": "VPNet",
+  "parameters_total": 672058,
+  "parameters_trainable": 672058,
+  "peak_inference_gpu_mb": 49.97314453125,
+  "peak_training_gpu_mb": 133.83447265625,
+  "profile_batch_size": 1,
+  "seed": 42,
+  "training_ms_iter": 6.584757298696786
+}

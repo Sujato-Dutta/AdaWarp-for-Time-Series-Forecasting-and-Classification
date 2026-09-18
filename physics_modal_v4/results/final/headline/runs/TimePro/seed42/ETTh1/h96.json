@@ -1,0 +1,18 @@
+{
+  "best_epoch": 6,
+  "best_validation_mse": 0.7670856691187337,
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/TimePro/seed42/ETTh1/h96.pt",
+  "dataset": "ETTh1",
+  "horizon": 96,
+  "inference_ms_batch": 5.294255427800851,
+  "mae": 0.40937122595435566,
+  "model": "TimePro",
+  "mse": 0.39567699300291964,
+  "num_windows": 2785.0,
+  "parameters": 911108,
+  "provenance": "portable PyTorch reproduction of official TimePro commit 70a20e5",
+  "rmse": 0.6290286106393886,
+  "seed": 42,
+  "selection_protocol": "validation MSE only; test evaluated once",
+  "training_ms_optimizer_step": 25.94333410767528
+}

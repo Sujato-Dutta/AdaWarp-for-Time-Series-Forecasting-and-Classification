@@ -1,0 +1,18 @@
+{
+  "best_epoch": 10,
+  "best_validation_mse": 0.136028500917916,
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/TimePro/seed42/Electricity/h96.pt",
+  "dataset": "Electricity",
+  "horizon": 96,
+  "inference_ms_batch": 111.17560574676581,
+  "mae": 0.24881143273413056,
+  "model": "TimePro",
+  "mse": 0.15639527165138026,
+  "num_windows": 5167.0,
+  "parameters": 14258340,
+  "provenance": "portable PyTorch reproduction of official TimePro commit 70a20e5",
+  "rmse": 0.3954684205488224,
+  "seed": 42,
+  "selection_protocol": "validation MSE only; test evaluated once",
+  "training_ms_optimizer_step": 743.317218464199
+}

@@ -1,0 +1,18 @@
+{
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/VPNet/seed42/Traffic/h720.pt",
+  "dataset": "Traffic",
+  "flops_note": "torch.profiler count; unsupported custom operations may be omitted",
+  "flops_per_sample": 11716276416.0,
+  "gflops_per_sample": 11.716276416,
+  "gpu": "NVIDIA GH200 120GB",
+  "horizon": 720,
+  "inference_ms_batch": 1.2708495953120291,
+  "model": "VPNet",
+  "parameters_total": 672331,
+  "parameters_trainable": 672331,
+  "peak_inference_gpu_mb": 161.6787109375,
+  "peak_training_gpu_mb": 342.19775390625,
+  "profile_batch_size": 1,
+  "seed": 42,
+  "training_ms_iter": 6.874197896104306
+}

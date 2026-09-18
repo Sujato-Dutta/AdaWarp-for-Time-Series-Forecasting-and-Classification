@@ -1,0 +1,18 @@
+{
+  "design": {
+    "LatentFlow": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "competitors": [
+      42
+    ],
+    "note": "LatentFlow reports five-seed mean/std; competitors are matched seed-42 runs."
+  },
+  "expected_runs": 308,
+  "missing": [],
+  "observed_runs": 308
+}

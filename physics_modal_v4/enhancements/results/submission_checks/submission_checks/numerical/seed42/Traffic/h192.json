@@ -1,0 +1,40 @@
+{
+  "adapter_weight_norm_max": 7.040704250335693,
+  "adapter_weight_norm_min": 3.645789623260498,
+  "all_finite": true,
+  "audit_protocol": "latentflow-submission-checks-v1",
+  "dataset": "Traffic",
+  "decoder_weight_norm": 1.3478349447250366,
+  "horizon": 192,
+  "kernel_min_eigenvalue": 2.7191742901777616e-06,
+  "latent_rms": 0.08593139797449112,
+  "observation_max_condition_number": 3457.897216796875,
+  "observation_min_eigenvalue": 0.01899658516049385,
+  "observation_noise_std": 0.13746300339698792,
+  "posterior_variance_mean": 0.06801886111497879,
+  "predictive_variance_min": 0.011371892876923084,
+  "process_parameters": {
+    "process_0_daily": {
+      "amplitude": 0.7376999855041504,
+      "decay": 48.25474166870117,
+      "length": 0.9159550666809082,
+      "period": 24.283126831054688
+    },
+    "process_1_weekly": {
+      "amplitude": 0.6201364994049072,
+      "decay": 336.5802001953125,
+      "length": 1.5606690645217896,
+      "period": 181.10250854492188
+    },
+    "process_2_baseline": {
+      "amplitude": 0.8484883308410645,
+      "length": 167.78347778320312
+    },
+    "process_3_congestion": {
+      "amplitude": 0.8290337324142456,
+      "length": 3.9534590244293213
+    }
+  },
+  "raw_parameter_boundary_rate": 0.0,
+  "seed": 42
+}

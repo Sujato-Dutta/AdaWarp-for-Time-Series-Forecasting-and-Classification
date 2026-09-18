@@ -1,0 +1,18 @@
+{
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/DLinear/seed42/Electricity/h336.pt",
+  "dataset": "Electricity",
+  "flops_note": "torch.profiler count; unsupported custom operations may be omitted",
+  "flops_per_sample": 41524560.0,
+  "gflops_per_sample": 0.04152456,
+  "gpu": "NVIDIA GH200 120GB",
+  "horizon": 336,
+  "inference_ms_batch": 0.30375225469470024,
+  "model": "DLinear",
+  "parameters_total": 65184,
+  "parameters_trainable": 65184,
+  "peak_inference_gpu_mb": 34.24853515625,
+  "peak_training_gpu_mb": 67.15869140625,
+  "profile_batch_size": 1,
+  "seed": 42,
+  "training_ms_iter": 1.4725399669259787
+}

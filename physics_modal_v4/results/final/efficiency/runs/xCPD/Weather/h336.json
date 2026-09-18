@@ -1,0 +1,18 @@
+{
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/xCPD/seed42/Weather/h336.pt",
+  "dataset": "Weather",
+  "flops_note": "torch.profiler count; unsupported custom operations may be omitted",
+  "flops_per_sample": 55139574.0,
+  "gflops_per_sample": 0.055139574,
+  "gpu": "NVIDIA GH200 120GB",
+  "horizon": 336,
+  "inference_ms_batch": 2.892226306721568,
+  "model": "xCPD",
+  "parameters_total": 660682,
+  "parameters_trainable": 595498,
+  "peak_inference_gpu_mb": 36.03271484375,
+  "peak_training_gpu_mb": 75.6923828125,
+  "profile_batch_size": 1,
+  "seed": 42,
+  "training_ms_iter": 14.485435653477907
+}

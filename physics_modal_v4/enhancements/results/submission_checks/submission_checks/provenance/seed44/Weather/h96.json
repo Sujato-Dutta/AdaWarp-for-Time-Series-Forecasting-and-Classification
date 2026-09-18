@@ -1,0 +1,32 @@
+{
+  "audit_protocol": "latentflow-submission-checks-v1",
+  "candidate": "latentflow_process_preserving_unfreeze2",
+  "checkpoint_sha256": "e0c748ca95b885630cae014a6105a8215576ce3bcdbff1083fb66411aebaa367",
+  "dataset": "Weather",
+  "dataset_sha256": "34ee981d07313e51da2a50bb600072c8ae4a69cb4b0651f4cb93a069d7a2ba63",
+  "horizon": 96,
+  "metric_sha256": "91a7b4bc5e5fcda99ba5b5a4f7d362d2872bffa1fcf212e59266daaea0147a25",
+  "seed": 44,
+  "selected_config": {
+    "inducing_points": 32,
+    "latent_dim": 16,
+    "patch_lens": [
+      8,
+      16,
+      32
+    ],
+    "representation_weight": 0.001
+  },
+  "selected_epoch": 2,
+  "selected_stage": "extension",
+  "selected_validation_mse": 0.4331578430202272,
+  "test_mae": 0.21356388524997721,
+  "test_mse": 0.16680027786230883,
+  "test_origins": 10445,
+  "test_unique_timepoints": 10636,
+  "train_origins": 2048,
+  "train_unique_timepoints": 36830,
+  "validation_origins": 1024,
+  "validation_unique_timepoints": 5358,
+  "window_index_sha256": "62fa00d6ad4beb467157a53433de15a578cb5c4c7956d0c795784cf4da515829"
+}

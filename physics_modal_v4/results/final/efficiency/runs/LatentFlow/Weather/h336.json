@@ -1,0 +1,18 @@
+{
+  "checkpoint": "/work/11617/sujato_ts/vista/motion_code-master/physics_modal_v4/results/final/checkpoints/LatentFlow/seed42/Weather/h336.pt",
+  "dataset": "Weather",
+  "flops_note": "torch.profiler count; unsupported custom operations may be omitted",
+  "flops_per_sample": 2118553057.0,
+  "gflops_per_sample": 2.118553057,
+  "gpu": "NVIDIA GH200 120GB",
+  "horizon": 336,
+  "inference_ms_batch": 77.25401325151324,
+  "model": "LatentFlow",
+  "parameters_total": 1675166,
+  "parameters_trainable": 657496,
+  "peak_inference_gpu_mb": 51.65966796875,
+  "peak_training_gpu_mb": 245.16552734375,
+  "profile_batch_size": 1,
+  "seed": 42,
+  "training_ms_iter": 238.8136537745595
+}
